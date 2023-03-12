@@ -17,6 +17,7 @@ gem "minima", "~> 2.0"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 #gem "github-pages", group: :jekyll_plugins
 gem "github-pages", "~> 228", group: :jekyll_plugins
+gem 'jekyll-scholar', group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -33,3 +34,5 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
+
+gem "webrick", "~> 1.8"

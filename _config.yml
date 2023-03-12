@@ -30,6 +30,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+plugins: ['jekyll/scholar']
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -41,3 +43,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+scholar:
+  style: modern-language-association
