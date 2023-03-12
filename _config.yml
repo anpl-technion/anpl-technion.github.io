@@ -29,8 +29,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll/scholar
 
-plugins: ['jekyll/scholar']
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -46,4 +46,6 @@ plugins: ['jekyll/scholar']
 
 
 scholar:
-  style: modern-language-association
+  style: simple-ieee.csl
+  bibliography_list_tag: "ul.no-bullet"
+  bibliography_template: bibtemplate
