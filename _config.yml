@@ -47,5 +47,5 @@ plugins:
 
 scholar:
   style: modern-language-association 
-  source: ./_bibliography
-  bibliography: references.bib
+  #source: ./_bibliography
+  #bibliography: references.bib
