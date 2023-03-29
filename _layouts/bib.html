@@ -1,0 +1,50 @@
+---
+---
+{{ reference }}
+{% if entry.note %}
+({{ entry.note }})
+{% endif %}
+<br>
+{% if link %}
+<a href="{{link}}" target="_blank">
+	<img alt="{{key}}.pdf" src="https://img.shields.io/static/v1?label=&message=PDF&color=orange">
+</a>
+{% elsif entry.pdf%}
+<a href="{{entry.pdf}}" target="_blank">
+	<img alt="{{key}}.pdf" src="https://img.shields.io/static/v1?label=&message=PDF&color=orange">
+</a>
+{% endif %}	
+{% if entry.slides%}
+<a href="{{entry.slides}}" target="_blank">
+	<img alt="{{key}}.slides" src="https://img.shields.io/static/v1?label=&message=slides&color=yellow">
+</a>
+{% endif %}	
+{% if entry.doi %}
+<a href="http://dx.doi.org/{{entry.doi}}" target="_blank">
+	<img alt="DOI: {{entry.doi}}" src="https://img.shields.io/static/v1?label=&message=DOI&color=blue">
+</a>
+{% elsif entry.url %}
+<a href="{{entry.url}}" target="_blank">
+	<img alt="URL: {{entry.url}}" src="https://img.shields.io/static/v1?label=&message=URL&color=blueviolet">
+</a>
+{% endif %}
+{% if entry.arxiv %}
+<a href="https://arxiv.org/abs/{{entry.arxiv-id}}" target="_blank">
+	<img alt="arXiv: {{entry.arxiv-id}}" src="https://img.shields.io/static/v1?label=&message=arXiv&color=A42C25">
+</a>
+{% endif %}
+{% if entry.material %}
+<a href="{{entry.material}}" target="_blank">
+	<img alt="supplemental material" src="https://img.shields.io/static/v1?label=&message=material&color=889900">
+</a>
+{% endif %}
+{% if entry.website %}
+<a href="{{entry.website}}" target="_blank">
+	<img alt="further information" src="https://img.shields.io/static/v1?label=&message=website&color=009999">
+</a>
+{% endif %}
+{% if entry.repo %}
+<a href="{{entry.repo}}" target="_blank">
+	<img alt="repo" src="https://img.shields.io/static/v1?label=&message=repo&color=F1BD33">        
+</a>
+{% endif %}
