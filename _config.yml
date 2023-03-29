@@ -8,33 +8,32 @@ remote_theme: chrisrhymes/bulma-clean-theme
 title: Anpl Website demo
 tagline: Autonomous Navigation and Perception Lab Website
 email: anpl.aero@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
- The demo site for Anpl Website with Bulma Clean Theme, made for Jekyll and GitHub pages websites.
-baseurl: "/Anpl_Website_demo"
-url: ""
+description: >
+  Researching, developing, and testing autonomous robots at Technion – Israel Institute of Technology
+baseurl: ""
+url: "https://anpl-technion.github.io"
+
 twitter_username: ANPL_Technion
 github_username:  anpl-technion
 
 
 permalink: pretty
-favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
+
 hide_share_buttons: true
 theme_color: '#eeeeee'
 fixed_navbar: top
-direction: _site
+#direction: _site
 
 
 paginate: 5
-paginate_path: "/blog/page:num"
-
+paginate_path: "/research/page:num"
 
 # Disqus Comments
 disqus:
  # Leave shortname blank to disable comments site-wide.
  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
  # shortname: my_disqus_shortname
- shortname: csrhymes
+ shortname: anpl
 
 
 
@@ -89,9 +88,8 @@ defaults:
      path: ""
      type: "posts"
    values:
-     author: "C.S. Rhymes"
+     author: "Anpl"
      layout: post
-     image: https://via.placeholder.com/1200x800
      show_sidebar: true
 
 
@@ -106,7 +104,6 @@ collections:
  products:
    output: true
    layout: product
-   image: https://via.placeholder.com/800x600
    show_sidebar: false
 
 

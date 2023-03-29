@@ -1,21 +1,18 @@
-- name: Docs
-  link: /docs/
-- name: Example Pages
-  link: /#
-  dropdown:
-    - name: Landing Page With Callouts
-      link: /landing/
-    - name: Sponsors Page
-      link: /sponsors/
-    - name: Image Gallery
-      link: /gallery/
-    - name: Products
-      link: /products/
-    - name: Recipe Page
-      link: /example-recipe/
-    - name: Showcase
-      link: /showcase/
-- name: Blog
-  link: /blog/
+- name: Research
+  link: /research/
 - name: Publications
   link: /publications/
+- name: People
+  link: /current-members/
+- name: Student Projects
+  link: /Student_Projects/
+- name: Positions
+  link: /Positions/
+- name: Teaching
+  link: /Teaching/
+- name: Software & Datasets
+  link: /Software_and_Datasets/
+- name: Gallery
+  link: /Gallery/
+- name: Funding
+  link: /Funding/
