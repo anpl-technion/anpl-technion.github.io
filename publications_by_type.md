@@ -36,20 +36,16 @@ hero_image: /img/ANPL_quantum_field.jpg
 
 Sort publications by [chronologically](https://anpl-technion.github.io/publications/), or <b>type</b>. You are also welcome to browse slides from [talks](https://anpl-technion.github.io/talks).
 
-# Journal Articles
+
 {% bibliography --query @article --order descending %}
 
-# Book Chapters
-{% bibliography --query @incollection %}
 
-# Conference Articles
-{% bibliography --query @InProceedings %}
+{% bibliography --query @incollection --order descending %}
 
-# arXiv and Technical Reports
-{% bibliography --query @TechReport %}
 
-# PhD Theses
-{% bibliography --query @phdthesis %}
+{% bibliography --query @InProceedings --order descending %}
 
-# Master's Theses
-{% bibliography --query @mastersthesis %}
+
+{% bibliography --query @TechReport --order descending %}
+
+{% bibliography --query @thesis --order descending %}
