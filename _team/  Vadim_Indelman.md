@@ -14,10 +14,10 @@ My research broadly lies at the intersection of probabilistic perception, state 
 vadim.indelman@technion.ac.il
 
 ## LinkedIn ##
-[https://www.linkedin.com/in/ajong/]()
+[https://www.linkedin.com/in/]()
 
 ## Website ##
 [https://andrewjong.github.io](https://vindelman.net.technion.ac.il/vadim-indelman/)
 
 ## GitHub ##
-[https://github.com/andrewjong]()
+[https://github.com/]()
