@@ -34,5 +34,20 @@ hide_footer: false
 
 Sort publications by [chronologically](https://anpl-technion.github.io/publications/), or <b>type</b>. You are also welcome to browse slides from [talks](https://anpl-technion.github.io/talks).
 
+# Journal Articles
+{% bibliography --query @article %}
 
-{% bibliography --group_by type  --sort_by year --order descending %}
+# Book Chapters
+{% bibliography --query @incollection %}
+
+# Conference Articles
+{% bibliography --query @InProceedings %}
+
+# arXiv and Technical Reports
+{% bibliography --query @TechReport %}
+
+# PhD Theses
+{% bibliography --query @phdthesis %}
+
+# Master's Theses
+{% bibliography --query @mastersthesis %}
