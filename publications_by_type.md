@@ -32,20 +32,52 @@ hero_image: /img/ANPL_quantum_field.jpg
 }
 </style>
 
- This material is presented to ensure timely dissemination of scholarly and technical work. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author’s copyright. In most cases, these works may not be reposted without the explicit permission of the copyright holder.
+ <div id="Top"></div>
 
-Sort publications by [chronologically](https://anpl-technion.github.io/publications/), or <b>type</b>. You are also welcome to browse slides from [talks](https://anpl-technion.github.io/talks).
-
-
-{% bibliography --query @article --order descending %}
-
-
-{% bibliography --query @incollection --order descending %}
-
-
-{% bibliography --query @InProceedings --order descending %}
+Sort publications [<span style="color:red">
+chronologically
+</span>](https://anpl-technion.github.io/publications/) or by <span style="color:red">
+<b>type</b>
+</span>. You are also welcome to browse slides from [<span style="color:red">
+talks
+</span>](https://anpl-technion.github.io/talks).
 
 
-{% bibliography --query @TechReport --order descending %}
+[[Journal Articles]](#Journal-Articles) [[Book Chapters]](#Book-Chapters) [[Conference Articles]](#Conference-Articles) [[ArXiv & Technical Reports]](#Technical-Reports) [[PhD Theses]](#PhD-Theses) [[Master's Theses]](#Master-Theses)
 
-{% bibliography --query @thesis --order descending %}
+# Journal Articles
+<div id="Journal-Articles"></div>
+{% bibliography --group_by none --query @article --order descending %}
+
+[Back to Top](#Top)
+
+# Book Chapters
+<div id="Book-Chapters"></div>
+{% bibliography --group_by none --query @incollection --order descending %}
+
+[Back to Top](#Top)
+
+# Conference Articles
+<div id="Conference-Articles"></div>
+{% bibliography --group_by none --query @InProceedings --order descending %}
+
+[Back to Top](#Top)
+
+# ArXiv and Technical Reports
+<div id="Technical-Reports"></div>
+{% bibliography --group_by none --query @TechReport --order descending %}
+
+[Back to Top](#Top)
+
+# PhD Theses
+<div id="PhD-Theses"></div>
+{% bibliography --group_by none --query @phdthesis --order descending %}
+
+[Back to Top](#Top)
+
+# Master's Theses
+<div id="Master-Theses"></div>
+{% bibliography --group_by none --query @mastersthesis --order descending %}
+
+[Back to Top](#Top)
+
