@@ -19,5 +19,6 @@ In another work we introduced a framework for quantifying online the effect of a
 ![Concept_PAC_version2](https://raw.githubusercontent.com/indelman/ANPL-Website/master/ResearchProjects/SimplificationPOMDP/Concept_PAC_version2.png) 
 
 
-# Related Publications: [link] to bib file
+# Related Publications: 
+{% bibliography --file research-projects-bib/pubs-OnlinePOMDP --order descending %}
 
