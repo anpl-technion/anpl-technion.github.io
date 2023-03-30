@@ -35,7 +35,7 @@ hide_footer: false
 Sort publications by [chronologically](https://anpl-technion.github.io/publications/), or <b>type</b>. You are also welcome to browse slides from [talks](https://anpl-technion.github.io/talks).
 
 # Journal Articles
-{% bibliography --query @article %}
+{% bibliography --query @article --order descending %}
 
 # Book Chapters
 {% bibliography --query @incollection %}
