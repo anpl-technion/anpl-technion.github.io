@@ -5,7 +5,7 @@ description: This is a research description
 research_code: ABC124
 layout: research
 image: https://via.placeholder.com/640x480
-price: 2
+price: 19
 features:
     - label: Great addition to any home
       icon: fa-location-arrow
@@ -13,7 +13,6 @@ features:
       icon: fa-grin-stars
     - label: Available in multiple sizes
       icon: fa-fighter-jet
-rating: 3
 ---
 
 This is the content about the research.

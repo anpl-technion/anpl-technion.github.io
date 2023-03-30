@@ -29,8 +29,8 @@
 </a>
 {% endif %}
 {% if entry.arxiv %}
-<a href="https://arxiv.org/abs/{{entry.arxiv-id}}" target="_blank">
-	<img alt="arXiv: {{entry.arxiv-id}}" src="https://img.shields.io/static/v1?label=&message=arXiv&color=A42C25">
+<a href="{{entry.arxiv}}" target="_blank">
+	<img alt="arXiv: {{entry.arxiv}}" src="https://img.shields.io/static/v1?label=&message=arXiv&color=A42C25">
 </a>
 {% endif %}
 {% if entry.supplementary %}

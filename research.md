@@ -1,5 +1,5 @@
 ---
-title: research
+title: Research
 subtitle: Check out our research
 layout: research-category
 show_sidebar: false
