@@ -10,8 +10,8 @@
   link: /Positions/
 - name: Teaching
   link: /Teaching/
-- name: Software & Datasets
-  link: /Software_and_Datasets/
+# - name: Software & Datasets
+#   link: /Software_and_Datasets/
 - name: Gallery
   link: /Gallery/
 - name: Funding
