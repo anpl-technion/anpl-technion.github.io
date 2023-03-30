@@ -30,6 +30,5 @@ hide_footer: false
 }
 </style>
 
-# demo Publications from ANPL
 {% bibliography %}
 

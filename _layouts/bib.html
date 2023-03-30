@@ -33,6 +33,11 @@
 	<img alt="arXiv: {{entry.arxiv-id}}" src="https://img.shields.io/static/v1?label=&message=arXiv&color=A42C25">
 </a>
 {% endif %}
+{% if entry.supplementary %}
+<a href="{{entry.supplementary}}" target="_blank">
+	<img alt="{{key}}.supplementary" src="https://img.shields.io/static/v1?label=&message=Supplementary&color=pink">
+</a>
+{% endif %}
 {% if entry.material %}
 <a href="{{entry.material}}" target="_blank">
 	<img alt="supplemental material" src="https://img.shields.io/static/v1?label=&message=material&color=889900">
@@ -48,3 +53,14 @@
 	<img alt="repo" src="https://img.shields.io/static/v1?label=&message=repo&color=F1BD33">        
 </a>
 {% endif %}
+{% if entry.video%}
+<a href="{{entry.video}}" target="_blank">
+	<img alt="{{key}}.video" src="https://img.shields.io/static/v1?label=&message=video&color=green">
+</a>
+{% endif %}	
+{% if entry.poster%}
+<a href="{{entry.poster}}" target="_blank">
+	<img alt="{{key}}.poster" src="https://img.shields.io/static/v1?label=&message=poster&color=gray">
+</a>
+{% endif %}	
+
