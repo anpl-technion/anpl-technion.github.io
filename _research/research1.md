@@ -1,10 +1,11 @@
 ---
-title: Product 2 Name
-subtitle: Product 2 tagline here
-product_code: ABC123
-layout: product
+title: research 1 Name
+subtitle: research 1 tagline here
+description: This is a research description
+research_code: ABC124
+layout: research
 image: https://via.placeholder.com/640x480
-price: £0.99 + VAT
+price: 2
 features:
     - label: Great addition to any home
       icon: fa-location-arrow
@@ -15,7 +16,7 @@ features:
 rating: 3
 ---
 
-This is the content about the product.
+This is the content about the research.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris lacus, semper vel massa mattis, ullamcorper auctor libero. Maecenas sit amet ultricies erat. Curabitur eleifend est eget sagittis convallis. Mauris sit amet placerat lacus. Pellentesque vehicula quis massa ac lacinia. Vivamus gravida bibendum tincidunt. Sed eget augue vitae ligula ultricies lacinia a eget augue. Donec vulputate metus ut ante scelerisque sollicitudin. Nullam commodo suscipit venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut tristique pharetra mollis. 
 

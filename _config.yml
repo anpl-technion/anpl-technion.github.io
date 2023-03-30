@@ -101,9 +101,9 @@ footer_menu: example_footer_menu
 
 
 collections:
- products:
+ research:
    output: true
-   layout: product
+   layout: research
    show_sidebar: false
 
 

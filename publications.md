@@ -30,5 +30,9 @@ hide_footer: false
 }
 </style>
 
+<<<<<<< HEAD
+=======
+# Publications
+>>>>>>> 49fd4bd (add team and research)
 {% bibliography %}
 
