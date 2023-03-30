@@ -10,6 +10,19 @@ div.highlight {
             }
         }
     }
+
+    .navbar-logo {
+        background: url("/img/logos/ANPL_logo.png") no-repeat;
+        background-size: 172px auto;
+        background-position: 7px;
+        text-indent: -9999px;
+        width: 182px;
+    }
+    .navbar.off-color
+    {
+        background-color: #182C4B;
+        color: #ffffff;
+    }
 }
 
 .contents {
