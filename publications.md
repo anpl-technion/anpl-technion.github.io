@@ -36,53 +36,51 @@ Sort publications <b>chronologically</b> or by [type](https://anpl-technion.gith
 
 
 # 2023
-{% bibliography --query @*[year=2023] %}
+{% bibliography --query @*[year=2023] --group_by none %}
 # 2022
-{% bibliography --query @*[year=2022] %}
+{% bibliography --query @*[year=2022] --group_by none %}
 
 # 2021
-{% bibliography --query @*[year=2021] %}
+{% bibliography --query @*[year=2021] --group_by none %}
 
 # 2020
-{% bibliography --query @*[year=2020] %}
+{% bibliography --query @*[year=2020] --group_by none %}
 
 # 2019
-{% bibliography --query @*[year=2019] %}
+{% bibliography --query @*[year=2019] --group_by none %}
 
 # 2018
-{% bibliography --query @*[year=2018] %}
+{% bibliography --query @*[year=2018] --group_by none %}
 
 # 2017
-{% bibliography --query @*[year=2017] %}
+{% bibliography --query @*[year=2017] --group_by none %}
 
 # 2016
-{% bibliography --query @*[year=2016] %}
+{% bibliography --query @*[year=2016] --group_by none %}
 
 # 2015
-{% bibliography --query @*[year=2015] %}
+{% bibliography --query @*[year=2015] --group_by none %}
 
 # 2014
-{% bibliography --query @*[year=2014] %}
+{% bibliography --query @*[year=2014] --group_by none %}
 
 # 2013
-{% bibliography --query @*[year=2013] %}
+{% bibliography --query @*[year=2013] --group_by none %}
 
 # 2012
-{% bibliography --query @*[year=2012] %}
+{% bibliography --query @*[year=2012] --group_by none %}
 
 # 2011
-{% bibliography --query @*[year=2011] %}
+{% bibliography --query @*[year=2011] --group_by none %}
 
 # 2010
-{% bibliography --query @*[year=2010] %}
+{% bibliography --query @*[year=2010] --group_by none %}
 
 # 2009
-{% bibliography --query @*[year=2009] %}
+{% bibliography --query @*[year=2009] --group_by none %}
 
 # 2008
-{% bibliography --query @*[year=2008] %}
+{% bibliography --query @*[year=2008] --group_by none %}
 
 # 2007
-{% bibliography --query @*[year=2007] %}
-
-{% bibliography --group_by type  --sort_by year --order descending %}
+{% bibliography --query @*[year=2007] --group_by none %}

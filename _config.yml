@@ -113,5 +113,8 @@ scholar:
  source: _bibliography
  bibliography_template: bib #bibtemplate
  bibliography: VadimIndelman.bib
-
+ group_by: type
+ type_order: [article, InProceedings]
+ sort_by: year
+ order: descending
 
