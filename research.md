@@ -1,8 +1,9 @@
 ---
 title: Research
-subtitle: Check out our research
 layout: research-category
 show_sidebar: false
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 sort: price
 ---
 <!-- 
