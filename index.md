@@ -1,19 +1,25 @@
 ---
 title: Autonomous Navigation and Perception Lab (ANPL)
+subtitle: Technion - Israel Institute of Technology
 layout: page
 show_sidebar: false
 hide_footer: false
 hero_height: is-medium
 hero_image: /img/ANPL_quantum_field.jpg 
-hero_link: /research/
-hero_link_text: See Our Research
-hero_link2: /current-members/
-hero_link_text2: See Our Team
 ---
 
-# Welcome to the Autonomous Navigation and Perception Lab (ANPL) at the Technion-Israel Institute of Technology.
+# Welcome! 
 
-ANPL investigates problems related to single and multi-robot collaborative autonomous navigation and perception, with a particular focus on accurate and reliable operation in uncertain environments. Research in the lab is highly multidisciplinary, involving both fundamental theoretical studies and experimental verification. Please visit [Research](https://anpl-technion.github.io/research/) and [Publications](https://anpl-technion.github.io/publications/) pages to see ongoing research activities. The lab was founded by Associate Professor Vadim Indelman in November 2014.
+The Autonomous Navigation and Perception Lab performs research related to single and multi-robot autonomous perception, navigation and planning in the context of mobile robotics. Research in the lab is highly multidisciplinary, involving both fundamental theoretical studies and experimental verification. Please visit [<span style="color:red">
+<b>Research</b>
+</span>](https://anpl-technion.github.io/research/) and [<span style="color:red">
+<b>Publications</b>
+</span>](https://anpl-technion.github.io/publications/) pages to see ongoing research activities. The lab was founded by Assoc. Prof. Vadim Indelman in 2015.
+
+<span style="color:red">
+<b>
+We are always looking for highly-motivated individuals to join our group, see details here.</b></span>
+
 
 
 <div style="text-align: left;">
