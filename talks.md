@@ -32,4 +32,12 @@ hero_image: /img/ANPL_quantum_field.jpg
 }
 </style>
 
-{% bibliography --file VadimIndelman-talks --order descending %}
+Sort publications [<span style="color:red">
+chronologically
+</span>](https://anpl-technion.github.io/publications/) or by [<span style="color:red">
+type
+</span>](https://anpl-technion.github.io/publications_by_type/). You are also welcome to browse slides from [<span style="color:red">
+<b>talks</b>
+</span>](https://anpl-technion.github.io/talks).
+
+{% bibliography --file VadimIndelman-talks --group_by none --order descending %}
