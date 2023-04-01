@@ -10,7 +10,7 @@ hero_image: /img/ANPL_quantum_field.jpg
 
 # Welcome! 
 
-The Autonomous Navigation and Perception Lab performs research related to single and multi-robot autonomous perception, navigation and planning in the context of mobile robotics. Research in the lab is highly multidisciplinary, involving both fundamental theoretical studies and experimental verification. Please visit [<span style="color:red">
+The Autonomous Navigation and Perception Lab performs research related to single and multi-robot autonomous perception, navigation and planning under uncertainty in the context of mobile robotics. Research in the lab is highly multidisciplinary, involving both fundamental theoretical studies and experimental verification. Please visit [<span style="color:red">
 <b>Research</b>
 </span>](https://anpl-technion.github.io/research/) and [<span style="color:red">
 <b>Publications</b>
