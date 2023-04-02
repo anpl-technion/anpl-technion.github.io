@@ -1,0 +1,66 @@
+---
+---
+{{ reference }}
+{% if entry.note %}
+({{ entry.note }})
+{% endif %}
+<br>
+{% if link %}
+<a href="{{link}}" target="_blank">
+	[PDF]
+</a>
+{% elsif entry.pdf%}
+<a href="{{entry.pdf}}" target="_blank">
+	[PDF]
+</a>
+{% endif %}	
+{% if entry.slides%}
+<a href="{{entry.slides}}" target="_blank">
+	[Slides]
+</a>
+{% endif %}	
+{% if entry.doi %}
+<a href="http://dx.doi.org/{{entry.doi}}" target="_blank">
+	[DOI]
+</a>
+{% elsif entry.url %}
+<a href="{{entry.url}}" target="_blank">
+	[URL]
+</a>
+{% endif %}
+{% if entry.arxiv %}
+<a href="{{entry.arxiv}}" target="_blank">
+	[arXiv]
+</a>
+{% endif %}
+{% if entry.supplementary %}
+<a href="{{entry.supplementary}}" target="_blank">
+	[Supplementary]
+</a>
+{% endif %}
+{% if entry.material %}
+<a href="{{entry.material}}" target="_blank">
+	<img alt="supplemental material" src="https://img.shields.io/static/v1?label=&message=material&color=889900">
+</a>
+{% endif %}
+{% if entry.website %}
+<a href="{{entry.website}}" target="_blank">
+	<img alt="further information" src="https://img.shields.io/static/v1?label=&message=website&color=009999">
+</a>
+{% endif %}
+{% if entry.repo %}
+<a href="{{entry.repo}}" target="_blank">
+	<img alt="repo" src="https://img.shields.io/static/v1?label=&message=repo&color=F1BD33">        
+</a>
+{% endif %}
+{% if entry.video%}
+<a href="{{entry.video}}" target="_blank">
+	[Video]
+</a>
+{% endif %}	
+{% if entry.poster%}
+<a href="{{entry.poster}}" target="_blank">
+	[Poster]
+</a>
+{% endif %}	
+

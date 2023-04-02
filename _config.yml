@@ -111,7 +111,7 @@ scholar:
  # style: simple-ieee.csl
  style: _bibliography/ieee.csl 
  source: _bibliography
- bibliography_template: bib #bibtemplate
+ bibliography_template: bib2 #bibtemplate
  bibliography: VadimIndelman.bib
  group_by: type
  type_order: [article, InProceedings]
