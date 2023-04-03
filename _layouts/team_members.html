@@ -2,7 +2,6 @@
 layout: default
 show_sidebar: false
 ---
-
 <h1 style="font-size:35px;">Lab Head</h1>
 <br>
 <div class="columns is-multiline">
@@ -37,7 +36,6 @@ show_sidebar: false
 {% endfor %}
 </div>
 
-<!-- 
 <hr>
 <h1 style="font-size:35px;">Postdoctors</h1>
 <br>
@@ -63,7 +61,6 @@ show_sidebar: false
 </div>
 {% endfor %}
 </div>
-
 
 <hr>
 <h1 style="font-size:35px;">Graduate Students</h1>
@@ -140,7 +137,6 @@ show_sidebar: false
 {% endfor %}
 </div>
 
-
 {% assign sorted_products = site.team | where:"category","undergraduate" %}
 {% if sorted_products.size > 0 %}
 <h1 style="font-size:35px;">Undergraduate Students</h1>
@@ -166,4 +162,4 @@ show_sidebar: false
 </div>
 {% endfor %}
 </div>
-{% endif %} 
+{% endif %}
