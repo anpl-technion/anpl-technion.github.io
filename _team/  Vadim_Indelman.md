@@ -4,7 +4,7 @@ subtitle: Associate Professor
 job_title: Principal Investigator
 category: Principal Investigator
 layout: team_member_personal_page
-image: /img/team/Vadim.jpg
+image: /img/team/VadimIndelman.jpeg
 link-new-tab: true
 ---
 
