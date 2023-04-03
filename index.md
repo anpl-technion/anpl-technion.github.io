@@ -23,8 +23,9 @@ We are always looking for highly-motivated individuals to join our group, see de
 
 
 <div style="display: flex; justify-content: center;">
-  <a class="twitter-timeline" data-width="400" data-height="1200" href="https://twitter.com/vadim_indelman?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3Avadim_indelman%7Ctwcon%5Es2">Tweets from vadim indelman</a>
+  <a class="twitter-timeline" data-width="40%" data-height="1000" href="https://twitter.com/ANPL_Technion?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3AANPL_Technion%7Ctwcon%5Es2">Tweets from Anpl Technion</a> 
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <a class="twitter-timeline" data-width="400" data-height="1200" href="https://twitter.com/ANPL_Technion?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3AANPL_Technion%7Ctwcon%5Es2">Tweets from Anpl Technion</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+  <a class="twitter-timeline" data-width="40%" data-height="1000" href="https://twitter.com/vadim_indelman?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3Avadim_indelman%7Ctwcon%5Es2">Tweets from vadim indelman</a>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 </div>
 
