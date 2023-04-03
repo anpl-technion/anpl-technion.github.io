@@ -9,8 +9,12 @@ hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 ---
 
-# Vision Aided Navigation (086761)
+* [Vision Aided Navigation (086761)](#VAN)
+* [Autonomous Navigation and Perception (086762)](#ANP)
 
+
+# Vision Aided Navigation (086761)
+<div id="VAN"></div>
 The course focuses on fundamental topics in vision aided navigation (VAN) and simultaneous localization and mapping (SLAM), which are essential for autonomous operation in unknown, uncertain or dynamically changing environments.
 
 Topics to be covered include: Bayesian inference, state of the art SLAM and VAN approaches, and bundle adjustment. Depending on progress, some of the following advanced topics will be also briefly covered: multi-robot cooperative localization and mapping, active SLAM and belief space planning, intro/overview of recent deep learning approaches.
@@ -47,7 +51,7 @@ Course tentative schedule (topics and schedule often change from one semester to
 ---
 
 # Autonomous Navigation and Perception (086762)
-
+<div id="ANP"></div>
 TThe course focuses on fundamental topics in planning under uncertainty (belief space planning) in the context of autonomous navigation and perception, considering online autonomous operation in unknown, uncertain or dynamically changing environments.
 
 Topics to be covered include: Probabilistic inference, MDP and POMDP formulation, belief space planning (BSP), information-theoretic costs, search- and sampling-based planning, application to autonomous navigation and active SLAM, Gaussian processes, informative planning and active perception, an overview of (deep) learning-based approaches.
