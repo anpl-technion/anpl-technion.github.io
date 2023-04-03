@@ -3,7 +3,7 @@ title: Belief Space Planning
 subtitle: Single- and Multi-Robot
 research_code: ABC125
 layout: research
-image: BeliefSpacePlanning/GBS.PNG
+image: /img/research/BeliefSpacePlanning/GBS.png
 price: 9 # for sorting 
 
 ---

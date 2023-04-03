@@ -2,7 +2,7 @@
 title: Online Mosaicking & Navigation-Aiding
 research_code: ABC125
 layout: research
-image: Mosaicking/Mosaic.jpg
+image: /img/research/Mosaicking/Mosaic.jpg
 price: 18 # for sorting 
 
 ---

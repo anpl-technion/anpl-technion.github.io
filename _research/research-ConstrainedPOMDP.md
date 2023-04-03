@@ -2,7 +2,7 @@
 title:  Constrained Belief-Dependent POMDP Planning
 research_code: ABC125
 layout: research
-image: ConstrainedPOMDP/pruning.svg
+image: /img/research/ConstrainedPOMDP/pruning.svg
 price: 3 # for sorting 
 
 ---

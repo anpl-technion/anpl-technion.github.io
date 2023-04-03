@@ -2,7 +2,7 @@
 title: Incremental Light Bundle Adjustment
 research_code: ABC125
 layout: research
-image: LBA/FactorGraph_LBA.jpg
+image: /img/research/LBA/FactorGraph_LBA.jpg
 price: 13 # for sorting 
 
 ---

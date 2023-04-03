@@ -2,7 +2,7 @@
 title: Three-View Geometry Constraints for Navigation-Aiding
 research_code: ABC125
 layout: research
-image: ThreeViewNav/Three_View_Geometry3.PNG
+image: /img/research/ThreeViewNav/Three_View_Geometry3.png
 price: 17 # for sorting 
 
 ---

@@ -2,7 +2,7 @@
 title: Vadim Indelman
 subtitle: Associate Professor
 job_title: Principal Investigator
-category: lab_head
+category: Principal Investigator
 layout: team_member_personal_page
 image: /img/team/Vadim.jpg
 link-new-tab: true

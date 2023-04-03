@@ -2,7 +2,7 @@
 title: Sparsification for Decision Making in High-Dimensional State Spaces
 research_code: ABC125
 layout: research
-image: CBS/00123_LogDetRandRc_plus.PNG
+image: /img/research/CBS/00123_LogDetRandRc_plus.png
 price: 8 # for sorting 
 
 ---

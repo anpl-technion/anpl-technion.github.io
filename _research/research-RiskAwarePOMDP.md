@@ -2,7 +2,7 @@
 title: Simplified Risk-Aware POMDP Planning
 research_code: ABC125
 layout: research
-image: RiskAwarePOMDP/marginals.png
+image: /img/research/RiskAwarePOMDP/marginals.png
 price: 1 # for sorting 
 
 ---

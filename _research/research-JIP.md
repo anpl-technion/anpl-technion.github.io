@@ -2,7 +2,7 @@
 title: Incremental Belief Space Planning
 research_code: ABC125
 layout: research
-image: JIP/Ex_Layout.PNG
+image: /img/research/JIP/Ex_Layout.png
 price: 7 # for sorting 
 
 ---

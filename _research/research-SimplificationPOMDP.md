@@ -2,7 +2,7 @@
 title: Simplified  Belief-Dependent POMDP Planning
 research_code: ABC125
 layout: research
-image: SimplificationPOMDP/inplace_simp.PNG
+image: /img/research/SimplificationPOMDP/inplace_simp.png
 price: 2 # for sorting 
 
 ---
@@ -14,8 +14,8 @@ Specifically, in one of the works below we focus on belief simplification, in te
 
 In another work we introduced a framework for quantifying online the effect of a simplification, alongside novel stochastic bounds on the return. Our bounds take advantage of the information encoded in the joint distribution of the original and simplified return. The proposed general framework is applicable to any bounds on the return to capture simplification outcomes.
 
-![inplace_simp](/SimplificationPOMDP/inplace_simp.PNG) 
-![Concept_PAC_version2](/SimplificationPOMDP/Concept_PAC_version2.png) 
+![inplace_simp](/img/research/SimplificationPOMDP/inplace_simp.png) 
+![Concept_PAC_version2](/img/research/SimplificationPOMDP/Concept_PAC_version2.png) 
 
 
 # Related Publications: 

@@ -2,7 +2,7 @@
 title: Distributed Multi-Robot Cooperative Navigation
 research_code: ABC125
 layout: research
-image: DistributedMultiRobotNav/GeneralNoiseTreatment.PNG
+image: /img/research/DistributedMultiRobotNav/GeneralNoiseTreatment.png
 price: 16 # for sorting 
 
 ---

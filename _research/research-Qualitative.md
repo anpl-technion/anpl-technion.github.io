@@ -2,7 +2,7 @@
 title: Qualitative SLAM and Belief Space Planning
 research_code: ABC125
 layout: research
-image: QualitativeAutonomousPerception/composition1.PNG
+image: /img/research/QualitativeAutonomousPerception/composition1.png
 price: 6 # for sorting 
 
 ---
