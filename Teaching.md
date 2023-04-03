@@ -5,6 +5,8 @@ title: Teaching
 # hero_height: is-medium
 show_sidebar: false
 hide_footer: false
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 ---
 
 # Vision Aided Navigation (086761)
