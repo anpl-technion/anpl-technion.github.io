@@ -6,7 +6,6 @@ show_sidebar: false
 hide_footer: false
 sort: subtitle
 hero_image: /img/social/2021-04-social-event.jpeg
-# /img/ANPL-team.jpg
 hero_height: is-large
 ---
  

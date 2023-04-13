@@ -31,7 +31,8 @@ Alumni
         {% if product.image %}
         <div class="card-image">
           <figure class="image is-3by3">
-            <img src="{{ product.image }}" alt="{{ product.title }}" />
+            <!-- <img src="{{ product.image }}" alt="{{ product.title }}" /> -->
+            <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 100%; height: auto; object-fit: cover;">
           </figure>
         </div>
         {% endif %}
@@ -58,8 +59,8 @@ Alumni
     <div class="card">
       {% if product.image %}
       <div class="card-image">
-        <figure class="image is-2by2">
-          <img src="{{ product.image }}" alt="{{ product.title }}" />
+        <figure class="image is-3by3">
+        <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 250px; height: 250px; object-fit: cover; display: block; margin: auto;">
         </figure>
       </div>
       {% endif %}
@@ -84,8 +85,9 @@ Alumni
     <div class="card">
       {% if product.image %}
       <div class="card-image">
-        <figure class="image is-2by2">
-          <img src="{{ product.image }}" alt="{{ product.title }}" />
+          <figure class="image is-3by3" style="display: flex; align-items: center; justify-content: center; max-width: 250px; max-height: 250px; overflow: hidden;">  
+          <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 250px; height: 250px; object-fit: cover; display: block; margin: auto;">
+
         </figure>
       </div>
       {% endif %}
@@ -107,8 +109,9 @@ Alumni
       <div class="card">
         {% if product.image %}
         <div class="card-image">
-          <figure class="image is-2by2">
-            <img src="{{ product.image }}" alt="{{ product.title }}" />
+            <figure class="image is-3by3" style="display: flex; align-items: center; justify-content: center; max-width: 250px; max-height: 250px; overflow: hidden;"></figure>
+            <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 250px; height: 250px; object-fit: cover; display: block; margin: auto;">
+
           </figure>
         </div>
         {% endif %}
@@ -133,8 +136,8 @@ Alumni
     <div class="card">
       {% if product.image %}
       <div class="card-image">
-        <figure class="image is-2by2">
-          <img src="{{ product.image }}" alt="{{ product.title }}" />
+        <figure class="image is-3by3" style="display: flex; align-items: center; justify-content: center; max-width: 250px; max-height: 250px; overflow: hidden;">  
+        <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 250px; height: 250px; object-fit: cover; display: block; margin: auto;">
         </figure>
       </div>
       {% endif %}
@@ -158,8 +161,8 @@ Alumni
     <div class="card">
       {% if product.image %}
       <div class="card-image">
-        <figure class="image is-4by3">
-          <img src="{{ product.image }}" alt="{{ product.title }}" />
+        <figure class="image is-3by3" style="display: flex; align-items: center; justify-content: center; max-width: 250px; max-height: 250px; overflow: hidden;">  
+        <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 250px; height: 250px; object-fit: cover; display: block; margin: auto;">
         </figure>
       </div>
       {% endif %}
@@ -184,8 +187,8 @@ Alumni
     <div class="card">
       {% if product.image %}
       <div class="card-image">
-        <figure class="image is-4by3">
-          <img src="{{ product.image }}" alt="{{ product.title }}" />
+        <figure class="image is-3by3" style="display: flex; align-items: center; justify-content: center; max-width: 250px; max-height: 250px; overflow: hidden;">  
+        <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 250px; height: 250px; object-fit: cover; display: block; margin: auto;">
         </figure>
       </div>
       {% endif %}
