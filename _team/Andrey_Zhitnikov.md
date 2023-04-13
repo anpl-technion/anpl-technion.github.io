@@ -6,6 +6,14 @@ category: phd_students
 layout: team_member_personal_page
 image: /img/team/AndreyZhitnikov.jpeg
 link-new-tab: true
+
+twitter: 
+youtube: 
+github: 
+email: andreyz@ef.technion.ac.il
+bitbucket: 
+facebook: 
+linkedin: 
 ---
 
 TODO abstract on Andrey Zhitnikov 
@@ -18,16 +26,43 @@ B.Sc. Summa Cum Laude, Electrical Engineering, Tel Aviv University, 2014
 
 
 
-[email](mailto:andreyz@ef.technion.ac.il)
-
-
-[linkedin]()
-
-
-[Website]()
-
-
-[GitHub]()
+<div class="buttons" style="text-align: center; margin-top: 10px;">
+        {% if page.twitter %}
+        <a class="button" itemprop="twitter" href="{{ page.twitter }}" target="_blank">
+            <i class="fab fa-twitter fa-lg"></i>
+        </a>
+        {% endif %}
+        {% if page.youtube %}
+        <a class="button" itemprop="youtube" href="{{ page.youtube }}" target="_blank">
+            <i class="fab fa-youtube fa-lg"></i>
+        </a>
+        {% endif %}
+        {% if page.github %}
+        <a class="button" itemprop="github" href="{{ page.github }}" target="_blank">
+            <i class="fab fa-github fa-lg"></i>
+        </a>
+        {% endif %}
+        {% if page.email %}
+        <a class="button" itemprop="email" href="mailto:{{ page.email }}" target="_blank">
+            <i class="fas fa-envelope fa-lg"></i>      
+        </a>
+        {% endif %}
+        {% if page.facebook %}
+        <a class="button" itemprop="facebook" href="{{ page.facebook }}" target="_blank">
+            <i class="fab fa-facebook fa-lg"></i>
+        </a>
+        {% endif %}
+        {% if page.bitbucket %}
+        <a class="button" itemprop="bitbucket" href="{{ page.bitbucket }}" target="_blank">
+            <i class="fab fa-bitbucket fa-lg"></i>
+        </a>
+        {% endif %}
+        {% if page.linkedin %}
+        <a class="button" itemprop="linkedin" href="{{ page.linkedin }}" target="_blank">
+            <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        {% endif %}
+</div>
 
 <!-- {% bibliography --query @*[year=2023] --group_by none %}
 {% bibliography -q @*[c ~= {{ V. Indelman }}] %}
