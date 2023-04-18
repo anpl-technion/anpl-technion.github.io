@@ -17,7 +17,7 @@ Research overview (from 2022 and 2019, only some of the directions)
     <iframe width="40%" height="315" src="https://www.youtube.com/embed/16khc4y__yc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Specific research directions & projects:
+Specific research directions & projects: 
 
 
 
