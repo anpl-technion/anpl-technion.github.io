@@ -12,7 +12,7 @@ In this research project we introduce a novel concept, topological belief space 
 In particular, we show how this novel concept can be used in multi-robot decentralized belief space planning in high-dimensional state spaces to overcome drawbacks of state-of-the-art approaches: computational intractability of an exhaustive objective evaluation for all candidate path combinations from different robots and dependence on the initial guess in the announced path approach, which can lead to a local minimum of the objective function.
 
 <div style="display: flex; justify-content: center;">
-    <iframe width="40%" height="315" src="https://youtu.be/g_NMbpsl_L8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="40%" height="315" src="https://www.youtube.com/embed/g_NMbpsl_L8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 # Related Publications: 
