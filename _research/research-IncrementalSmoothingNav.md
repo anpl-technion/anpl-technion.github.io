@@ -3,6 +3,8 @@ title: Factor Graph based Incremental Smoothing
 research_code: ABC125
 layout: research
 image: /img/research/IncrementalSmoothingNav/CFS-bayes-tree.jpg
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 15 # for sorting 
 
 ---

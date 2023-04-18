@@ -3,6 +3,8 @@ title: Distributed Robust Inference and Data Association
 research_code: ABC125
 layout: research
 image: /img/research/DistributedRobust/Indx_04029_r_1_3_trajectory_TransfEstabl.jpg
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 14 # for sorting 
 
 ---

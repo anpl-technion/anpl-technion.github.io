@@ -3,6 +3,8 @@ title: Incremental Light Bundle Adjustment
 research_code: ABC125
 layout: research
 image: /img/research/LBA/FactorGraph_LBA.jpg
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 13 # for sorting 
 
 ---

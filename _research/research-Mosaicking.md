@@ -3,6 +3,8 @@ title: Online Mosaicking & Navigation-Aiding
 research_code: ABC125
 layout: research
 image: /img/research/Mosaicking/Mosaic.jpg
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 18 # for sorting 
 
 ---

@@ -3,6 +3,8 @@ title: Probabilistic Inference via Deep Learning
 research_code: ABC125
 layout: research
 image: /img/research/deepPDF/PSO_drawing.png
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 12 # for sorting 
 
 ---

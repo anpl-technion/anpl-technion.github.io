@@ -3,6 +3,8 @@ title: Simplified  Belief-Dependent POMDP Planning
 research_code: ABC125
 layout: research
 image: /img/research/SimplificationPOMDP/inplace_simp.png
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 2 # for sorting 
 
 ---
