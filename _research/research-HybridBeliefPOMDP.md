@@ -4,6 +4,8 @@ subtitle: Data Association Aware Belief Space Planning
 research_code: ABC125
 layout: research
 image: /img/research/RAP/belief_tree_inference_path_screenshot.png
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 4 # for sorting 
 
 ---

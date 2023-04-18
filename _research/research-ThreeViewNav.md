@@ -3,6 +3,8 @@ title: Three-View Geometry Constraints for Navigation-Aiding
 research_code: ABC125
 layout: research
 image: /img/research/ThreeViewNav/Three_View_Geometry3.png
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 17 # for sorting 
 
 ---

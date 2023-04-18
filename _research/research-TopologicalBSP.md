@@ -3,6 +3,8 @@ title: Topological Belief Space Planning
 research_code: ABC125
 layout: research
 image: /img/research/TopologicalBSP/topologicBSPconcept.png
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 11 # for sorting 
 
 ---

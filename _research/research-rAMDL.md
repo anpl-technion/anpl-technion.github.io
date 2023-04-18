@@ -3,6 +3,8 @@ title: Belief Space Planning via Factor Graphs and Re-use of Calculation
 research_code: ABC125
 layout: research
 image: /img/research/rAMDL/drawing_more_factors2.png
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 10 # for sorting 
 
 ---

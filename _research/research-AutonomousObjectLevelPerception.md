@@ -3,6 +3,8 @@ title: Autonomous Viewpoint-Dependent Semantic Perception
 research_code: ABC125
 layout: research
 image: /img/research/AutonomousObjectLevelPerception/track_3d_b.png
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 5 # for sorting 
 
 ---

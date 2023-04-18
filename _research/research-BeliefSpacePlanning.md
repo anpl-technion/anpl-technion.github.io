@@ -4,6 +4,8 @@ subtitle: Single- and Multi-Robot
 research_code: ABC125
 layout: research
 image: /img/research/BeliefSpacePlanning/GBS.png
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 price: 9 # for sorting 
 
 ---
