@@ -9,7 +9,7 @@ sort: price
 
 <!-- # research -->
 
-Research overview (only some of the directions) 
+Research overview (from 2022 and 2019, only some of the directions) 
 
 
 <div style="display: flex; justify-content: center;">
