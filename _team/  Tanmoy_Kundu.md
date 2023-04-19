@@ -1,6 +1,7 @@
 ---
 title: Tanmoy Kundu 
 subtitle: Postdoctoral fellow
+field : Robotics
 job_title: Postdoctoral fellow
 category: staff
 layout: team_member_personal_page

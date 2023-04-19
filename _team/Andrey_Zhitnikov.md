@@ -1,6 +1,7 @@
 ---
 title: Andrey Zhitnikov
 subtitle: Ph.D. Student
+field : Robotics
 job_title: Ph.D. Student
 category: phd_students
 layout: team_member_personal_page

@@ -1,6 +1,7 @@
 ---
 title: Anton Gulyaev
 subtitle: Lab engineer
+field : Robotics
 job_title: Lab engineer
 category: staff
 layout: team_member_personal_page
