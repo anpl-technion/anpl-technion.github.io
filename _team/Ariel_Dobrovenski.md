@@ -1,6 +1,7 @@
 ---
 title: Ariel Dobrovenski
 subtitle: Undergraduate Students
+field : Robotics
 job_title: Undergraduate Students
 category: undergraduate_students
 layout: team_member_personal_page

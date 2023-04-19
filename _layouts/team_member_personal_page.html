@@ -6,22 +6,19 @@ layout: team_member_base
 
     <div class="column is-6">
         <figure class="image is-1by1">
-            <!-- <img src="{{ page.image }}" /> -->
-            <img src="{{ page.image }}" style="width: 50%; height: auto; object-fit: cover;">
-
+            <img src="{{ page.image }}" style="width: 65%; height: auto; object-fit: cover; margin-left: 100px;">
         </figure>
     </div>
 
-    <div class="column is-6">
+    <div class="column is-5">
         <!-- <p class="title is-3">{{ page.title }}</p>
         <p class="subtitle is-3">{{ page.job_title }}</p> -->
-
         <div class="content">
             {{ content }}
         </div>
     </div>
-
-    <div class="buttons" style="text-align: center; margin-top: 10px;">
+    
+    <div class="buttons" style="text-align: center; margin-bottom: 300px ; margin-left: 100px;">
         {% if page.twitter %}
         <a class="button" itemprop="twitter" href="{{ page.twitter }}" target="_blank">
             <i class="fab fa-twitter fa-lg"></i>
@@ -62,7 +59,7 @@ layout: team_member_base
             <i class="fas fa-globe fa-lg"></i>
         </a>
         {% endif %}
+    </div>
 </div>
 
-</div>
 
