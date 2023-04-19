@@ -126,3 +126,9 @@ scholar:
 
 # Google Analytics
 google_analytics: G-XH2GVJYE1D
+
+categories_order:
+  - staff
+  - phd_students
+  - master_student
+  - undergraduate_students
