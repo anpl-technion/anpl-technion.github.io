@@ -16,11 +16,17 @@ The Autonomous Navigation and Perception Lab performs research related to single
 <b>Publications</b>
 </span>](https://anpl-technion.github.io/publications/) pages to see ongoing research activities. The lab was founded by Assoc. Prof. Vadim Indelman in 2015.
 
+<div class="slick-slider">
+  {% for slide in site.data.slides %}
+    <div>
+      <img src="{{ slide.image }}" alt="{{ slide.description }}">
+    </div>
+  {% endfor %}
+</div>
+
 <span style="color:red">
 <b>
 We are always looking for highly-motivated individuals to join our group, see details here.</b></span>
-
-
 
 <div style="display: flex; justify-content: center;">
   <a class="twitter-timeline" data-width="40%" data-height="1000" href="https://twitter.com/ANPL_Technion?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3AANPL_Technion%7Ctwcon%5Es2">Tweets from Anpl Technion</a> 

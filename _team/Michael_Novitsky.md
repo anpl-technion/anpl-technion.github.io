@@ -1,6 +1,7 @@
 ---
 title: Michael Novitsky
 subtitle: M.Sc. Student
+field : Robotics
 job_title: M.Sc. Student
 category: master_student
 layout: team_member_personal_page
