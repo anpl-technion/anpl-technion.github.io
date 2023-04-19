@@ -1,0 +1,8 @@
+.slick-slider img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px; /* Adjust this value according to your desired height */
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  
