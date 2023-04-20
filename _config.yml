@@ -99,6 +99,14 @@ highlighter: rouge
 
 footer_menu: example_footer_menu
 
+collections:
+  research:
+    output: true
+
+
+excerpt_separator: "<!-- more -->"
+
+
 
 collections:
   research:
