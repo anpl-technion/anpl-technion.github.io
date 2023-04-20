@@ -1,11 +1,13 @@
 ---
 title: Dmitry Kopitkov
 subtitle: Ph.D. Student
+field : Robotics
 job_title: Ph.D. Student
 category: past_phd
 layout: team_member_personal_page
 image: 
 link-new-tab: true
+next: Ph.D. student at ANPL
 
 twitter: 
 youtube: 

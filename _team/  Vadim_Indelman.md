@@ -6,6 +6,7 @@ category: Principal Investigator
 layout: team_member_personal_page
 image: /img/team/VadimIndelman.jpeg
 link-new-tab: true
+affiliation : "researching cool things"
 
 twitter: https://twitter.com/vadim_indelman
 youtube: 

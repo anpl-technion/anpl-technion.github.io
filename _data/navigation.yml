@@ -14,7 +14,7 @@
 #   link: /Software_and_Datasets/
 - name: Gallery
   link: /gallery/
-- name: Funding
-  link: /funding/
+# - name: Funding
+#   link: /funding/
 - name: Contact
   link: /contact/
