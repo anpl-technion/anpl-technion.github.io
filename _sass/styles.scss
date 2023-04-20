@@ -1,0 +1,9 @@
+.horizontal-grid-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.horizontal-grid-item {
+  flex: 0 0 auto;
+}
