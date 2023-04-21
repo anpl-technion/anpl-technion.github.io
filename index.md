@@ -41,30 +41,30 @@ We are always looking for highly-motivated individuals to join our group, see de
 
 <hr>
 
-## We gratefully acknowledge our funding sources : 
+### We gratefully acknowledge our funding sources over the years: 
 
 <div class="horizontal-grid-container">
-  <div class="grid-item">
-    <img src="/img/funding/BSF-1-212x300.jpg" alt="BSF">
+<div class="grid-item">
+    <img src="/img/funding/ISF-logo2.jpeg" alt="ISF">
   </div>
   <div class="grid-item">
-    <img src="/img/funding/intel-150x150.png" alt="intel">
+    <img src="/img/funding/NSF-BSF-logo.jpeg" alt="BSF">
   </div>
   <div class="grid-item">
-    <img src="/img/funding/ISF-logo.png" alt="ISF">
-  </div>
-  <div class="grid-item">
-    <img src="/img/funding/MAFAT-logo.png" alt="MAFAT">
+    <img src="/img/funding/MOST-logo3.jpeg" alt="MOST">
   </div>
   <div class="grid-item">
     <img src="/img/funding/meta.png" alt="meta">
   </div>
   <div class="grid-item">
-    <img src="/img/funding/MOST-logo.png" alt="MOST">
+    <img src="/img/funding/intel-150x150.png" alt="intel">
   </div>
   <div class="grid-item">
-    <img src="/img/funding/TASP-logo.png" alt="TASP">
+    <img src="/img/funding/MAFAT-logo.png" alt="MAFAT">
   </div>
+  <!-- <div class="grid-item">
+    <img src="/img/funding/TASP-logo.png" alt="TASP">
+  </div> -->
   <!-- Add more grid items for more images -->
 </div>
 
