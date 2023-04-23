@@ -1,27 +1,27 @@
 ---
-title: Dmitry Kopitkov
+title: Yuri Feldman
 subtitle: Ph.D. Student
-graduation: 2020
+graduation: 2022
 category: alumni
 layout: team_member_personal_page
-image: /img/team/DmitryKopitkov.jpeg
+image: /img/team/YuriFeldman.png
 link-new-tab: true
-next-position: Ph.D. student at ANPL
+next-position: Research scientist at Bosch AI
 
 twitter: 
 youtube: 
 github: 
-email: dimkak@gmail.com
+email: yurif@cs.technion.ac.il
 bitbucket: 
 facebook: 
-linkedin:
+linkedin: 
+website: 
+
 ---
 
-Ph.D. TASP, Technion, 2020
+ Ph.D. (direct track) CS, Technion, 2022
 
-M.Sc. Summa Cum Laude, TASP, Technion, 2017
-
-B.Sc. Magna Cum Laude, CS, Academic College of Tel Aviv-Yaffo, 2012
+ B.Sc. CS, Technion, 2010, Cum Laude
 
 
 <!-- {% bibliography --query @*[year=2023] --group_by none %}

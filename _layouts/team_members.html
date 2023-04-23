@@ -108,63 +108,26 @@ Alumni
 </div>
 <hr>
 
+<hr>
 <h1 style="font-size:35px;">Alumni</h1>
 <br>
 <div class="columns is-multiline">
-{% assign assign sorted_alumni = site.team | where:"category","past_phd" %}
-{% for alumni in sorted_alumni %}
-<div class="column is-one-fifth-desktop is-6-tablet">
-  <a href="{{ alumni.url | prepend: site.baseurl }}">
-    <div class="card">
-      <div class="card-content">
-        <p class="title is-5">{{ alumni.title }}</p>
-        <p class="subtitle is-6">{{ alumni.subtitle }}</p>
-        <hr> 
-        <p class="subtitle is-5">{{ alumni.field}}</p>
-        <p class="subtitle is-5">{{ alumni.next}}</p>
-      </div>
-    </div>
-  </a>
-</div>
-{% endfor %}
-</div>
-
-<div class="columns is-multiline">
-  {% assign assign sorted_alumni = site.team | where:"category","past_master" %}
+{% assign sorted_alumni = site.team | where: "category", "alumni" | sort: "graduation" %}
   {% for alumni in sorted_alumni %}
-  <div class="column is-one-fifth-desktop is-6-tablet">
-    <a href="{{ alumni.url | prepend: site.baseurl }}">
-      <div class="card">
-        <div class="card-content">
-          <p class="title is-5">{{ alumni.title }}</p>
-          <p class="subtitle is-6">{{ alumni.subtitle }}</p>
-          <hr> 
-          <p class="subtitle is-5">{{ alumni.field}}</p>
-          <p class="subtitle is-5">{{ alumni.next}}</p>
-        </div>
-      </div>
-    </a>
-  </div>
-  {% endfor %}
-  </div>
 
-  <div class="columns is-multiline">
-    {% assign assign sorted_alumni = site.team | where:"category","past_staff" %}
-    {% for alumni in sorted_alumni %}
     <div class="column is-one-fifth-desktop is-6-tablet">
-      <a href="{{ alumni.url | prepend: site.baseurl }}">
         <div class="card">
           <div class="card-content">
-            <p class="title is-5">{{ alumni.title }}</p>
-            <p class="subtitle is-6">{{ alumni.subtitle }}</p>
-            <hr> 
-            <p class="subtitle is-5">{{ alumni.field}}</p>
-            <p class="subtitle is-5">{{ alumni.next}}</p>
+            <a href="{{ alumni.url | prepend: site.baseurl }}">
+              <p class="title is-5">{{ alumni.title }}</p>
+              <hr>
+              <p class="subtitle is-6">{{ alumni.subtitle }}</p>
+              <p class="subtitle is-6">{{ alumni.graduation}}</p>
+              <p class="subtitle is-7">{{ alumni.next-position}}</p>
+            </a>
           </div>
         </div>
-      </a>
     </div>
-    {% endfor %}
-    </div>
-  <hr>
-  
+  {% endfor %}
+</div>
+

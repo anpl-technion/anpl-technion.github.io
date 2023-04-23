@@ -1,27 +1,28 @@
 ---
-title: Dmitry Kopitkov
+title: Khen Elimelech
 subtitle: Ph.D. Student
-graduation: 2020
+graduation: 2021
 category: alumni
 layout: team_member_personal_page
-image: /img/team/DmitryKopitkov.jpeg
+image: /img/team/KhenElimelech.jpeg
 link-new-tab: true
-next-position: Ph.D. student at ANPL
+next-position: Postdoc position
 
 twitter: 
 youtube: 
 github: 
-email: dimkak@gmail.com
+email: khen@campus.technion.ac.il
 bitbucket: 
 facebook: 
-linkedin:
+linkedin: 
+website: http://www.khen.io/
+
 ---
 
-Ph.D. TASP, Technion, 2020
+ Ph.D. (direct track) TASP, Technion, 2021
 
-M.Sc. Summa Cum Laude, TASP, Technion, 2017
+ B.Sc. Applied Mathematics, Bar-Ilan University, 2012
 
-B.Sc. Magna Cum Laude, CS, Academic College of Tel Aviv-Yaffo, 2012
 
 
 <!-- {% bibliography --query @*[year=2023] --group_by none %}
