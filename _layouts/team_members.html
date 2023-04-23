@@ -13,41 +13,42 @@ Robots
 Alumni 
 -->
 
+<div class="columns is-multiline">
+  <div class="column is-11">
+    {{ page.content }}
+  </div>
+</div>
 
 <h1 style="font-size:35px;">Principal Investigator</h1>
 
 {% assign sorted_products = site.team | where:"category","Principal Investigator" %}
   {% for product in sorted_products %}
-<a href="{{ product.url | prepend: site.baseurl }}">
-
-    <div class="content" style="display: flex; margin-left: 20cm">
-      <div class="columns">
-        <div class="column">
-          <p class="title is-4">{{ product.title }}</p>
-          <p class="title is-5">{{ product.subtitle }}</p>
-          <hr>
-          <p class="title is-5">{{ product.affiliation }}</p>
-        </div>
-      </div>  
-    </div>
-    
-<br>
-<div class="columns is-multiline">
-  <div class="column is-12">
-    {{ page.content }}
-  </div>
-      <div class="card">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-4">
+        <div class="PI_card" style="display: block; width: max-content; margin-top: 1cm;">
+        <a href="{{ product.url | prepend: site.baseurl }}">
         {% if product.image %}
-        <div class="card-image">
-          <figure class="image is-3by3">
-            <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 350px; height: 350px; object-fit: cover; display: block;">
-          </figure>
-        </div>
+          <div class="card-image" style="width: 350px; height: 350px; object-fit: cover;">
+              <img src="{{ product.image }}" alt="{{ product.title }}">
+          </div>
         {% endif %}
-      </div>
-    </a>
-{% endfor %}
+      </a>
+    </div>
+  </div>
+<br>
+  <div class="column is-8" style="width: max-content;">
+    <div class="content" style="display: block; margin-right: 5cm; margin-top: 1cm;">
+      <a href="{{ product.url | prepend: site.baseurl }}">
+        <p class="title is-4">{{ product.title }}</p>
+        <p class="title is-5">{{ product.subtitle }}</p>
+        <p class="title is-6">{{ product.affiliation }}</p>
+      </a>
+    </div>
+  </div>
 </div>
+</div>
+{% endfor %}  
 
 <hr>
 <h1 style="font-size:35px;">Research Team</h1>
