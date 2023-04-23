@@ -1,9 +1,16 @@
 .horizontal-grid-container {
-  display: flex;
-  overflow-x: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
+  align-items: center;
+  justify-items: center;
 }
 
-.horizontal-grid-item {
-  flex: 0 0 auto;
+// .horizontal-grid-item {
+//   flex: 0 0 auto;
+// }
+
+.grid-item {
+  align-items: center;
+  justify-content: center; 
 }
