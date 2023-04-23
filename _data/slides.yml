@@ -2,14 +2,14 @@
   description: Slide 1 description
   image: /img/Teaching/CamProj.png
 
-# - title: Slide 2
-#   description: Slide 2 description
-#   image: /img/ANPL-team.jpg
+- title: Slide 2
+  description: Slide 2 description
+  image: /img/homepage_images/00049_trajectory_with_covs_3D1.jpg
 
-# - title: Slide 3
-#   description: Slide 3 description
-#   image: /img/social/2018-02-social-event.jpeg
+- title: Slide 3
+  description: Slide 3 description
+  image: /img/homepage_images/Diagram-announced-update-1024x940.jpg
 
-# - title: Slide 3
-#   description: Slide 3 description
-#   image: /img/homepage_images/real_exp-1024x467.jpg
+- title: Slide 3
+  description: Slide 3 description
+  image: /img/homepage_images/real_exp-1024x467.jpg
