@@ -55,12 +55,14 @@ layout: team_member_base
         <p class="title is-3">{{ page.title }}</p>
         <p class="subtitle is-3">{{ page.subtitle }}</p>
 
-        {% if page.next-position %}
-            <p class="subtitle is-3">{{ page.subtitle }}</p>
-        {% endif %}
         {% if page.graduation %}
             <p class="subtitle is-3">{{ page.graduation }}</p>
         {% endif %}
+
+        {% if page.next-position %}
+            <p class="subtitle is-3">{{ page.next-position }}</p>
+        {% endif %}
+        
 
         {{ content }}
 
