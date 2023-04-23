@@ -44,7 +44,7 @@ We are always looking for highly-motivated individuals to join our group, see de
 ### We gratefully acknowledge our funding sources over the years: 
 
 <div class="horizontal-grid-container">
-<div class="grid-item">
+  <div class="grid-item">
     <img src="/img/funding/ISF-logo2.jpeg" alt="ISF">
   </div>
   <div class="grid-item">

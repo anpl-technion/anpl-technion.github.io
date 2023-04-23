@@ -15,34 +15,37 @@ Alumni
 
 
 <h1 style="font-size:35px;">Principal Investigator</h1>
+
+{% assign sorted_products = site.team | where:"category","Principal Investigator" %}
+  {% for product in sorted_products %}
+<a href="{{ product.url | prepend: site.baseurl }}">
+
+    <div class="content" style="display: flex; margin-left: 20cm">
+      <div class="columns">
+        <div class="column">
+          <p class="title is-4">{{ product.title }}</p>
+          <p class="title is-5">{{ product.subtitle }}</p>
+          <hr>
+          <p class="title is-5">{{ product.affiliation }}</p>
+        </div>
+      </div>  
+    </div>
+    
 <br>
 <div class="columns is-multiline">
   <div class="column is-12">
     {{ page.content }}
   </div>
-
-  {% assign sorted_products = site.team | where:"category","Principal Investigator" %}
-  {% for product in sorted_products %}
-  <div style="display: flex; max-width: 100%;">
-    <a href="{{ product.url | prepend: site.baseurl }}">
       <div class="card">
-
-        <div class="content" style="display: flex; flex-direction: column; align-items: center; margin-left: 250px;">
-          <p class="title is-4" style="margin-bottom: 0;">{{ product.title }}</p>
-          <p class="title is-5" style="margin-bottom: 0;">{{ product.subtitle }}</p>
-          <hr>
-          <p class="title is-5" style="margin-bottom: 0;">{{ product.affiliation }}</p>
-        </div>
-        
         {% if product.image %}
         <div class="card-image">
           <figure class="image is-3by3">
-            <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 40%; height: auto; display: flex; align-items: center; margin-top: 50px; margin-left: 50px;">
+            <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 350px; height: 350px; object-fit: cover; display: block;">
+          </figure>
         </div>
         {% endif %}
       </div>
     </a>
-  </div>
 {% endfor %}
 </div>
 
@@ -68,8 +71,6 @@ Alumni
           <div class="card-content">
             <p class="title is-5">{{ product.title }}</h2>
             <p class="subtitle is-5">{{ product.subtitle }}</p>
-            <hr> 
-            <p class="subtitle is-5">{{ product.field}}</p>
           </div>
         </div>
       </a>
