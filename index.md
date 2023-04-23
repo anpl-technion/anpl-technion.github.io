@@ -45,10 +45,13 @@ We are always looking for highly-motivated individuals to join our group, see de
 
 <div class="horizontal-grid-container">
   <div class="grid-item">
-    <img src="/img/funding/ISF-logo2.jpeg" alt="ISF">
+    <img src="/img/funding/ISF-logo3.png" alt="ISF">
   </div>
   <div class="grid-item">
-    <img src="/img/funding/NSF-BSF-logo.jpeg" alt="BSF">
+    <img src="/img/funding/NSF-logo.jpeg" alt="BSF">
+  </div>
+  <div class="grid-item">
+    <img src="/img/funding/BSF-logo.png" alt="BSF">
   </div>
   <div class="grid-item">
     <img src="/img/funding/MOST-logo3.jpeg" alt="MOST">
