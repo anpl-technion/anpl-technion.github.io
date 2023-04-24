@@ -148,5 +148,37 @@ Alumni
     {% endfor %}
   </div>
 
+<hr>
+<h1 style="font-size:20px;">Undergrad Students </h1>
+<br>
+<div class="columns is-multiline">
+  <p>
+    {% capture file_content %}{% include_relative _team/alumni/Undergrad_students_alumni.txt %}{% endcapture %}
+    {% assign lines = file_content | split: "\n" %}
+    {% assign team_members = lines | join: ", " %}
+    {{ team_members }}
+  </p>
+</div>
+
+<!-- <hr>
+<div class="columns is-multiline">
+{% capture team_members %}{% include_relative _team/alumni/Undergrad_students_alumni.txt %}{% endcapture %}
+<ul>
+  {% for member in team_members %}
+    {% if member != "" %}
+      {% assign member_parts = member | split: " " %}
+      {% assign first = member_parts[0] %}
+      {% assign last = member_parts[1] %}
+      {% assign info = member_parts[2] %}
+      <p><strong>{{ first }} {{ last }}</strong> ({{ info }})</p>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+</div>
+
+ -->
+
   
+
 
