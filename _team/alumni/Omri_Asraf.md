@@ -1,6 +1,6 @@
 ---
 title: Omri Asraf
-subtitle: M.Sc. Students
+subtitle: M.Sc. 
 graduation: 2020
 category: alumni
 layout: team_member_personal_page

@@ -1,6 +1,6 @@
 ---
 title: Vladimir Tchuiev
-subtitle: Ph.D. Student
+subtitle: Ph.D. 
 graduation: 2021
 category: alumni
 layout: team_member_personal_page

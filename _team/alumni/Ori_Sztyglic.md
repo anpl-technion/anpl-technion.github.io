@@ -1,6 +1,6 @@
 ---
 title: Ori Sztyglic
-subtitle: M.Sc. Students
+subtitle: M.Sc. 
 graduation: 2021
 category: alumni
 layout: team_member_personal_page

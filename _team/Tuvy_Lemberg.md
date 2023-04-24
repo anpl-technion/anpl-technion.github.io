@@ -2,7 +2,6 @@
 title: Tuvy Lemberg
 subtitle: Ph.D. Student
 field : Robotics
-job_title: Ph.D. Student
 category: phd_students
 layout: team_member_personal_page
 image: /img/team/TuvyLemberg.png
@@ -16,8 +15,6 @@ bitbucket:
 facebook: 
 linkedin: 
 ---
-
-TODO abstract on Tuvy Lemberg
 
 Ph.D., AE, Technion, since 2022
 

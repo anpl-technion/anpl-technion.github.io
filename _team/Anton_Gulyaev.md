@@ -2,7 +2,6 @@
 title: Anton Gulyaev
 subtitle: Lab engineer
 field : Robotics
-job_title: Lab engineer
 category: staff
 layout: team_member_personal_page
 image: /img/team/AntonGulyaev.jpeg
@@ -16,8 +15,6 @@ bitbucket:
 facebook: 
 linkedin: 
 ---
-
-TODO abstract on Anton Gulyaev
 
 B.A. Business Management, Tel Aviv University, 2015
 

@@ -1,6 +1,6 @@
 ---
 title: Dmitry Kopitkov
-subtitle: Ph.D. Student
+subtitle: Ph.D. 
 graduation: 2020
 category: alumni
 layout: team_member_personal_page

@@ -2,7 +2,6 @@
 title: Idan Lev-Yehudi
 subtitle: M.Sc. Student
 field : Robotics
-job_title: M.Sc. Student
 category: master_student
 layout: team_member_personal_page
 image: /img/team/IdanLevYehudi.jpeg
@@ -16,8 +15,6 @@ bitbucket:
 facebook: 
 linkedin: 
 ---
-
-TODO abstract on Idan Lev-Yehudi
 
 M.Sc., TASP, Technion, since 2021
 
