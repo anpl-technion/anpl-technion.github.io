@@ -20,8 +20,7 @@ Ph.D. (direct track) TASP, Technion, since 2018
 
 B.Sc. Computer Science, Technion, 2013
 
+Related publications at ANPL:
 
+{% bibliography -q @*[author ~= \bShienman\b] --group_by none --order descending %}
 
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
