@@ -2,7 +2,6 @@
 title: Ariel Dobrovenski
 subtitle: Undergraduate Student
 field : Robotics
-job_title: Undergraduate Student
 category: undergraduate_students
 layout: team_member_personal_page
 image: /img/team/ArielDobrovenski.jpeg
@@ -16,8 +15,6 @@ bitbucket:
 facebook: https://facebook.com/ariel.dobrovensky
 linkedin: https://www.linkedin.com/in/ariel-dobrovenski-315396161/
 ---
-
-TODO abstract on Ariel Dobrovenski
 
 B.Sc. student in Computer Science 
 

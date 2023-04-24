@@ -2,7 +2,6 @@
 title: Ohad Levy-Or
 subtitle: M.Sc. Student
 field : Robotics
-job_title: M.Sc. Student
 category: master_student
 layout: team_member_personal_page
 image: /img/team/OhadLevyOr.jpeg
@@ -16,8 +15,6 @@ bitbucket:
 facebook: 
 linkedin: 
 ---
-
-TODO abstract on Ohad Levy-Or
 
 M.Sc., TASP, Technion, since 2022
 

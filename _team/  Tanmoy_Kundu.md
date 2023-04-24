@@ -2,7 +2,6 @@
 title: Tanmoy Kundu 
 subtitle: Postdoctoral fellow
 field : Robotics
-job_title: Postdoctoral fellow
 category: staff
 layout: team_member_personal_page
 image: /img/team/TanmoyKundu.jpeg
@@ -17,8 +16,6 @@ facebook:
 linkedin: https://www.linkedin.com/in/tanmoy-kundu-a1049113b/
 website: https://tanmoy1040.wixsite.com/researchprofile
 ---
-
-TODO abstract on Tanmoy Kundu 
 
 Ph.D., Computer Science, IIT Kanpur, 2022
 

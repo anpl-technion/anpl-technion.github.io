@@ -1,6 +1,6 @@
 ---
 title: Yuri Feldman
-subtitle: Ph.D. Student
+subtitle: Ph.D.
 graduation: 2022
 category: alumni
 layout: team_member_personal_page

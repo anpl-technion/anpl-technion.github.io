@@ -1,6 +1,6 @@
 ---
 title: Antony Thomas
-subtitle: M.Sc. Students
+subtitle: M.Sc. 
 graduation: 2017
 category: alumni
 layout: team_member_personal_page

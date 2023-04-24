@@ -1,6 +1,6 @@
 ---
 title: Tal Regev
-subtitle: M.Sc. Students
+subtitle: M.Sc. 
 graduation: 2016
 category: alumni
 layout: team_member_personal_page

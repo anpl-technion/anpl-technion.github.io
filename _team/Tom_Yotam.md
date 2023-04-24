@@ -2,7 +2,6 @@
 title: Tom Yotam
 subtitle: M.Sc. Student
 field : Robotics
-job_title: M.Sc. Student
 category: master_student
 layout: team_member_personal_page
 image: /img/team/TomYotam.jpeg
@@ -16,8 +15,6 @@ bitbucket:
 facebook: 
 linkedin: 
 ---
-
-TODO abstract on Tom Yotam
 
 M.Sc., Applied Mathematics, Technion, since 2020
 
