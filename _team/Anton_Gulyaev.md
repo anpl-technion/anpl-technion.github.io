@@ -22,9 +22,3 @@ TODO abstract on Anton Gulyaev
 B.A. Business Management, Tel Aviv University, 2015
 
 Software Development training, Experis Software, 2016
-
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
