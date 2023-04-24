@@ -106,7 +106,6 @@ Alumni
 </div>
 {% endfor %}
 </div>
-<hr>
 
 <hr>
 <h1 style="font-size:35px;">Alumni</h1>
@@ -120,8 +119,8 @@ Alumni
           <div class="card-content">
             <a href="{{ alumni.url | prepend: site.baseurl }}">
               <p class="title is-5">{{ alumni.title }}</p>
-              <hr>
               <p class="subtitle is-6">{{ alumni.graduation}} {{ alumni.subtitle }}</p>
+              <hr>
               <p class="subtitle is-6">{{ alumni.next-position}}</p>
             </a>
           </div>
@@ -130,6 +129,7 @@ Alumni
   {% endfor %}
 </div>
 
+<hr>
 <div class="columns is-multiline">
   {% assign sorted_alumni = site.team | where: "category", "alumni_staff" | sort: "graduation" | reverse %}
     {% for alumni in sorted_alumni %}
@@ -147,4 +147,6 @@ Alumni
       </div>
     {% endfor %}
   </div>
+
+  
 
