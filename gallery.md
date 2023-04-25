@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: gallery
 title: Photo Gallery
+show_sidebar: false
 ---
 
 <div class="slick-slider">
