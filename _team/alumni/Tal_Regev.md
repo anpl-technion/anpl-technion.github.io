@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/TalRegev2.jpeg
 link-new-tab: true
-next-position: Software engineer at ANPL
+next-position: Bosch AI
 
 twitter: 
 youtube: 

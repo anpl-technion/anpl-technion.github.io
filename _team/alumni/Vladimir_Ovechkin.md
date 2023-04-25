@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/VladimirOvechkin.png
 link-new-tab: true
-next-position: Computer vision engineer at Applied Materials ltd.
+next-position: Applied Materials
 
 twitter: 
 youtube: 

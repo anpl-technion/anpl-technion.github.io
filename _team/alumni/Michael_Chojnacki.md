@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/MichaelChojnacki.jpg
 link-new-tab: true
-next-position: Startup
+next-position: Co-founder at Baseline Vision
 
 twitter: 
 youtube: 

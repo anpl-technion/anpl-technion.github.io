@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/YuriFeldman.png
 link-new-tab: true
-next-position: Research scientist at Bosch AI
+next-position: Bosch AI
 
 twitter: 
 youtube: 

@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/AntonyThomas.jpg
 link-new-tab: true
-next-position: Ph.D. student at the University of Genoa, Italy
+next-position: Postdoc at University of Genoa
 
 twitter: 
 youtube: 

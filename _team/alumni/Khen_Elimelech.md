@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/KhenElimelech.jpeg
 link-new-tab: true
-next-position: Postdoc position
+next-position: Postdoc at Ryce University
 
 twitter: 
 youtube: 

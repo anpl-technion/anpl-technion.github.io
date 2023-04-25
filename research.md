@@ -9,7 +9,7 @@ sort: price
 
 <!-- # research -->
 
-<p class="title is-3">Research overview (from 2022 and 2019, only some of the directions)</p>
+<p class="title is-3">Research overview (from 2022 and 2019)</p>
 
 <div style="display: flex; justify-content: center;">
     <iframe width="40%" height="315" src="https://www.youtube.com/embed/V29DinAslRQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

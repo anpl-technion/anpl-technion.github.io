@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/DmitryKopitkov.jpeg
 link-new-tab: true
-next-position: Ph.D. student at ANPL
+next-position: Meta
 
 twitter: 
 youtube: 

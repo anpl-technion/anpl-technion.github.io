@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/OmriAsraf.jpeg
 link-new-tab: true
-next-position: Algorithms Researcher at Huawei ltd.
+next-position: Huawei 
 
 twitter: 
 youtube: 
