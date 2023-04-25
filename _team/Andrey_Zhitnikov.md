@@ -8,7 +8,7 @@ layout: team_member_personal_page
 image: /img/team/AndreyZhitnikov.jpeg
 link-new-tab: true
 bio:
-    - Ph.D. TASP, Technion, 2023
+    - Ph.D. TASP, Technion, since 2020
     - M.Sc. Electrical Engineering, Technion, 2018
     - B.Sc. Summa Cum Laude, Electrical Engineering, Tel Aviv University, 2014
 

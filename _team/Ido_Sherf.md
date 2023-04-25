@@ -8,7 +8,7 @@ layout: team_member_personal_page
 image: /img/team/IdoSherf.png
 link-new-tab: true
 bio:
-    - M.Sc. TASP, Technion, 2022
+    - M.Sc. TASP, Technion, since 2022
     - B.Sc. Mechanical Engineering, Ben Gurion University, 2021
     - B.Sc. Material Engineering, Ben Gurion University, 2021
 

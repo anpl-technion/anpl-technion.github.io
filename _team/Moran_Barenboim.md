@@ -8,7 +8,7 @@ layout: team_member_personal_page
 image: /img/team/MoranBarenboim.jpeg
 link-new-tab: true
 bio:
-    - Ph.D. TASP, Technion, 2023
+    - Ph.D. TASP, Technion, since 2021
     - M.Sc. TASP, Technion, 2020
     - B.Sc. Cum Laude, Mehcanical Engineering, Technion, 2017
 

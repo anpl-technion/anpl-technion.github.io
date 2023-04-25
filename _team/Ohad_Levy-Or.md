@@ -8,7 +8,7 @@ layout: team_member_personal_page
 image: /img/team/OhadLevyOr.jpeg
 link-new-tab: true
 bio:
-    - M.Sc. TASP, Technion, 2022
+    - M.Sc. TASP, Technion, since 2022
     - B.Sc. Cum Laude, Mechanical Engineering, Technion, 2021
 
 twitter: 
