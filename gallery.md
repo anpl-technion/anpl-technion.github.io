@@ -4,7 +4,7 @@ title: Photo Gallery
 ---
 
 <div class="slick-slider">
-  {% for slide in site.data.slides %}
+  {% for slide in site.data.gallery_slides %}
     <div>
       <img src="{{ slide.image }}" alt="{{ slide.description }}">
     </div>
