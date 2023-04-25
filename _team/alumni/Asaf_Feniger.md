@@ -8,6 +8,8 @@ layout: team_member_personal_page
 image: /img/team/AsafFeniger.jpg
 link-new-tab: true
 next-position: Rafael
+bio:
+    - B.Sc. Aerospace Engineering, Technion, 2014
 
 twitter: 
 youtube: 
@@ -19,4 +21,3 @@ linkedin: https://il.linkedin.com/pub/asaf-feniger/90/8b9/321
 website:
 ---
 
-B.Sc. Aerospace Engineering, Technion, 2014

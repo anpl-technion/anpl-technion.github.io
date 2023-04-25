@@ -8,6 +8,9 @@ layout: team_member_personal_page
 image: /img/team/GiladRotman.jpeg
 link-new-tab: true
 next-position: Elbit
+bio:
+    - M.Sc. TASP, Technion, 2022
+    - B.Sc. Summa Cum Laude, Mechanical Engineering, Technion, 2014
 
 twitter: 
 youtube: 
@@ -18,11 +21,6 @@ facebook:
 linkedin:
 ---
 
-M.Sc. TASP, Technion, 2022
+## Related publications at ANPL:
 
-B.Sc. Summa Cum Laude, Mechanical Engineering, Technion, 2014
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bRotman\b] --group_by none --order descending %}

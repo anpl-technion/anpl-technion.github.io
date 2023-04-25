@@ -8,6 +8,9 @@ layout: team_member_personal_page
 image: /img/team/OmriAsraf.jpeg
 link-new-tab: true
 next-position: Huawei 
+bio:
+    - M.Sc. AE, Technion, 2020
+    - B.Sc. ME, Ben-Gurion University, 2017
 
 twitter: 
 youtube: 
@@ -17,11 +20,8 @@ bitbucket:
 facebook: 
 linkedin:
 ---
-M.Sc. AE, Technion, 2020
 
-B.Sc. ME, Ben-Gurion University, 2017
+## Related publications at ANPL:
 
+{% bibliography -q @*[author ~= \bAsraf\b] --group_by none --order descending %}
 
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->

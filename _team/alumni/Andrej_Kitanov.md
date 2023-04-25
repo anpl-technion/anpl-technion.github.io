@@ -8,6 +8,10 @@ layout: team_member_personal_page
 image: /img/team/AndrejKitanov.jpeg
 link-new-tab: true
 next-position: 
+bio:
+    - Ph.D. Robotics, EE, University of Zagreb, 2010
+    - M.Sc. Robotics, EE, University of Zagreb, 2004
+    - B.Sc. EE, University of Zagreb, 2002
 
 twitter: 
 youtube: 
@@ -19,8 +23,6 @@ linkedin:
 website:
 ---
 
-Ph.D. Robotics, EE, University of Zagreb, 2010
+## Related publications at ANPL:
 
-M.Sc. Robotics, EE, University of Zagreb, 2004
-
-B.Sc. EE, University of Zagreb, 2002
+{% bibliography -q @*[author ~= \bKitanov\b] --group_by none --order descending %}

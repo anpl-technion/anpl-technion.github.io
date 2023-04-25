@@ -7,6 +7,9 @@ category: master_student
 layout: team_member_personal_page
 image: /img/team/OhadLevyOr.jpeg
 link-new-tab: true
+bio:
+    - M.Sc. TASP, Technion, 2022
+    - B.Sc. Cum Laude, Mechanical Engineering, Technion, 2021
 
 twitter: 
 youtube: 
@@ -17,11 +20,7 @@ facebook:
 linkedin: 
 ---
 
-M.Sc., TASP, Technion, since 2022
+## Related publications at ANPL:
 
-B.Sc., Cum Laude, Mechanical Engineering, Technion, 2021
+{% bibliography -q @*[author ~= \bLevy-Or\b] --group_by none --order descending %}
 
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->

@@ -8,6 +8,10 @@ layout: team_member_personal_page
 image: /img/team/TalRegev2.jpeg
 link-new-tab: true
 next-position: Bosch AI
+bio:
+    - Software engineer at ANPL, 2016-2018
+    - M.Sc. CS, Technion, 2016
+    - B.Sc. CS, Technion, 2013
 
 twitter: 
 youtube: 
@@ -18,12 +22,6 @@ facebook:
 linkedin:
 ---
 
-Software engineer at ANPL, 2016-2018
+## Related publications at ANPL:
 
-M.Sc. CS, Technion, 2016
-
-B.Sc. CS, Technion, 2013
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bRegev\b] --group_by none --order descending %}

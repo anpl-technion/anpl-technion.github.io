@@ -8,6 +8,9 @@ layout: team_member_personal_page
 image: /img/team/YairBenElisha.jpg
 link-new-tab: true
 next-position: IAF
+bio:
+    - M.Sc. AE, Technion, 2018
+    - B.Sc. EE, Technion, 2012
 
 twitter: 
 youtube: 
@@ -17,11 +20,7 @@ bitbucket:
 facebook: 
 linkedin:
 ---
-M.Sc. AE, Technion, 2018
 
-B.Sc. EE, Technion, 2012
+## Related publications at ANPL:
 
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bBen Elisha\b] --group_by none --order descending %}

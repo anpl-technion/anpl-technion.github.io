@@ -7,6 +7,9 @@ category: master_student
 layout: team_member_personal_page
 image: /img/team/IdoNutov.png
 link-new-tab: true
+bio:
+    - M.Sc. TASP, Technion, 2021
+    - B.Sc. Electrical Engineering, Technion, 2021
 
 twitter: 
 youtube: 
@@ -17,11 +20,7 @@ facebook:
 linkedin: 
 ---
 
-M.Sc., TASP, Technion, since 2021
 
-B.Sc., Electrical Engineering, Technion, 2021
+## Related publications at ANPL:
 
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bNutov\b] --group_by none --order descending %}

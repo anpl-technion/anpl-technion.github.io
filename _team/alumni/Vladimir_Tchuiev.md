@@ -8,6 +8,10 @@ layout: team_member_personal_page
 image: /img/team/VladimirTchuiev.png
 link-new-tab: true
 next-position: Bosch AI
+bio:
+    - Ph.D. AE, Technion, 2021
+    - M.Sc. AE, Technion, 2017
+    - B.Sc. AE, Technion, 2014
 
 twitter: 
 youtube: 
@@ -18,15 +22,6 @@ facebook:
 linkedin:
 ---
 
- Ph.D. AE, Technion, 2021
+## Related publications at ANPL:
 
- M.Sc. AE, Technion, 2017
-
- B.Sc. AE, Technion, 2014
-
-
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bTchuiev\b] --group_by none --order descending %}

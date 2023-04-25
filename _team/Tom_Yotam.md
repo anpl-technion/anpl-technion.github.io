@@ -7,6 +7,9 @@ category: master_student
 layout: team_member_personal_page
 image: /img/team/TomYotam.jpeg
 link-new-tab: true
+bio:
+    - M.Sc. Applied Mathematics, Technion, 2022
+    - B.Sc. Magna Cum Laude, Mechanical Engineering, Tel Aviv University 2017
 
 twitter:
 youtube: 
@@ -17,12 +20,6 @@ facebook:
 linkedin: 
 ---
 
-M.Sc., Applied Mathematics, Technion, since 2020
+## Related publications at ANPL:
 
-B.Sc., Magna Cum Laude, Mechanical Engineering, Tel Aviv University 2017
-
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bYotam\b] --group_by none --order descending %}

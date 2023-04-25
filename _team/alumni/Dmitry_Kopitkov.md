@@ -8,6 +8,10 @@ layout: team_member_personal_page
 image: /img/team/DmitryKopitkov.jpeg
 link-new-tab: true
 next-position: Meta
+bio:
+    - Ph.D. TASP, Technion, 2020
+    - M.Sc. Summa Cum Laude, TASP, Technion, 2017
+    - B.Sc. Magna Cum Laude, CS, Academic College of Tel Aviv-Yaffo, 2012
 
 twitter: 
 youtube: 
@@ -18,13 +22,6 @@ facebook:
 linkedin:
 ---
 
-Ph.D. TASP, Technion, 2020
+## Related publications at ANPL:
 
-M.Sc. Summa Cum Laude, TASP, Technion, 2017
-
-B.Sc. Magna Cum Laude, CS, Academic College of Tel Aviv-Yaffo, 2012
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bKopitkov\b] --group_by none --order descending %}
