@@ -62,12 +62,21 @@ layout: team_member_base
         {% if page.next-position %}
             <p class="subtitle is-4">{{ page.next-position }}</p>
         {% endif %}
-        
 
-        {{ content }}
+        {% if page.bio %}
+        {% for line in page.bio %}
+        <p class="subtitle is-4">{{ line }}<br></p>
+        {% endfor %}
+        {% endif %}
 
     </div>
 
+    <div>
+        <hr>
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
     
 </div>
 
