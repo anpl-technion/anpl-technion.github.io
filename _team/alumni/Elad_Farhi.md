@@ -2,6 +2,7 @@
 title: Elad Farhi
 subtitle: Ph.D. 
 graduation: 2021
+faculty : TASP
 category: alumni
 layout: team_member_personal_page
 image: /img/team/EladFarhi.png

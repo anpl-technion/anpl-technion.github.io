@@ -2,6 +2,7 @@
 title: Vladimir Tchuiev
 subtitle: Ph.D. 
 graduation: 2021
+faculty : AE
 category: alumni
 layout: team_member_personal_page
 image: /img/team/VladimirTchuiev.png

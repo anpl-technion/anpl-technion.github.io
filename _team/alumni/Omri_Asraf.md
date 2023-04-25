@@ -2,6 +2,7 @@
 title: Omri Asraf
 subtitle: M.Sc. 
 graduation: 2020
+faculty : AE
 category: alumni
 layout: team_member_personal_page
 image: /img/team/OmriAsraf.jpeg

@@ -2,6 +2,7 @@
 title: Antony Thomas
 subtitle: M.Sc. 
 graduation: 2017
+faculty : AE
 category: alumni
 layout: team_member_personal_page
 image: /img/team/AntonyThomas.jpg

@@ -2,6 +2,7 @@
 title: Yuri Feldman
 subtitle: Ph.D.
 graduation: 2022
+faculty : CS
 category: alumni
 layout: team_member_personal_page
 image: /img/team/YuriFeldman.png

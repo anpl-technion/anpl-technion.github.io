@@ -2,6 +2,7 @@
 title: Itai Zilberman
 subtitle: M.Sc. 
 graduation: 2022
+faculty : EE
 category: alumni
 layout: team_member_personal_page
 image: /img/team/ItaiZilberman.png

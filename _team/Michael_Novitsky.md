@@ -2,6 +2,7 @@
 title: Michael Novitsky
 subtitle: M.Sc. Student
 field : Robotics
+faculty : TASP
 category: master_student
 layout: team_member_personal_page
 image: /img/team/MichaelNovitsky.jpeg

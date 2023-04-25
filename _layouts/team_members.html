@@ -110,22 +110,48 @@ Alumni
 <hr>
 <h1 style="font-size:35px;">Alumni</h1>
 <br>
+<h1 style="font-size:20px;">Ph.D.</h1>
+<br>
 <div class="columns is-multiline">
 {% assign sorted_alumni = site.team | where: "category", "alumni" | sort: "graduation" | reverse %}
   {% for alumni in sorted_alumni %}
-
+    {% if alumni.subtitle == "Ph.D." %}
     <div class="column is-one-fifth-desktop is-6-tablet">
         <div class="card">
           <div class="card-content">
             <a href="{{ alumni.url | prepend: site.baseurl }}">
               <p class="title is-5">{{ alumni.title }}</p>
-              <p class="subtitle is-6">{{ alumni.graduation}} {{ alumni.subtitle }}</p>
+              <p class="subtitle is-6">{{ alumni.graduation}} {{ alumni.faculty }}</p>
               <hr>
               <p class="subtitle is-6">{{ alumni.next-position}}</p>
             </a>
           </div>
         </div>
     </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<hr>
+<h1 style="font-size:20px;">M.Sc.</h1>
+<br>
+<div class="columns is-multiline">
+{% assign sorted_alumni = site.team | where: "category", "alumni" | sort: "graduation" | reverse %}
+  {% for alumni in sorted_alumni %}
+    {% if alumni.subtitle == "M.Sc." %}
+    <div class="column is-one-fifth-desktop is-6-tablet">
+        <div class="card">
+          <div class="card-content">
+            <a href="{{ alumni.url | prepend: site.baseurl }}">
+              <p class="title is-5">{{ alumni.title }}</p>
+              <p class="subtitle is-6">{{ alumni.graduation}} {{ alumni.faculty }}</p>
+              <hr>
+              <p class="subtitle is-6">{{ alumni.next-position}}</p>
+            </a>
+          </div>
+        </div>
+    </div>
+    {% endif %}
   {% endfor %}
 </div>
 
@@ -162,24 +188,7 @@ Alumni
   </p>
 </div>
 
-<!-- <hr>
-<div class="columns is-multiline">
-{% capture team_members %}{% include_relative _team/alumni/Undergrad_students_alumni.txt %}{% endcapture %}
-<ul>
-  {% for member in team_members %}
-    {% if member != "" %}
-      {% assign member_parts = member | split: " " %}
-      {% assign first = member_parts[0] %}
-      {% assign last = member_parts[1] %}
-      {% assign info = member_parts[2] %}
-      <p><strong>{{ first }} {{ last }}</strong> ({{ info }})</p>
-    {% endif %}
-  {% endfor %}
-</ul>
-
-</div>
-
- -->
+ 
 
   
 
