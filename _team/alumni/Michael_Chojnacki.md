@@ -8,6 +8,10 @@ layout: team_member_personal_page
 image: /img/team/MichaelChojnacki.jpg
 link-new-tab: true
 next-position: Co-founder at Baseline Vision
+bio:
+    - Additional advisor Ehud Rivlin (CS, Technion)
+    - M.Sc. TASP, Technion, 2017
+    - B.Sc. AE, Technion, 2008
 
 twitter: 
 youtube: 
@@ -17,12 +21,7 @@ bitbucket:
 facebook: 
 linkedin:
 ---
-Additional advisor: Ehud Rivlin (CS, Technion)
 
-M.Sc. TASP, Technion, 2017
+## Related publications at ANPL:
 
-B.Sc. AE, Technion, 2008
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bChojnacki\b] --group_by none --order descending %}

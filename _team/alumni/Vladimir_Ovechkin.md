@@ -8,6 +8,9 @@ layout: team_member_personal_page
 image: /img/team/VladimirOvechkin.png
 link-new-tab: true
 next-position: Applied Materials
+bio:
+    - M.Sc. TASP, Technion, 2018
+    - B.Sc. CS, Moscow Aviation Institute, 2011
 
 twitter: 
 youtube: 
@@ -18,11 +21,7 @@ facebook:
 linkedin:
 ---
 
-M.Sc. TASP, Technion, 2018
+## Related publications at ANPL:
 
-B.Sc. CS, Moscow Aviation Institute, 2011
+{% bibliography -q @*[author ~= \bOvechkin\b] --group_by none --order descending %}
 
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->

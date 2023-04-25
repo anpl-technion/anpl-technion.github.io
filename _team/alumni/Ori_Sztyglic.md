@@ -8,6 +8,9 @@ layout: team_member_personal_page
 image: /img/team/OriSztyglic.jpeg
 link-new-tab: true
 next-position: Mobileye
+bio:
+    - M.Sc. CS, Technion, 2021
+    - B.Sc. EE, Technion, 2019
 
 twitter: 
 youtube: 
@@ -18,11 +21,6 @@ facebook:
 linkedin:
 ---
 
-M.Sc. CS , Technion, 2021
+## Related publications at ANPL:
 
-B.Sc. EE, Technion, 2019
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bSztyglic\b] --group_by none --order descending %}

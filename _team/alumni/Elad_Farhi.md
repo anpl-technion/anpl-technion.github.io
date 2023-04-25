@@ -8,6 +8,9 @@ layout: team_member_personal_page
 image: /img/team/EladFarhi.png
 link-new-tab: true
 next-position: General Motors
+bio:
+    - Ph.D. TASP, Technion, 2021
+    - B.Sc. Cum Laude, AE, Technion, 2013
 
 twitter: 
 youtube: 
@@ -18,13 +21,6 @@ facebook:
 linkedin:
 ---
 
- Ph.D. (direct track) TASP, Technion, 2021
+## Related publications at ANPL:
 
- B.Sc. Cum Laude, AE, Technion 2013
-
-
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bFarhi\b] --group_by none --order descending %}

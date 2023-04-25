@@ -7,6 +7,10 @@ category: phd_students
 layout: team_member_personal_page
 image: /img/team/TuvyLemberg.png
 link-new-tab: true
+bio:
+    - Ph.D. AE, Technion, 2023
+    - M.Sc. Electrical & Computer Engineering, Ben-Gurion University, 2018
+    - B.Sc. Electrical & Computer Engineering, Ben-Gurion University, 2016
 
 twitter: 
 youtube: 
@@ -17,13 +21,7 @@ facebook:
 linkedin: 
 ---
 
-Ph.D., AE, Technion, since 2022
+## Related publications at ANPL:
 
-M.Sc. Cum Laude, Electrical & Computer Engineering, Ben-Gurion University, 2018
+{% bibliography -q @*[author ~= \bLemberg\b] --group_by none --order descending %}
 
-B.Sc. Cum Laude, Electrical & Computer Engineering, Ben-Gurion University, 2016
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->

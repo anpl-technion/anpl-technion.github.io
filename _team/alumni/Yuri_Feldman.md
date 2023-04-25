@@ -8,6 +8,9 @@ layout: team_member_personal_page
 image: /img/team/YuriFeldman.png
 link-new-tab: true
 next-position: Bosch AI
+bio:
+    - Ph.D. (direct track) CS, Technion, 2022
+    - B.Sc. CS, Technion, 2010, Cum Laude
 
 twitter: 
 youtube: 
@@ -20,11 +23,7 @@ website:
 
 ---
 
- Ph.D. (direct track) CS, Technion, 2022
+## Related publications at ANPL:
 
- B.Sc. CS, Technion, 2010, Cum Laude
+{% bibliography -q @*[author ~= \bFeldman\b] --group_by none --order descending %}
 
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->

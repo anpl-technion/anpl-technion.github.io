@@ -8,6 +8,10 @@ layout: team_member_personal_page
 image: /img/team/AntonyThomas.jpg
 link-new-tab: true
 next-position: Postdoc at University of Genoa
+bio:
+    - M.Sc. AE, Technion, 2017
+    - B.Tech and M.Tech in AE, Indian Institute of Technology Madras, 2014
+    - Sherman fellowship for interdisciplinary M.Sc. research
 
 twitter: 
 youtube: 
@@ -18,13 +22,6 @@ facebook:
 linkedin:
 ---
 
-M.Sc. AE, Technion, 2017
+## Related publications at ANPL:
 
-B.Tech and M.Tech in AE, Indian Institute of Technology Madras, 2014
-
-Sherman fellowship for interdisciplinary M.Sc. research
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bThomas\b] --group_by none --order descending %}

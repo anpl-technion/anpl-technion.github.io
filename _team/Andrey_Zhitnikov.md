@@ -7,6 +7,10 @@ category: phd_students
 layout: team_member_personal_page
 image: /img/team/AndreyZhitnikov.jpeg
 link-new-tab: true
+bio:
+    - Ph.D. TASP, Technion, 2023
+    - M.Sc. Electrical Engineering, Technion, 2018
+    - B.Sc. Summa Cum Laude, Electrical Engineering, Tel Aviv University, 2014
 
 twitter: 
 youtube: 
@@ -17,13 +21,7 @@ facebook:
 linkedin: 
 ---
 
-Ph.D., TASP, Technion, since 2020
+## Related publications at ANPL:
 
-M.Sc. Electrical Engineering, Technion, 2018
+{% bibliography -q @*[author ~= \bZhitnikov\b] --group_by none --order descending %}
 
-B.Sc. Summa Cum Laude, Electrical Engineering, Tel Aviv University, 2014
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->

@@ -8,6 +8,9 @@ layout: team_member_personal_page
 image: /img/team/RoeeMor.jpg
 link-new-tab: true
 next-position: Lulav
+bio:
+    - M.Sc. CS, Technion, 2022
+    
 
 twitter: 
 youtube: 
@@ -18,8 +21,6 @@ facebook:
 linkedin:
 ---
 
-M.Sc. CS, Technion, 2022
+## Related publications at ANPL:
 
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
+{% bibliography -q @*[author ~= \bMor\b] --group_by none --order descending %}

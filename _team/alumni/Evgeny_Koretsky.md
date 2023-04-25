@@ -8,6 +8,9 @@ layout: team_member_personal_page
 image: /img/team/EvgenyKoretsky.jpeg
 link-new-tab: true
 next-position: 
+bio:
+    - M.Sc. Aerospace Engineering, Technion, 2018
+    - B.Sc. Aerospace Engineering, Technion, 2015
 
 twitter: 
 youtube: 
@@ -19,6 +22,3 @@ linkedin:
 website:
 ---
 
-M.Sc. AE, Technion, 2018
-
-B.Sc. AE, Technion, 2015

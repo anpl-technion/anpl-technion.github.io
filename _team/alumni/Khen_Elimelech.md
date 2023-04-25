@@ -8,6 +8,9 @@ layout: team_member_personal_page
 image: /img/team/KhenElimelech.jpeg
 link-new-tab: true
 next-position: Postdoc at Ryce University
+bio:
+    - Ph.D. (direct track) TASP, Technion, 2021
+    - B.Sc. Applied Mathematics, Bar-Ilan University, 2012
 
 twitter: 
 youtube: 
@@ -20,12 +23,7 @@ website: http://www.khen.io/
 
 ---
 
- Ph.D. (direct track) TASP, Technion, 2021
+## Related publications at ANPL:
 
- B.Sc. Applied Mathematics, Bar-Ilan University, 2012
+{% bibliography -q @*[author ~= \bElimelech\b] --group_by none --order descending %}
 
-
-
-<!-- {% bibliography --query @*[year=2023] --group_by none %}
-{% bibliography -q @*[c ~= {{ V. Indelman }}] %}
-{% bibliography --sort authors %} -->
