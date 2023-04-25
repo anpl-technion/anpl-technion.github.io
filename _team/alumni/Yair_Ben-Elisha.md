@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/YairBenElisha.jpg
 link-new-tab: true
-next-position: Major at IAF
+next-position: IAF
 
 twitter: 
 youtube: 

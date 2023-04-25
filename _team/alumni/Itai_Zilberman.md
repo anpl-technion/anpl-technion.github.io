@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/ItaiZilberman.png
 link-new-tab: true
-next-position: Computer Vision & Deep Learning Algorithm Engineer at Mobileye ltd.
+next-position: Mobileye
 
 twitter: 
 youtube: 

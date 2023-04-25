@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/RoeeMor.jpg
 link-new-tab: true
-next-position: Algorithms developer and researcher at Lulav ltd.
+next-position: Lulav
 
 twitter: 
 youtube: 

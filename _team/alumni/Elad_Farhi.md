@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/EladFarhi.png
 link-new-tab: true
-next-position: Senior Visual SLAM Algorithm Developer at General Motors ltd.
+next-position: General Motors
 
 twitter: 
 youtube: 

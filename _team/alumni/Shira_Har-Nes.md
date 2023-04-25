@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/ShiraHarNes.jpeg
 link-new-tab: true
-next-position: Engineer at Rafael ltd.
+next-position: Rafael
 
 twitter: 
 youtube: 

@@ -130,6 +130,8 @@ Alumni
 </div>
 
 <hr>
+<h1 style="font-size:20px;">Staff </h1>
+<br>
 <div class="columns is-multiline">
   {% assign sorted_alumni = site.team | where: "category", "alumni_staff" | sort: "graduation" | reverse %}
     {% for alumni in sorted_alumni %}

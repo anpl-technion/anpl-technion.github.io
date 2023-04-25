@@ -6,7 +6,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/GiladRotman.jpeg
 link-new-tab: true
-next-position: Algorithms researcher at Elbit ltd.
+next-position: Elbit
 
 twitter: 
 youtube: 
