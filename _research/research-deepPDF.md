@@ -11,15 +11,11 @@ descriptio: "Probabilistic inference, such as density (ratio) estimation, is a f
 
 ---
 
-
-![PSO_drawing](/img/research/deepPDF/PSO_drawing.png) 
-
-
 Earlier, we investigated the following related concept. Typical inference approaches that work with high-dimensional visual measurements use hand-engineered image features (e.g. SIFT) that require combinatorial data association, or predict only hidden state mean without considering its uncertainty and multi-modality aspects. We develop a novel approach to infer system hidden state from visual observations via CNN features which are outputs of a CNN classifier. To that end, at pre-deployment stage we use neural networks to learn a generative viewpoint-dependent model of CNN features given the robot pose and approximate this model by a spatially varying Gaussian distribution. Further, at deployment this model is utilized within a Bayesian framework for probabilistic inference, considering a robot localization problem. Our method does not involve data association and provides uncertainty covariance of the final estimation. Moreover, we show empirically that the CNN feature likelihood is unimodal which simplifies the inference task. We test our method in simulated a Unreal Engine environment, where we succeed to retrieve high-level state information from CNN features and produce trajectory estimation with high accuracy. Additionally, we analyze robustness of our approach to different light conditions.
 
-![drawing](/img/research/InfoRecoveryCNN/drawing.png) 
-![traj_extended-eps-converted-to](/img/research/InfoRecoveryCNN/traj_extended-eps-converted-to.png) 
+<img src="/img/research/InfoRecoveryCNN/drawing.png" alt="drawing" style="width: 65%; height: auto;">
 
+<img src="/img/research/InfoRecoveryCNN/traj_extended-eps-converted-to.png" alt="traj_extended-eps-converted-to" style="width: 65%; height: auto;">
 
 <!-- add  youtube and bibliography Here-->
 
