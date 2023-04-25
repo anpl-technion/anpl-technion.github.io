@@ -5,7 +5,7 @@ image: /img//student_project/AutonomousCollaborativeExploration.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 price: 6 # for sorting 
-descriptio: 
+abstract: 
 ---
 
 ### Overview : 
