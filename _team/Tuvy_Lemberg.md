@@ -8,7 +8,7 @@ layout: team_member_personal_page
 image: /img/team/TuvyLemberg.png
 link-new-tab: true
 bio:
-    - Ph.D. AE, Technion, 2023
+    - Ph.D. AE, Technion, since 2022
     - M.Sc. Electrical & Computer Engineering, Ben-Gurion University, 2018
     - B.Sc. Electrical & Computer Engineering, Ben-Gurion University, 2016
 

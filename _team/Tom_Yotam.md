@@ -8,7 +8,7 @@ layout: team_member_personal_page
 image: /img/team/TomYotam.jpeg
 link-new-tab: true
 bio:
-    - M.Sc. Applied Mathematics, Technion, 2022
+    - M.Sc. Applied Mathematics, Technion, since 2020
     - B.Sc. Magna Cum Laude, Mechanical Engineering, Tel Aviv University 2017
 
 twitter:

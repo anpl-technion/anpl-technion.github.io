@@ -8,7 +8,7 @@ layout: team_member_personal_page
 image: /img/team/IdanLevYehudi.jpeg
 link-new-tab: true
 bio:
-    - M.Sc. TASP, Technion, 2021
+    - M.Sc. TASP, Technion, since 2021
     - B.Sc. Cum Laude, Mathematics, Physics & Talpiot, Hebrew University of Jeruslam, 2019
 
 twitter: 
