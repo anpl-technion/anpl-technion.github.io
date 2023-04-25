@@ -4,6 +4,8 @@ title: Photo Gallery
 show_sidebar: false
 ---
 
+## ANPL Social Events 
+
 <div class="slick-slider">
   {% for slide in site.data.gallery_slides %}
     <div>
@@ -11,3 +13,4 @@ show_sidebar: false
     </div>
   {% endfor %}
 </div>
+
