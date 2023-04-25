@@ -2,6 +2,7 @@
 title: Moran Barenboim
 subtitle: Ph.D. Student
 field : Robotics
+faculty : TASP
 category: phd_students
 layout: team_member_personal_page
 image: /img/team/MoranBarenboim.jpeg

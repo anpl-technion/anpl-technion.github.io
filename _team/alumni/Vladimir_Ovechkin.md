@@ -2,6 +2,7 @@
 title: Vladimir Ovechkin
 subtitle: M.Sc. 
 graduation: 2018
+faculty : TASP
 category: alumni
 layout: team_member_personal_page
 image: /img/team/VladimirOvechkin.png

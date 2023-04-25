@@ -2,6 +2,7 @@
 title: Ariel Dobrovenski
 subtitle: Undergraduate Student
 field : Robotics
+faculty : CS
 category: undergraduate_students
 layout: team_member_personal_page
 image: /img/team/ArielDobrovenski.jpeg

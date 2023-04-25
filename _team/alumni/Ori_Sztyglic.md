@@ -2,6 +2,7 @@
 title: Ori Sztyglic
 subtitle: M.Sc. 
 graduation: 2021
+faculty : CS
 category: alumni
 layout: team_member_personal_page
 image: /img/team/OriSztyglic.jpeg

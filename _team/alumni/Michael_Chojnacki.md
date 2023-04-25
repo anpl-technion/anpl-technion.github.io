@@ -2,6 +2,7 @@
 title: Michael Chojnacki
 subtitle: M.Sc. 
 graduation: 2017
+faculty : TASP
 category: alumni
 layout: team_member_personal_page
 image: /img/team/MichaelChojnacki.jpg

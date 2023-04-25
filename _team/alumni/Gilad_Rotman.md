@@ -2,6 +2,7 @@
 title: Gilad Rotman
 subtitle: M.Sc. 
 graduation: 2022
+faculty : TASP
 category: alumni
 layout: team_member_personal_page
 image: /img/team/GiladRotman.jpeg

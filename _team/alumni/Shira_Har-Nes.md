@@ -2,6 +2,7 @@
 title: Shira Har-Nes
 subtitle: M.Sc. 
 graduation: 2017
+faculty : AE
 category: alumni
 layout: team_member_personal_page
 image: /img/team/ShiraHarNes.jpeg
