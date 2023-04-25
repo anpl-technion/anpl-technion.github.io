@@ -6,6 +6,9 @@ category: staff
 layout: team_member_personal_page
 image: /img/team/AntonGulyaev.jpeg
 link-new-tab: true
+bio:
+    - B.A. Business Management, Tel Aviv University, 2015
+    - Software Development training, Experis Software, 2016
 
 twitter: 
 youtube: 
@@ -15,7 +18,3 @@ bitbucket:
 facebook: 
 linkedin: 
 ---
-
-B.A. Business Management, Tel Aviv University, 2015
-
-Software Development training, Experis Software, 2016

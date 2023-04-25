@@ -24,7 +24,7 @@ We are always looking for highly-motivated individuals to join our group, see de
 </span>
 
 <div class="slick-slider">
-  {% for slide in site.data.slides %}
+  {% for slide in site.data.home_slides %}
     <div>
       <img src="{{ slide.image }}" alt="{{ slide.description }}">
     </div>
