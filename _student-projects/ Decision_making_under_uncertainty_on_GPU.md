@@ -5,7 +5,7 @@ image: /img/student_project/bsp_gpu-e1608103125796-281x300.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 price: 1 # for sorting 
-descriptio: 
+abstract: Decision making under uncertainty is exceptionally computationally demanding.
 ---
 
 Decision making under uncertainty is

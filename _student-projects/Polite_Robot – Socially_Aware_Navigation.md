@@ -5,7 +5,7 @@ image: /img/student_project/Screen-Shot-2020-01-05-at-8.33.19-150x150.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 price: 2 # for sorting 
-descriptio: 
+abstract: 
 ---
 
 Social aware navigation is a subfield of robotics concerned with avoiding possible collisions of a
