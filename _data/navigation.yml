@@ -5,7 +5,7 @@
 - name: Team
   link: /current-members/
 - name: Student Projects
-  link: /Student_Projects/
+  link: /student_projects/
 - name: Positions
   link: /Positions/
 - name: Teaching
@@ -14,7 +14,5 @@
 #   link: /Software_and_Datasets/
 - name: Gallery
   link: /gallery/
-# - name: Funding
-#   link: /funding/
 - name: Contact
   link: /contact/

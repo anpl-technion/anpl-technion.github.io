@@ -64,9 +64,15 @@ layout: team_member_base
         {% endif %}
 
         {% if page.bio %}
+        {% if page.category == "Principal Investigator" %}
+        {% for line in page.bio %}
+        <p class="subtitle is-6">{{ line }}<br></p>
+        {% endfor %}
+        {% else %}
         {% for line in page.bio %}
         <p class="subtitle is-4">{{ line }}<br></p>
         {% endfor %}
+        {% endif %}
         {% endif %}
 
     </div>
