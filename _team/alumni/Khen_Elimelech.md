@@ -23,7 +23,7 @@ website: http://www.khen.io/
 
 ---
 
-## Related publications at ANPL:
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bElimelech\b] --group_by none --order descending %}
 

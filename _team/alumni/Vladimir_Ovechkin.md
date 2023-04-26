@@ -21,7 +21,7 @@ facebook:
 linkedin:
 ---
 
-## Related publications at ANPL:
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bOvechkin\b] --group_by none --order descending %}
 

@@ -21,6 +21,6 @@ facebook:
 linkedin:
 ---
 
-## Related publications at ANPL:
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bSztyglic\b] --group_by none --order descending %}

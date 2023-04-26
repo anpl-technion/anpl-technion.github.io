@@ -22,6 +22,6 @@ facebook:
 linkedin:
 ---
 
-## Related publications at ANPL:
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bTchuiev\b] --group_by none --order descending %}
