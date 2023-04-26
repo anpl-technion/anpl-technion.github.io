@@ -21,6 +21,6 @@ facebook:
 linkedin:
 ---
 
-## Related publications at ANPL:
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bBarenboim\b] --group_by none --order descending %}

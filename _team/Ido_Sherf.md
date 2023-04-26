@@ -22,6 +22,6 @@ linkedin:
 ---
 
 
-## Related publications at ANPL:
+<!-- ## ANPL Publications:
 
-{% bibliography -q @*[author ~= \bSherf\b] --group_by none --order descending %}
+{% bibliography -q @*[author ~= \bSherf\b] --group_by none --order descending %} -->

@@ -20,6 +20,6 @@ facebook:
 linkedin: 
 ---
 
-## Related publications at ANPL:
+<!-- ## ANPL Publications:
 
-{% bibliography -q @*[author ~= \bYotam\b] --group_by none --order descending %}
+{% bibliography -q @*[author ~= \bYotam\b] --group_by none --order descending %} -->

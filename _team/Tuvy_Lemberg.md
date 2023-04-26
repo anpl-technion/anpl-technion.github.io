@@ -21,7 +21,7 @@ facebook:
 linkedin: 
 ---
 
-## Related publications at ANPL:
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bLemberg\b] --group_by none --order descending %}
 

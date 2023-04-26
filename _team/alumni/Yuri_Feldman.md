@@ -23,7 +23,7 @@ website:
 
 ---
 
-## Related publications at ANPL:
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bFeldman\b] --group_by none --order descending %}
 

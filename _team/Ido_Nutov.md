@@ -21,6 +21,6 @@ linkedin:
 ---
 
 
-## Related publications at ANPL:
+<!-- ## Related publications at ANPL: -->
 
-{% bibliography -q @*[author ~= \bNutov\b] --group_by none --order descending %}
+<!-- {% bibliography -q @*[author ~= \bNutov\b] --group_by none --order descending %} -->

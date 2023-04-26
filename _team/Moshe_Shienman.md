@@ -21,7 +21,7 @@ linkedin:
 ---
 
 
-## Related publications at ANPL:
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bShienman\b] --group_by none --order descending %}
 

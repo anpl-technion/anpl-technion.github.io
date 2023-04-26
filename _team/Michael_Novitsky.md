@@ -20,7 +20,7 @@ facebook:
 linkedin: 
 ---
 
-## Related publications at ANPL:
+<!-- ## ANPL Publications:
 
-{% bibliography -q @*[author ~= \bNovitsky\b] --group_by none --order descending %}
+{% bibliography -q @*[author ~= \bNovitsky\b] --group_by none --order descending %} -->
 

@@ -23,6 +23,6 @@ linkedin:
 website:
 ---
 
-## Related publications at ANPL:
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bKitanov\b] --group_by none --order descending %}
