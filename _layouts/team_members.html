@@ -45,33 +45,35 @@ Alumni
           <p class="title is-4">{{ product.title }}</p>
         </div>
       
-        <div style="display: block; margin-top: 0cm;">
+        <div style="display: block; margin-bottom: 10px;">
           <p class="title is-5">{{ product.subtitle }}</p>
         </div>
       </a>
 
-        <div style="display: block; margin-top: 0.5cm;">
+      <div style="display: block;">
+        <p class="subtitle is-5">{{ product.anpl }}</p>
+      </div>
 
-          <p class="subtitle is-6">{{ product.anpl }}<br></p>
+      <div style="display: block; margin-top: 0.5cm; line-height: 1.5;">
 
-          <a href="{{ product.ae_link | prepend: site.baseurl }}">
-            <p class="subtitle is-6">{{ product.ae }}</p>
-          </a>
+        <a href="{{ product.technion_link | prepend: site.baseurl }}">
+          <p class="subtitle is-6" style="margin-bottom: 0.5cm;">{{ product.technion }}</p>
+        </a>
 
-          <a href="{{ product.tasp_link | prepend: site.baseurl }}">
-            <p class="subtitle is-6">{{ product.tasp }}</p>
-          </a>
-
-          <a href="{{ product.tech-ai_link | prepend: site.baseurl }}">
-            <p class="subtitle is-6">{{ product.tech-ai }}</p>
-          </a>
-
-          <a href="{{ product.technion_link | prepend: site.baseurl }}">
-            <p class="subtitle is-6">{{ product.technion }}</p>
-          </a>
-
-        </div>
-     
+        <a href="{{ product.ae_link | prepend: site.baseurl }}">
+          <p class="subtitle is-6" style="margin-bottom: 0.5cm;">{{ product.ae }}</p>
+        </a>
+      
+        <a href="{{ product.tasp_link | prepend: site.baseurl }}">
+          <p class="subtitle is-6" style="margin-bottom: 0.5cm;">{{ product.tasp }}</p>
+        </a>
+      
+        <a href="{{ product.tech-ai_link | prepend: site.baseurl }}">
+          <p class="subtitle is-6" style="margin-bottom: 0.5cm;">{{ product.tech-ai }}</p>
+        </a>
+    
+      </div>
+      
       <div style="display: block; margin-top: 0.5cm;">
         {% for line in product.contact %}
         <p class="subtitle is-6">{{ line }}<br></p>
