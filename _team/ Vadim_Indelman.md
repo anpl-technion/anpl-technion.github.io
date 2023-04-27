@@ -39,7 +39,7 @@ bitbucket:
 facebook: 
 linkedin: 
 website: https://vindelman.net.technion.ac.il/vadim-indelman/
-cv: https://vindelman.net.technion.ac.il/vadim-indelman/cv/
+cv: https://indelman.github.io/ANPL-Website/VadimIndelman_CV.pdf
 
 ---
 
