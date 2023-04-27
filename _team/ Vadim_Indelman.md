@@ -1,6 +1,6 @@
 ---
 title: Vadim Indelman
-subtitle: Associate Professor
+subtitle: Associate Professor 
 job_title: Principal Investigator
 category: Principal Investigator
 layout: team_member_personal_page
@@ -8,15 +8,24 @@ image: /img/team/VadimIndelman.jpeg
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 link-new-tab: true
-affiliation :
-    - Director of the Autonomous Navigation and Perception Lab
-    - Department of Aerospace Engineering
-    - Technion Autonomous Systems Program (TASP)
-    - Technion Artificial Intelligence Hub (Tech.AI)
-    - Technion – Israel Institute of Technology
-    - Email- vadim.indelman@technion.ac.il
-    - Office- Lady Davis 738
-    - Phone- +972-4-8293815"
+
+anpl: Director of the Autonomous Navigation and Perception Lab
+
+ae: Department of Aerospace Engineering
+ae_link: https://aerospace.technion.ac.il/
+
+tasp: Technion Autonomous Systems Program (TASP)
+tasplink: https://tasp.technion.ac.il/home/
+
+tech-ai: Technion Artificial Intelligence Hub (Tech.AI)
+tech-ai_link: 
+
+technion: Technion – Israel Institute of Technology
+technion_link: https://www.technion.ac.il/
+
+contact: 
+    - Office - Lady Davis 738
+    - Phone - +972-4-8293815
 
 
 bio: "
@@ -30,6 +39,8 @@ bitbucket:
 facebook: 
 linkedin: 
 website: https://vindelman.net.technion.ac.il/vadim-indelman/
+cv: https://vindelman.net.technion.ac.il/vadim-indelman/cv/
+
 ---
 
 Service:
