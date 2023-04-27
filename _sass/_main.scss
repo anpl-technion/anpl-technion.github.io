@@ -4,7 +4,7 @@
 
 
 $family-sans-serif: 'Montserrat', sans-serif;
-$primary: #188eac !default;
+$primary: #177aa1 !default;
 
 $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
@@ -23,3 +23,12 @@ $hero-darken: $dark !default;
   color: #ea4aaa;
 }
 
+.navbar {
+  height: 60px; // Adjust this value to change the height of the navbar
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px; // Adjust these values to control the padding inside the navbar
+  background-color: #182C4B; // Set the background color of the navbar
+  color: #ffffff; // Set the text color inside the navbar
+}
