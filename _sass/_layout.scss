@@ -2,28 +2,6 @@ div.highlight {
     margin-bottom: 1rem;
 }
 
-@include desktop {
-    .navbar-item {
-        &.is-hoverable:hover {
-            .navbar-dropdown {
-                display: block;
-            }
-        }
-    }
-
-    .navbar-logo {
-        background: url("../../img/logos/ANPL_logo.png") no-repeat;
-        background-size: 172px auto;
-        background-position: 7px;
-        text-indent: -9999px;
-        width: 182px;
-    }
-    .navbar.off-color
-    {
-        background-color: #182C4B;
-        color: #ffffff;
-    }
-}
 
 .contents {
     box-shadow: $box-shadow;
