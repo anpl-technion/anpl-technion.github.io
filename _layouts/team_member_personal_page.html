@@ -48,6 +48,11 @@ layout: team_member_base
                 <i class="fas fa-globe fa-lg"></i>
             </a>
             {% endif %}
+            {% if page.cv %}
+            <a class="button" itemprop="cv" href="{{ page.cv }}" target="_blank">
+                <i class="fas fa-address-card fa-lg"></i>
+            </a>
+            {% endif %}
         </div>
     </div>
 
