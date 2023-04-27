@@ -8,16 +8,15 @@ image: /img/team/VadimIndelman.jpeg
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 link-new-tab: true
-affiliation : "
-
-Director of the Autonomous Navigation and Perception Lab
-Department of Aerospace Engineering
-Technion Autonomous Systems Program (TASP)
-Technion Artificial Intelligence Hub (Tech.AI)
-Technion – Israel Institute of Technology
-Email: vadim.indelman@technion.ac.il
-Office: Lady Davis 738
-Phone: +972-4-8293815"
+affiliation :
+    - Director of the Autonomous Navigation and Perception Lab
+    - Department of Aerospace Engineering
+    - Technion Autonomous Systems Program (TASP)
+    - Technion Artificial Intelligence Hub (Tech.AI)
+    - Technion – Israel Institute of Technology
+    - Email- vadim.indelman@technion.ac.il
+    - Office- Lady Davis 738
+    - Phone- +972-4-8293815"
 
 
 bio: "
