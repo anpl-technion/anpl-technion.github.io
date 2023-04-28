@@ -39,7 +39,7 @@ bitbucket:
 facebook: 
 linkedin: 
 website: https://vindelman.net.technion.ac.il/
-cv: https://anpl-technion.github.io/anpl-technion.github.io/Publications/Zhitnikov22ai.pdf
+cv: https://indelman.github.io/ANPL-Website/VadimIndelman_CV.pdf
 
 ---
 
