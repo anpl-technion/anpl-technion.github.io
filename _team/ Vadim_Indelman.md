@@ -38,8 +38,8 @@ email: vadim.indelman@technion.ac.il
 bitbucket: 
 facebook: 
 linkedin: 
-website: https://vindelman.net.technion.ac.il/vadim-indelman/
-cv: https://indelman.github.io/ANPL-Website/VadimIndelman_CV.pdf
+website: https://vindelman.net.technion.ac.il/
+cv: https://anpl-technion.github.io/anpl-technion.github.io/Publications/Zhitnikov22ai.pdf
 
 ---
 
