@@ -1,6 +1,8 @@
 ---
 layout: gallery
 title: Photo Gallery
+hero_height: is-small
+hero_image: /img/ANPL_quantum_field.jpg 
 show_sidebar: false
 ---
 
