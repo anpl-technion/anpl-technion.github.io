@@ -1,15 +1,40 @@
-- title: Slide 1
-  description: Slide 1 description
-  image: /img/Teaching/CamProj.png
-
-- title: Slide 2
-  description: Slide 2 description
-  image: /img/homepage_images/00049_trajectory_with_covs_3D1.jpg
+- title: Slide 3
+  description: Slide 3 description  
+  image: /img/ANPL-team.jpg
 
 - title: Slide 3
-  description: Slide 3 description
-  image: /img/homepage_images/Diagram-announced-update-1024x940.jpg
+  description: Slide 3 description    
+  image: /img/homepage_images/ambiguity.png
+  
+- title: Slide 3
+  description: Slide 3 description    
+  image: /img/homepage_images/track_3d_b-eps-converted-to-1024x731.jpg
+
+- title: Slide 3
+  description: Slide 3 description    
+  image: /img/homepage_images/Ex_Layout.png
+
+- title: Slide 3
+  description: Slide 3 description    
+  image: /img/homepage_images/ThreeViewGeometry.jpg
+
+- title: Slide 3
+  description: Slide 3 description    
+  image: /img/homepage_images/belief_tree_inference_path_screenshot.png
+
+- title: Slide 3
+  description: Slide 3 description    
+  image: /img/homepage_images/marginals.png
+
+- title: Slide 3
+  description: Slide 3 description    
+  image: /img/homepage_images/inplace_simp.png
 
 - title: Slide 3
   description: Slide 3 description
   image: /img/homepage_images/real_exp-1024x467.jpg
+
+- title: Slide 3
+  description: Slide 3 description    
+  image: /img/homepage_images/Robomaster-quad-ANPL.jpeg
+
