@@ -23,4 +23,4 @@ linkedin:
 
 ## ANPL Publications:
 
-{% bibliography -q @*[author ~= \bBen Elisha\b] --group_by none --order descending %}
+{% bibliography -q @*[author ~= \bElisha\b] --group_by none --order descending %}
