@@ -7,6 +7,20 @@ hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 ---
 
+{% for file in site.static_files %}
+  {% if file.path contains "/Publications/" and file.extname == ".pdf" %}
+    <a href="{{ site.baseurl }}{{ file.path }}" target="_blank"></a>
+  {% endif %}
+{% endfor %}
+
+
+ <!-- <a href="{{ site.baseurl }}/Publications/Zhitnikov22ai.pdf" target="_blank">123</a> -->
+
+
+
+
+
+
 <style>
 .csl-block {
     font-size: 16px;
@@ -132,10 +146,5 @@ talks
 <div id="2007"></div>
 {% bibliography --query @*[year=2007] --group_by none %}
 [Back to Top](#Top)
-
-
-
-
-<a href="{{ site.baseurl }}/Publications/Zhitnikov22ai.pdf" target="_blank">View PDF</a>
 
 
