@@ -194,8 +194,10 @@ Alumni
 <hr>
 <h1 style="font-size:20px;">Staff </h1>
 <br>
+<h1 style="font-size:15px;">Researcher </h1>
+<br>
 <div class="columns is-multiline">
-  {% assign sorted_alumni = site.team | where: "category", "alumni_staff" | sort: "graduation" | reverse %}
+  {% assign sorted_alumni = site.team | where: "category", "alumni_researcher" | sort: "graduation" | reverse %}
     {% for alumni in sorted_alumni %}
   
       <div class="column is-one-fifth-desktop is-6-tablet">
@@ -211,6 +213,48 @@ Alumni
       </div>
     {% endfor %}
   </div>
+
+  <br>
+  <h1 style="font-size:15px;">Postdoctoral  </h1>
+  <br>
+  <div class="columns is-multiline">
+    {% assign sorted_alumni = site.team | where: "category", "alumni_postdoctoral" | sort: "graduation" | reverse %}
+      {% for alumni in sorted_alumni %}
+    
+        <div class="column is-one-fifth-desktop is-6-tablet">
+            <div class="card">
+              <div class="card-content">
+                <a href="{{ alumni.url | prepend: site.baseurl }}">
+                  <p class="title is-5">{{ alumni.title }}</p>
+                  <hr>
+                  <p class="subtitle is-6">{{ alumni.subtitle }}</p>
+                </a>
+              </div>
+            </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <br>
+    <h1 style="font-size:15px;">Lab Engineer </h1>
+    <br>
+    <div class="columns is-multiline">
+      {% assign sorted_alumni = site.team | where: "category", "alumni_lab_engineer" | sort: "graduation" | reverse %}
+        {% for alumni in sorted_alumni %}
+      
+          <div class="column is-one-fifth-desktop is-6-tablet">
+              <div class="card">
+                <div class="card-content">
+                  <a href="{{ alumni.url | prepend: site.baseurl }}">
+                    <p class="title is-5">{{ alumni.title }}</p>
+                    <hr>
+                    <p class="subtitle is-6">{{ alumni.subtitle }}</p>
+                  </a>
+                </div>
+              </div>
+          </div>
+        {% endfor %}
+      </div>
 
 <hr>
 <h1 style="font-size:20px;">Undergrad Students </h1>

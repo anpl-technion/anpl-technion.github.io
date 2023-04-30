@@ -3,7 +3,7 @@ title: Asaf Feniger
 subtitle: Lab Engineer at ANPL 2015-2018
 graduation: 2018
 faculty : AE
-category: alumni_staff
+category: alumni_lab_engineer
 layout: team_member_personal_page
 image: /img/team/AsafFeniger.jpg
 link-new-tab: true
