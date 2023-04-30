@@ -7,19 +7,15 @@ hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 ---
 
-{% for file in site.static_files %}
-  {% if file.path contains "/Publications/" and file.extname == ".pdf" %}
-    <a href="{{ site.baseurl }}{{ file.path }}" target="_blank"></a>
-  {% endif %}
-{% endfor %}
+<div id="hidden-pdf-links" style="display:none;">
+  {% for file in site.static_files %}
+    {% if file.path contains "/Publications/" and file.extname == ".pdf" %}
+      <a href="{{ site.baseurl }}{{ file.path }}" target="_blank"></a>
+    {% endif %}
+  {% endfor %}
+</div>
 
-
- <!-- <a href="{{ site.baseurl }}/Publications/Zhitnikov22ai.pdf" target="_blank">123</a> -->
-
-
-
-
-
+ 
 
 <style>
 .csl-block {
