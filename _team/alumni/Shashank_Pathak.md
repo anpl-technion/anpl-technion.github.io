@@ -3,7 +3,7 @@ title: Shashank Pathak
 subtitle: Postdoctoral Fellow at ANPL, 2015-2017
 graduation: 2017
 faculty : 
-category: alumni_postdoctoral
+category: alumni_researcher_and_postdoctoral
 layout: team_member_personal_page
 image: /img/team/ShashankPathak.png
 link-new-tab: true
