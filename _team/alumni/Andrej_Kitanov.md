@@ -3,7 +3,7 @@ title: Andrej Kitanov
 subtitle: Researcher at ANPL 2017-2021
 graduation: 2021
 faculty : 
-category: alumni_researcher
+category: alumni_researcher_and_postdoctoral
 layout: team_member_personal_page
 image: /img/team/AndrejKitanov.jpeg
 link-new-tab: true

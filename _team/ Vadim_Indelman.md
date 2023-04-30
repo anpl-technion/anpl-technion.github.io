@@ -26,6 +26,7 @@ technion_link: https://www.technion.ac.il/
 contact: 
     - "Office : Lady Davis 738"
     - "Phone : +972-4-8293815"
+    - "Email : vadim.indelman@technion.ac.il"
 
 
 bio: "
