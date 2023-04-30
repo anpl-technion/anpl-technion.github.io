@@ -132,3 +132,10 @@ talks
 <div id="2007"></div>
 {% bibliography --query @*[year=2007] --group_by none %}
 [Back to Top](#Top)
+
+
+
+
+<a href="{{ site.baseurl }}/Publications/Zhitnikov22ai.pdf" target="_blank">View PDF</a>
+
+
