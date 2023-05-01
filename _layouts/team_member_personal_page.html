@@ -5,7 +5,7 @@ layout: team_member_base
 <div class="columns is-multiline">
 
     <div class="column is-4-desktop is-4-tablet">
-        <img src="{{ page.image }}" style="width: 85%; height:max-content; object-fit: cover;">
+        <img src="{{ page.image }}" style="width: 85%; height:auto; object-fit: fill;">
 
         <div class="buttons" style="text-align: center;">
             {% if page.twitter %}
@@ -61,6 +61,10 @@ layout: team_member_base
     <div class="column is-8-desktop is-4-tablet">
         <p class="title is-3">{{ page.title }}</p>
         <p class="subtitle is-3">{{ page.subtitle }}</p>
+
+        {% if page.deployment %}
+            <p class="subtitle is-3">{{ page.deployment }} - {{ page.last-contact }}</p>
+        {% endif %}
 
         {% if page.graduation %}
             <p class="subtitle is-3">{{ page.graduation }}</p>
