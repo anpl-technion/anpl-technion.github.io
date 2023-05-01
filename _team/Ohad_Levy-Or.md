@@ -9,7 +9,7 @@ image: /img/team/OhadLevyOr.jpeg
 link-new-tab: true
 bio:
     - M.Sc. TASP, Technion, since 2022
-    - B.Sc. Cum Laude, Mechanical Engineering, Technion, 2021
+    - B.Sc. Super Cum Laude, Mechanical Engineering, Technion, 2021
 
 twitter: 
 youtube: 
@@ -17,7 +17,7 @@ github:
 email: ohadlor@gmail.com
 bitbucket: 
 facebook: 
-linkedin: 
+linkedin: https://www.linkedin.com/in/ohad-levy-or/
 ---
 
 <!-- ## ANPL Publications:

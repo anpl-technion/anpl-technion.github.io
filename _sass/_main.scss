@@ -33,3 +33,64 @@ $hero-darken: $dark !default;
   color: #ffffff; // Set the text color inside the navbar
 }
 
+
+.navbar-brand .navbar-item {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-burger {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+.navbar-burger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 2px 0;
+  background-color: #fff;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-burger {
+    display: block;
+  }
+
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color:#ffffff;
+  }
+
+  .navbar-menu ul {
+    flex-direction: column;
+  }
+
+  .navbar-menu.open {
+    display: flex;
+  }
+}

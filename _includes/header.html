@@ -1,27 +1,43 @@
 <nav class="navbar is-primary is-fixed-{{ site.fixed_navbar }}" x-data="{ openNav: false }">
     <div class="container">
         
-        <div class="navbar-brand  page-scroll">
+        <div class="navbar-brand">
             <a class="navbar-item navbar-logo" href="{{ site.baseurl }}/">
                 <img src="{{ site.baseurl }}/img/logos/ANPL_logo_clean.png" style="width: 100px; height: 70px; display: block;">
             </a>
 
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav" style="padding-top: 290px;"> 
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+            <button id="navbar-toggler" class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
         </div>
            
-        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
-            <div class="navbar-start">
+        <div id="navbar-menu" class="navbar-menu">
+            <ul> 
+                <div class="navbar-start">
                 <a href="{{ site.baseurl }}/" class="navbar-item {% if page.url == "/" %}is-active{% endif %}">Home</a>
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
                     <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
                 {% endfor %}
                 {% endif %}
-            </div>
+                </div>
+            </ul>
         </div>
     </div>
 </nav>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+  var navbarToggler = document.getElementById("navbar-toggler");
+  var navbarMenu = document.getElementById("navbar-menu");
+
+  navbarToggler.addEventListener("click", function () {
+    navbarMenu.classList.toggle("open");
+  });
+});
+
+
+</script>
