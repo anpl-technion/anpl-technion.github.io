@@ -37,7 +37,7 @@ Alumni
     </div>
   </div>
 <br>
-  <div class="column is-8-desktop is-8-tablet" style="width: max-content;">
+  <div class="column is-8-desktop is-4-tablet" style="width: max-content;">
     <div class="content" style="display: block; margin-right: 5cm; margin-top: 1cm;">
       <a href="{{ product.url | prepend: site.baseurl }}">
 
@@ -121,7 +121,7 @@ Alumni
 <h1 style="font-size:35px;">Robots</h1>
 <br>
 <div class="columns is-multiline">
-{% assign sorted_products = site.team | where:"category","robots" %}
+{% assign sorted_products = site.team | where:"category","robots" | sort: "deployment" | reverse %}
 {% for product in sorted_products %}
 <div class="column is-one-fifth-desktop is-6-tablet">
   <a href="{{ product.url | prepend: site.baseurl }}">
