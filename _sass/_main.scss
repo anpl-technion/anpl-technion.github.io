@@ -98,7 +98,7 @@ $hero-darken: $dark !default;
 .map-container {
   position: relative;
   overflow: hidden;
-  padding-bottom: 56.25%; /* Adjust this value based on the desired aspect ratio (e.g., 75% for 4:3 aspect ratio) */
+  padding-bottom: 75%; /* Adjust this value based on the desired aspect ratio (e.g., 75% for 4:3 aspect ratio) */
   height: 0;
   width: 100%;
 }
