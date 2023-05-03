@@ -9,7 +9,7 @@ image: /img/team/GiladRotman.jpeg
 link-new-tab: true
 next-position: Elbit
 bio:
-    - M.Sc. TASP, Technion, 2022
+    - M.Sc. Summa Cum Laude, TASP, Technion, 2022
     - B.Sc. Summa Cum Laude, Mechanical Engineering, Technion, 2014
 
 twitter: 
