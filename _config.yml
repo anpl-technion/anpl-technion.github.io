@@ -129,7 +129,7 @@ scholar:
  # style: simple-ieee.csl
  style: _bibliography/ieee.csl 
  source: _bibliography
- bibliography_template: bib #bibtemplate
+ bibliography_template: bib #bib_thumbnail
  bibliography: VadimIndelman.bib
  group_by: type
  type_order: [article, InProceedings]
@@ -145,3 +145,6 @@ categories_order:
   - master_student
   - undergraduate_students
   - visiting_students
+
+
+default_bib_image: "/img/team/drone_a.jpg"

@@ -1,7 +1,28 @@
 ---
----
-{{ reference }}
 
+---
+
+<div class="columns is-multiline">
+
+    <div class="column is-1-desktop is-4-tablet">
+        <div class="img">
+		{% if entry.note %}
+			{% assign thumbnail = entry.note | split: 'thumbnail=' %}
+			{% assign thumbnail_url = thumbnail[1] %}
+		{% else %}
+			{% assign thumbnail_url = site.default_bib_image %}
+		{% endif %}
+
+				<div class="thumbnail">
+    				<img src="{{ thumbnail_url }}" style="width: 100px; height: 100px; object-fit: cover;">
+  				</div>	
+      	</div>
+	</div>	
+<br>
+  	<div class="column is-11-desktop is-4-tablet">
+    	<div class="content">
+
+			{{ reference }}
 <br>
 {% if link %}
 <a href="{{link}}" target="_blank">
@@ -61,4 +82,9 @@
 	<img alt="{{key}}.poster" src="https://img.shields.io/static/v1?label=&message=poster&color=gray">
 </a>
 {% endif %}	
+
+		</div>
+	</div>
+</div>
+
 
