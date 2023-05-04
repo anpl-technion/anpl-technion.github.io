@@ -25,8 +25,8 @@ Alumni
   {% for product in sorted_products %}
   <div class="container" style="display: flex; flex-wrap: nowrap;">
     <div class="columns">
-      <div class="column is-4-desktop is-4-tablet" style="padding-right: 200px;">
-        <div class="PI_card" style="display: block; width: max-content; margin-top: 1cm; padding: 10px;">
+      <div class="column is-4-desktop is-4-tablet">
+        <div class="PI_card" style="display: block; width: max-content; margin-top: 1cm; padding: 20px;">
           <a href="{{ product.url | prepend: site.baseurl }}">
           {% if product.image %}
             <div class="card-image" style="width: 350px; height: 350px; object-fit: cover;">
@@ -37,7 +37,7 @@ Alumni
         </div>
       </div>
 <br>
-  <div class="column is-8-desktop is-4-tablet">
+  <div class="column is-8-desktop is-4-tablet" style="margin-left: 50px ;">
     <div class="content" style="display: block; margin-top: 1cm; width:fit-content; flex: 1;">
       <a href="{{ product.url | prepend: site.baseurl }}">
 
@@ -50,7 +50,7 @@ Alumni
         </div>
       </a>
 
-      <div style="display: block; width:fit-content">
+      <div style="display: block;">
         <p class="subtitle is-5">{{ product.anpl }}</p>
       </div>
 
