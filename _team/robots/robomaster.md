@@ -25,7 +25,7 @@ linkedin:
 
 ##  About Me :
 
-A highly skilled and adaptable Unmanned Ground Vehicle (UGV) research platform seeking a challenging position in a forward-thinking organization to contribute to the development of cutting-edge robotics technologies.
+A highly skilled and adaptable state-of-the-art Unmanned Ground Vehicle (UGV) designed for robotics research and development. My mission is to push the boundaries of innovation in autonomous navigation, artificial intelligence, and advanced robotics.
 
 ### Skills :
 * Omnidirectional drive control
