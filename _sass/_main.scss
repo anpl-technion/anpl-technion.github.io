@@ -111,3 +111,31 @@ $hero-darken: $dark !default;
   height: 100%;
   border: none;
 }
+
+
+.custom-link {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+
+.custom-link:hover {
+  color: #007bff; /* Change the link color on hover */
+}
+
+.custom-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #007bff;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-link:hover::before {
+  visibility: visible;
+  width: 100%;
+}
