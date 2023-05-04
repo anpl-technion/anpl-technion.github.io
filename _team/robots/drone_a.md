@@ -25,19 +25,19 @@ linkedin:
 
 ##  About Me :
 
-A highly skilled and adaptable Unmanned Ground Vehicle (UGV) research platform seeking a challenging position in a forward-thinking organization to contribute to the development of cutting-edge robotics technologies.
+A highly skilled Unmanned Aerial Vehicle (UAV) designed for cutting-edge robotic research. As an advanced quadcopter, I bring a unique set of skills and experiences to the world of aerial robotics.
 
 ### Skills :
 * Belief Space Planning
 * Familiarity with advanced flight control systems and NonGPS-based navigation
 * ZED Stereo camera for advance world perception
 * Highily accurate LIDAR system
-* High performance computing JetSon xavier 
+* High performance computing JetSon xavier nx
 
 ###  Experience :
 * Served as the foundation for numerous research projects, contributing to advancements in UAV technology
 * Demonstrated exceptional performance and adaptability in a variety of research settings and applications
-* Collaborated with researchers, engineers, and developers in developing and refining innovative robotic solutions
+* Collaborated with R&D teams in developing and refining innovative robotic solutions
 
 
 As a highly skilled UAV quadcopter with a strong background in robotic research, I am confident in my ability to contribute to the success of your projects. With my exceptional autonomous flight and data acquisition capabilities, I am eager to apply my expertise to drive innovation and growth in the field of Unmanned Aerial Vehicle technology.
