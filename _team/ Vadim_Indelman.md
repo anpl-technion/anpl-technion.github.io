@@ -18,7 +18,7 @@ tasp: Technion Autonomous Systems Program (TASP)
 tasp_link: https://tasp.technion.ac.il/home/
 
 tech-ai: Technion Artificial Intelligence Hub (Tech.AI)
-tech-ai_link: https://www.technion.ac.il/
+tech-ai_link: https://tech-ai.technion.ac.il/
 
 technion: Technion – Israel Institute of Technology
 technion_link: https://www.technion.ac.il/
