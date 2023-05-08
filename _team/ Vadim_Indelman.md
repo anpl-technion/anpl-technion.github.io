@@ -9,7 +9,7 @@ hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 link-new-tab: true
 
-anpl: Director of the Autonomous Navigation and Perception Lab
+anpl: Head of the Autonomous Navigation and Perception Lab
 
 ae: Department of Aerospace Engineering
 ae_link: https://aerospace.technion.ac.il/
