@@ -43,11 +43,23 @@ Course tentative schedule (topics and schedule often change from one semester to
 | 12 |Project presentations|
 | 13 |Project presentations|
 
-<div style="display: flex; justify-content: center;">
+<div class="columns is-multiline">
+<div class="column is-one-quarter-desktop is-6-tablet">
+
+<div style="display: flex; width: auto; height:auto; object-fit: fill;">
     <img src="/img/Teaching/CamProj.png" alt="CamProj">
+</div>
+
+</div>
+
+<div class="column is-one-quarter-desktop is-6-tablet">
+
+<div style="display: flex; width: auto; height:auto; object-fit: fill;">
     <img src="/img/Teaching/GraphicalModel.png" alt="GraphicalModel">
 </div>
 
+</div>
+</div>
 ---
 
 # Autonomous Navigation and Perception (086762)
