@@ -2,7 +2,7 @@
 # title: Contact
 # subtitle: Get in touch with us
 layout: page
-title: Contact
+title: Directions
 show_sidebar: false
 hide_footer: false
 hero_height: is-small
