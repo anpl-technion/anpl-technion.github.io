@@ -15,7 +15,7 @@ ae: Department of Aerospace Engineering
 ae_link: https://aerospace.technion.ac.il/
 
 tasp: Technion Autonomous Systems Program (TASP)
-tasp_link: https://tasp.technion.ac.il/home/
+tasp_link: https://tasp-technion.org/
 
 tech-ai: Technion Artificial Intelligence Hub (Tech.AI)
 tech-ai_link: https://tech-ai.technion.ac.il/
