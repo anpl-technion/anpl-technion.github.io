@@ -64,7 +64,7 @@ Course tentative schedule (topics and schedule often change from one semester to
 
 # Autonomous Navigation and Perception (086762)
 <div id="ANP"></div>
-TThe course focuses on fundamental topics in planning under uncertainty (belief space planning) in the context of autonomous navigation and perception, considering online autonomous operation in unknown, uncertain or dynamically changing environments.
+The course focuses on fundamental topics in planning under uncertainty (belief space planning) in the context of autonomous navigation and perception, considering online autonomous operation in unknown, uncertain or dynamically changing environments.
 
 Topics to be covered include: Probabilistic inference, MDP and POMDP formulation, belief space planning (BSP), information-theoretic costs, search- and sampling-based planning, application to autonomous navigation and active SLAM, Gaussian processes, informative planning and active perception, an overview of (deep) learning-based approaches.
 
