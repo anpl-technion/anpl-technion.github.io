@@ -63,6 +63,9 @@ We are always looking for highly-motivated individuals to join our group, see de
     <img src="/img/funding/intel-150x150.png" alt="intel">
   </div>
   <div class="grid-item">
+    <img src="/img/funding/ISTRC.png" alt="ISTRC">
+  </div>
+  <div class="grid-item">
     <img src="/img/funding/MAFAT-logo.png" alt="MAFAT">
   </div>
   <!-- <div class="grid-item">
