@@ -2,7 +2,7 @@
 title: Tom Yotam
 subtitle: M.Sc. 
 graduation: 2023
-faculty : Applied Mathematics
+faculty : Applied Math
 category: alumni
 layout: team_member_personal_page
 image: /img/team/TomYotam.jpeg
