@@ -7,7 +7,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/OmriAsraf.jpeg
 link-new-tab: true
-next-position: Huawei 
+next-position: Elbit 
 bio:
     - M.Sc. AE, Technion, 2020
     - B.Sc. ME, Ben-Gurion University, 2017
