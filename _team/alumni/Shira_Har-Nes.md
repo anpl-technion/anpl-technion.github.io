@@ -7,7 +7,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/ShiraHarNes.jpeg
 link-new-tab: true
-next-position: Rafael
+next-position: Microsoft
 bio:
     - M.Sc. AE, Technion, 2017
     - B.Sc. AE, Technion, 2010
