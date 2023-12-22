@@ -16,5 +16,5 @@ Eva Epelbaum (CS, 2018-2019),
 Tom Norman (EE, 2018-2019), 
 Shai Guendelman (CS, 2019),
 Gregorii Melnikov (CS, 2019-2020), 
-Avia Asaev (CS, 2020-2021)
-Ben Bakal (CS MIT, summer 2023)
+Avia Asaev (CS, 2020-2021),
+Ben Bakal (CS MIT, summer 2023).
