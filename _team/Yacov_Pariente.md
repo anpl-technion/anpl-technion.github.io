@@ -10,7 +10,7 @@ link-new-tab: true
 bio:
     - Ph.D. student, Applied Math, Technion, since 2024
     - M.A. Statistics, Hebrew University, 2019
-    - B.Sc. Mathematics and statistics, Hebrew University, 2017
+    - B.Sc. Mathematics and Statistics, Hebrew University, 2017
 
 twitter:
 youtube:
