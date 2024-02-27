@@ -5,7 +5,7 @@ layout: research
 image: /img/research/SimplificationPOMDP/inplace_simp.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 2 # for sorting 
+price: 3 # for sorting 
 
 descriptio: "We consider online planning in partially observable domains. Solving the corresponding POMDP problem is a very challenging task, particularly in an online setting. In this research project, we develop approaches that aim to speed up online POMDP planning considering the challenging setting of belief-dependent rewards, which enable advanced capabilities for an agent, such as autonomous uncertainty reduction, informative planning, etc. We do so by considering simplification of different elements of a given decision-making problem and assessing and controlling online the simplification’s impact on the solution/performance.
 "

@@ -6,7 +6,7 @@ layout: research
 image: /img/research/RAP/belief_tree_inference_path_screenshot.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 3 # for sorting 
+price: 4 # for sorting 
 
 descriptio: "Real-world problems often require reasoning about hybrid beliefs, over both discrete and continuous random variables. As an example, one might consider matching images from two different but similar in appearance places (possibly observed by different robots), or attempting to recognize an object that is similar in appearance, from the current viewpoint, to another object. Both cases are examples of ambiguous situations, where naive and straightforward approaches are likely to yield incorrect results, i.e. mistakenly considering the two places to be the same place, and incorrectly associating the observed object. These and numerous other applications necessitate reasoning about hybird beliefs, where the discrete variables correspond to hypotheses (e.g. data association and/or classification hypotheses).
 
