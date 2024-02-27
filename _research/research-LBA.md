@@ -5,7 +5,7 @@ layout: research
 image: /img/research/LBA/FactorGraph_LBA.jpg
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 13 # for sorting 
+price: 14 # for sorting 
 
 descriptio: "Bundle adjustment (BA) is essential in many robotics and structure-from-motion applications: given a set of images, captured by a single or multiple users (or autonomous platforms), BA provides the maximum a posteriori estimate of camera poses and observed environment (e.g. 3D points). Assuming Gaussian image noise, the problem is equivalent to minimizing the re-projection errors of all image observations in all images. However, as more images are acquired, the involved optimization becomes increasingly computationally expensive: on-line performance over long time periods is therefore and challenging problem.
 "
