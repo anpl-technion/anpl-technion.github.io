@@ -5,7 +5,7 @@ layout: research
 image: /img/research/JIP/Ex_Layout.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 8 # for sorting 
+price: 9 # for sorting 
 
 descriptio: "Decision-making is a fundamental problem in robotics and Artificial Intelligence. Under belief space planning (BSP), in a partially observable setting, it involves calculating the expected cumulative belief-dependent re- ward (cost) concerning all future measurements. Since solving this general problem quickly becomes intractable, state-of-the-art approaches turn to approximations while still calculating planning sessions from scratch.
 

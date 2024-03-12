@@ -6,7 +6,7 @@ layout: research
 image: /img/research/BeliefSpacePlanning/GBS.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 10 # for sorting 
+price: 11 # for sorting 
 
 descriptio: "Reliable planning under uncertainty is crucial in many application endeavors in which the platform operates in full or partial autonomy, such as autonomous navigation and exploration, monitoring, surveillance and robotic surgery. Autonomous operation in complex unknown scenarios involves a deep intertwining of estimation and planning capabilities. The agent has to fuse sensor measurements in order to infer its state and to build a model of the surrounding environment. Moreover, accomplishing given goals with high accuracy and robustness requires accounting for different sources of uncertainty within motion planning. Consequently, planning should be done in the belief space, a problem also known as partially observable Markov decision process (POMDP).
 
