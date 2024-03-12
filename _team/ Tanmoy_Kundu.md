@@ -21,6 +21,6 @@ linkedin: https://www.linkedin.com/in/tanmoy-kundu-a1049113b/
 website: https://tanmoy1040.wixsite.com/researchprofile
 ---
 
-<!-- ## Related publications at ANPL: -->
+## ANPL Publications:
 
-<!-- {% bibliography -q @*[author ~= \bKundu\b] --group_by none --order descending %} -->
+{% bibliography -q @*[author ~= \bKundu\b] --group_by none --order descending %}
