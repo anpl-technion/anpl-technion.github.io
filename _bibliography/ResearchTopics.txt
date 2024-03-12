@@ -19,3 +19,4 @@ OnlinePOMDP
 ConstrainedPOMDP
 RiskAwarePOMDP
 SimplifiedModelsPOMDP
+MRBSPinconsistentHistories
