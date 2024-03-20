@@ -17,7 +17,7 @@ We are *always* looking for motivated individuals to join our research group. Fu
 
 ## Postdoctoral Research Fellows
 <div id="Postdoctoral"></div>
-Multiple postdoctoral research fellow positions are available in the area of single- and multi-robot autonomous navigation under uncertainty, including planning under uncertainty,  probabilistic and semantic perception, end-to-end approaches, visual SLAM, joint inference and control, and sensor fusion.
+Multiple postdoctoral research fellow positions are available in the area of single and multi-robot autonomous perception, navigation and planning under uncertainty in the context of mobile robotics.
 
 Successful candidates will work with Associate Prof. Vadim Indelman and his research group, and will have the opportunity to contribute to ongoing multi-disciplinary research efforts while also developing their own research line. Applicants should have a Ph.D. (or about to graduate) in Electrical, Aerospace or Mechanical Engineering, Computer Science or Applied Mathematics. A strong background in at least one of the areas mentioned above is required. Hands on experience and programming skills are an advantage.
 
@@ -30,15 +30,14 @@ Applicants are encouraged to send by email a cover letter that briefly describes
 <div id="GraduateStudents"></div>
 We are looking for motivated M.Sc. and Ph.D. students interested in multi-disciplinary research in autonomous systems to join our research group. Multiple research topics are available involving different aspects of mobile robotics, including:
 
-- Probabilistic and semantic perception
-- Planning under uncertainty and active sensing
+- Planning under uncertainty and AI
+- Semantic perception and simultaneous localization and mapping (SLAM)
 - Data-driven and machine (deep) learning based perception and autonomous navigation
-- Multi-sensor state estimation and mapping (e.g. SLAM and vision-aided navigation)
 - Distributed multi-robot systems
 
 Problems of interest span autonomous operation in aerial, indoor, urban and space (static and dynamic) environments. An overview of on-going and past research projects can be found here.
 
-Students from the Department of Aerospace Engineering and from other relevant departments, including Mechanical Engineering, Computer Science and Electrical Engineering, are welcome to apply. International students are welcome to apply. For more information, please contact Assoc. Prof. Vadim Indelman by [email](mailto:vadim.indelman@technion.ac.il).
+Students from the Department of Aerospace Engineering and from other relevant departments, including Computer Science, Electrical Engineering, (Applied) Mathematics, Data and Decisions Science, and Mechanical Engineering are welcome to apply. International students are welcome to apply. For more information, please contact Assoc. Prof. Vadim Indelman by [email](mailto:vadim.indelman@technion.ac.il).
 
 ## Undergraduate students 
 <div id="underGraduateStudents"></div>
