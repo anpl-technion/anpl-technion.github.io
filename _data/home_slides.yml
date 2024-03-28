@@ -3,6 +3,10 @@
   image: /img/ANPL-team.jpg
 
 - title: Slide 3
+  description: Slide 3 description  
+  image: /img/homepage_images/2024-03-social-event.jpg
+
+- title: Slide 3
   description: Slide 3 description    
   image: /img/homepage_images/ambiguity.png
 
