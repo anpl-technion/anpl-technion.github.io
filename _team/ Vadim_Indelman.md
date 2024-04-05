@@ -48,7 +48,7 @@ Service:
 * Associate Editor for IEEE Robotics & Automation Letters (RA-L) between 2017-2021
 * Editor for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) between 2021-2023
 * Area Chair at International Symposium on Multi-Robot and Multi-Agent Systems (MRS) 2021
-* Co-chair of the IEEE Robotics and Automation Society Technical Committee on Algorithms for the Planning and Control of Robot Motion 2019-2022
+* Co-chair of the IEEE Robotics and Automation Society Technical Committee on Algorithms for the Planning and Control of Robot Motion between 2019-2022
 
 Contact:
 * Office: Lady Davis 738
