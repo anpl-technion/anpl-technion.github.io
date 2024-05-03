@@ -46,10 +46,11 @@ cv: /files/VadimIndelman_CV.pdf
 
 Service:
 * Associate Editor for the International Journal of Robotics Research (IJRR), from 2024
-* Editor for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) between 2021-2023
-* Associate Editor for IEEE Robotics & Automation Letters (RA-L) between 2017-2021
-* Area Chair at International Symposium on Multi-Robot and Multi-Agent Systems (MRS) 2021
-* Co-chair of the IEEE Robotics and Automation Society Technical Committee on Algorithms for the Planning and Control of Robot Motion between 2019-2022
+* Editor for the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), between 2021-2023
+* Associate Editor for the IEEE International Conference on Robotics and Automation (ICRA), between 2022-2023
+* Associate Editor for the IEEE Robotics & Automation Letters (RA-L), between 2017-2021
+* Area Chair at the International Symposium on Multi-Robot and Multi-Agent Systems (MRS), 2021
+* Co-chair of the IEEE Robotics and Automation Society Technical Committee on Algorithms for the Planning and Control of Robot Motion, between 2019-2022
 
 Contact:
 * Office: Lady Davis 738
