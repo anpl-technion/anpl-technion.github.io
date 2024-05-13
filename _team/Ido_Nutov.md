@@ -1,14 +1,14 @@
 ---
 title: Ido Nutov
-subtitle: M.Sc. Student
+subtitle: Ph.D. Candidate
 field : Robotics
 faculty : TASP
-category: master_student
+category: phd_students
 layout: team_member_personal_page
 image: /img/team/IdoNutov.png
 link-new-tab: true
 bio:
-    - M.Sc. TASP, Technion, since 2021 
+    - Ph.D. (direct track) TASP, Technion, since 2022
     - B.Sc. Electrical Engineering, Technion, 2021
 
 twitter: 
