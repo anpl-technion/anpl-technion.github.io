@@ -21,6 +21,6 @@ facebook:
 linkedin:
 ---
 
-<!-- ## ANPL Publications: -->
+## ANPL Publications:
 
-<!-- {% bibliography -q @*[author ~= \bPariente\b] --group_by none --order descending %} -->
+{% bibliography -q @*[author ~= \bPariente\b] --group_by none --order descending %}
