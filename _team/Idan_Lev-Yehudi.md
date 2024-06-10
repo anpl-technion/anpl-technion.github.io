@@ -1,6 +1,6 @@
 ---
 title: Idan Lev-Yehudi
-subtitle: Ph.D. Candidate
+subtitle: Ph.D. Student
 field : Robotics
 faculty : TASP
 category: phd_students
