@@ -7,7 +7,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/KhenElimelech.jpeg
 link-new-tab: true
-next-position: Postdoc at Rice University
+next-position: Assistant Prof. at King's College London
 bio:
     - Ph.D. (direct track) TASP, Technion, 2021
     - B.Sc. Applied Mathematics, Bar-Ilan University, 2012
