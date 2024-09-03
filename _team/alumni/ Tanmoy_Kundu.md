@@ -1,11 +1,13 @@
 ---
 title: Tanmoy Kundu 
-subtitle: Postdoctoral fellow
+subtitle: Postdoctoral Fellow at ANPL, 2022-2024
+graduation: 2024
 field : Robotics
-category: staff
+category: alumni_researcher_and_postdoctoral
 layout: team_member_personal_page
 image: /img/team/TanmoyKundu.jpeg
 link-new-tab: true
+next-position: Assistant Prof. at IIIT-Delhi
 bio:
     - Ph.D., Computer Science, IIT Kanpur, 2022
     - M.Tech, Computer Science, 2013
