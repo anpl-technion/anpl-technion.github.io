@@ -11,6 +11,9 @@ link-new-tab: true
 
 anpl: Head of the Autonomous Navigation and Perception Lab
 
+techairobotics: Head of Tech.AI.Robotics
+techairobotics_link: https://www.techaiconf.org/about-4
+
 ae: Department of Aerospace Engineering
 ae_link: https://aerospace.technion.ac.il/
 
