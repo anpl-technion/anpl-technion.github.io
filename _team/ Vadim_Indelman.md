@@ -17,6 +17,9 @@ techairobotics_link: https://www.techaiconf.org/about-4
 ae: Department of Aerospace Engineering
 ae_link: https://aerospace.technion.ac.il/
 
+dds: Department of Data and Decision Science (Secondary Appointment)
+dds_link: https://dds.technion.ac.il/
+
 tasp: Technion Autonomous Systems Program (TASP)
 tasp_link: https://tasp-technion.org/
 
@@ -26,14 +29,8 @@ tech-ai_link: https://tech-ai.technion.ac.il/
 technion: Technion – Israel Institute of Technology
 technion_link: https://www.technion.ac.il/
 
-contact: 
-    - "Office : Lady Davis 738"
-    - "Phone : +972-73-378-3815"
-    - "Email : vadim.indelman@technion.ac.il"
-
-
 bio: "
-I am an Associate Professor in the Department of Aerospace Engineering at the Technion - Israel Institute of Technology. I am also a member of the Technion Autonomous Systems Program (TASP), the Technion Artificial Intelligence Hub (TechAI), and the Israeli Smart Transportation Research Center (ISTRC). Additionally, I am a member of the European Laboratory for Learning and Intelligent Systems (ELLIS). I am currently leading the Robotics vertical at TechAI, which promotes and facilitates research activities and projects within the Technion and collaboration with industry in areas related to AI and robotics.  Prior to joining the Technion as a faculty member, I was a postdoctoral fellow in the Institute of Robotics and Intelligent Machines (IRIM) at the Georgia Institute of Technology (between 2012 and 2014). I obtained my Ph.D. degree from the Technion in 2011, and also hold B.A. and B.Sc. degrees in Computer Science and Aerospace Engineering, respectively, both awarded by the Technion in 2002. My research interests include planning under uncertainty, probabilistic inference, semantic perception and simultaneous localization and mapping (SLAM) in single and multi-robot systems. "
+I am an Associate Professor in the Department of Aerospace Engineering and in the Department of Data and Decision Science (Secondary Appointment) at the Technion - Israel Institute of Technology. I am also a member of the Technion Autonomous Systems Program (TASP), the Technion Artificial Intelligence Hub (TechAI), and the Israeli Smart Transportation Research Center (ISTRC). Additionally, I am a member of the European Laboratory for Learning and Intelligent Systems (ELLIS). I am currently leading the Robotics vertical at TechAI, which promotes and facilitates research activities and projects within the Technion and collaboration with industry in areas related to AI and robotics.  Prior to joining the Technion as a faculty member, I was a postdoctoral fellow in the Institute of Robotics and Intelligent Machines (IRIM) at the Georgia Institute of Technology (between 2012 and 2014). I obtained my Ph.D. degree from the Technion in 2011, and also hold B.A. and B.Sc. degrees in Computer Science and Aerospace Engineering, respectively, both awarded by the Technion in 2002. My research interests include planning under uncertainty, probabilistic inference, semantic perception and simultaneous localization and mapping (SLAM) in single and multi-robot systems. "
 
 twitter: https://twitter.com/vadim_indelman
 youtube: 
@@ -57,4 +54,5 @@ Service:
 
 Contact:
 * Office: Lady Davis 738
-* Phone: +972-4-8293815
+* Phone: +972-73-378-3815
+* Email : vadim.indelman@technion.ac.il
