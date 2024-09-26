@@ -1,11 +1,14 @@
 ---
 title: Andrey Zhitnikov
-subtitle: Postdoctoral fellow
+subtitle: Ph.D. 
+graduation: 2024
 field : Robotics
-category: staff
+faculty : TASP
+category: alumni
 layout: team_member_personal_page
 image: /img/team/AndreyZhitnikov.jpeg
 link-new-tab: true
+next-position: Postdoc at ANPL
 bio:
     - Ph.D. TASP, Technion, 2024
     - M.Sc. Electrical Engineering, Technion, 2018
