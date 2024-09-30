@@ -12,7 +12,7 @@ link-new-tab: true
 bio:
     - Ph.D. TASP, Technion, 2024
     - M.Sc. TASP, Technion, 2020
-    - B.Sc. Cum Laude, Mehcanical Engineering, Technion, 2017
+    - B.Sc. Cum Laude, Mechanical Engineering, Technion, 2017
 
 twitter:
 youtube:
