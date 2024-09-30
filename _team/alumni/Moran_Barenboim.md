@@ -1,14 +1,16 @@
 ---
 title: Moran Barenboim
-subtitle: Ph.D. Student
+subtitle: Ph.D. 
+graduation: 2024
 field : Robotics
 faculty : TASP
-category: phd_students
+category: alumni
 layout: team_member_personal_page
 image: /img/team/MoranBarenboim.jpeg
+next-position: Nvidia
 link-new-tab: true
 bio:
-    - Ph.D. TASP, Technion, since 2021
+    - Ph.D. TASP, Technion, 2024
     - M.Sc. TASP, Technion, 2020
     - B.Sc. Cum Laude, Mehcanical Engineering, Technion, 2017
 
