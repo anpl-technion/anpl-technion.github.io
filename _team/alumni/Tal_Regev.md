@@ -7,7 +7,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/TalRegev2.jpeg
 link-new-tab: true
-next-position: Bosch AI
+next-position: Imagry
 bio:
     - Software engineer at ANPL, 2016-2018
     - M.Sc. CS, Technion, 2016
