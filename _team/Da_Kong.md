@@ -21,6 +21,6 @@ facebook:
 linkedin:
 ---
 
-<!-- ## ANPL Publications: -->
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bKong\b] --group_by none --order descending %}
