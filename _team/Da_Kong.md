@@ -23,4 +23,4 @@ linkedin:
 
 <!-- ## ANPL Publications: -->
 
-<!-- {% bibliography -q @*[author ~= \bKong\b] --group_by none --order descending %} -->
+{% bibliography -q @*[author ~= \bKong\b] --group_by none --order descending %}
