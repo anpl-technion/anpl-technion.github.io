@@ -7,7 +7,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/TomYotam.jpeg
 link-new-tab: true
-next-position: KLA
+next-position: Code Metal
 bio:
     - M.Sc. Applied Mathematics, Technion, 2023
     - B.Sc. Magna Cum Laude, Mechanical Engineering, Tel Aviv University 2017
