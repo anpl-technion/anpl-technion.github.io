@@ -1,14 +1,16 @@
 ---
 title: Moshe Shienman
-subtitle: Ph.D. Student
+subtitle: Ph.D.
+graduation: 2024
 field : Robotics
 faculty : TASP
-category: phd_students
+category: alumni
 layout: team_member_personal_page
 image: /img/team/MosheShienman.jpeg
+next-position: Meta
 link-new-tab: true
 bio:
-    - Ph.D. (direct track) TASP, Technion, since 2018 
+    - Ph.D. (direct track) TASP, Technion, 2024
     - B.Sc. Computer Science, Technion, 2013 
 
 twitter: 
