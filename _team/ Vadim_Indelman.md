@@ -9,7 +9,7 @@ hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 link-new-tab: true
 
-anpl: Head of the Autonomous Navigation and Perception Lab
+anpl: Head of Autonomous Navigation and Perception Lab
 
 techairobotics: Head of Tech.AI.Robotics
 techairobotics_link: https://www.techaiconf.org/about-4
