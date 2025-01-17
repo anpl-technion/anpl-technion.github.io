@@ -2,13 +2,13 @@
 title: Tamir Shazman
 subtitle: M.Sc. Student
 field : Robotics
-faculty : Data Science
+faculty : Data and Decision Sciences
 category: master_student
 layout: team_member_personal_page
 image: /img/team/TamirShazman.jpg
 link-new-tab: true
 bio:
-    - M.Sc. Data Science, Technion, since 2024
+    - M.Sc. Data and Decision Sciences, Technion, since 2024
     - B.Sc. Data Science and Engineering, Technion, 2023
 
 twitter: 
