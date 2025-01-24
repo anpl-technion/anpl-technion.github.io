@@ -7,7 +7,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/AntonyThomas.jpg
 link-new-tab: true
-next-position: Postdoc at University of Genoa
+next-position: Assistant Prof., Robotics Research Center, IIIT - Hyderabad, India
 bio:
     - M.Sc. AE, Technion, 2017
     - B.Tech and M.Tech in AE, Indian Institute of Technology Madras, 2014
