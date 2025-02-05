@@ -20,7 +20,6 @@ facebook:
 linkedin: 
 ---
 
-<!-- ## ANPL Publications:
+## ANPL Publications:
 
 {% bibliography -q @*[author ~= \bRafaeli\b] --group_by none --order descending %}
- -->
