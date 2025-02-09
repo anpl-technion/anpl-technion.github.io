@@ -1,6 +1,6 @@
 ---
 title: Yacov Pariente
-subtitle: Ph.D. Studentt
+subtitle: Ph.D. Student
 field : Robotics
 faculty : Applied Math
 category: phd_students
