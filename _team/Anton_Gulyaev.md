@@ -18,3 +18,8 @@ bitbucket:
 facebook: 
 linkedin: 
 ---
+
+
+## ANPL Publications:
+
+{% bibliography -q @*[author ~= \bGulyaev\b] --group_by none --order descending %}
