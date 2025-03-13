@@ -1,14 +1,16 @@
 ---
 title: Michael Novitsky
-subtitle: M.Sc. Student
+subtitle: M.Sc. 
+graduation: 2025
 field : Robotics
 faculty : TASP
-category: master_student
+category: alumni
 layout: team_member_personal_page
 image: /img/team/MichaelNovitsky.jpeg
 link-new-tab: true
+next-position: Imagry
 bio:
-    - M.Sc. TASP, Technion, since 2021
+    - M.Sc. TASP, Technion, 2025
     - B.Sc. Computer Engineering, Technion, 2019
 
 twitter: 
