@@ -22,4 +22,4 @@ linkedin:
 
 ## ANPL Publications:
 
-{% bibliography -q @*[author ~= \bRafaeli\b] --group_by none --order descending %}
+{% bibliography -q @*[author ~= \bBenchetrit\b] --group_by none --order descending %}
