@@ -11,7 +11,7 @@ hero_image: /img/ANPL_quantum_field.jpg
 
 * [Vision Aided Navigation (086761)](#VAN)
 * [Autonomous Navigation and Perception (086762)](#ANP)
-* [Planning under uncertainty in AI and Robotics (0970252)](#POMDP)
+* [Planning Under Uncertainty in AI and Robotics (0970252)](#POMDP)
 
 # Vision Aided Navigation (086761)
 <div id="VAN"></div>
