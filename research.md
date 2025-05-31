@@ -9,7 +9,7 @@ sort: price
 
 <!-- # research -->
 
-<p class="title is-3">Research overview</p>
+<p class="title is-3">Research Overview</p>
 <p class="title is-5">Robotics Seminars at MIT and Northeastern University (from May 2025):</p>
 
 <div style="display: flex; justify-content: center;">
