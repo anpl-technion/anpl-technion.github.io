@@ -5,7 +5,7 @@ layout: research
 image: /img/research/DistributedRobust/Indx_04029_r_1_3_trajectory_TransfEstabl.jpg
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 16 # for sorting 
+price: 17 # for sorting 
 
 descriptio: "We consider multi-robot inference over variables of interest (e.g. robot poses), from unknown initial robot poses and undetermined data association. This problem is relevant for different multi-robot collaborative applications, such as cooperative mapping, localization, tracking, and surveillance. Collaboration requires the robots to share a common world model and to be able to correctly interpret information communicated with each other. We show that establishing this collaboration first requires inferring concurrently a common reference frame between the robots and resolving data association. The problem becomes even more challenging in the incremental setting and in presence of perceptual aliasing (e.g. two different but similar in appearance corridors). We develop an Expectation-Maximization (EM) and model selection framework to address this problem."
 

@@ -5,7 +5,7 @@ layout: research
 image: /img/research/IncrementalSmoothingNav/CFS-bayes-tree.jpg
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 17 # for sorting 
+price: 18 # for sorting 
 
 descriptio: "In this DARPA-funded project, we collaborate with SRI International ltd. to develop a plug and play framework for navigation. The goal is to produce the best possible solution in real time based on different multi-rate and asynchronous sensors that may become inactive and/or resurrected at any time. A factor graph formulation is used as a representation of the joint probability function, and an efficient inference algorithm is used to calculate the MAP estimate given measurements from different sensors.
 
