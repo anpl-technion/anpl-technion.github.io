@@ -20,3 +20,4 @@ ConstrainedPOMDP
 RiskAwarePOMDP
 SimplifiedModelsPOMDP
 MRBSPinconsistentHistories
+AGMCTS
