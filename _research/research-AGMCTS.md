@@ -18,5 +18,5 @@ descriptio: "Planning in continuous domains is essential for robotics, autonomou
 
 
 # Related Publications: 
-{% bibliography --file research-projects-bib/pubs-ConstrainedPOMDP --order descending %}
+{% bibliography --file research-projects-bib/pubs-AGMCTS --order descending %}
 
