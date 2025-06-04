@@ -5,7 +5,7 @@ layout: research
 image: /img/research/AutonomousObjectLevelPerception/track_3d_b.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 7 # for sorting 
+price: 8 # for sorting 
 
 descriptio: "In this research project we investigate approaches for autonomous semantic perception. 
 

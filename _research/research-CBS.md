@@ -5,7 +5,7 @@ layout: research
 image: /img/research/CBS/00123_LogDetRandRc_plus.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 10 # for sorting 
+price: 11 # for sorting 
 
 descriptio: "In this research we introduce and investigate simplification of decision making problems in partially observable domains, while providing performance guarantees. Specifically, we propose the conceptual idea of resorting to sparsification and conservative information fusion techniques for information-theoretic decision making, aiming to address challenges involved with decision making over a potentially high-dimensional and highly-correlated, information space.
 
