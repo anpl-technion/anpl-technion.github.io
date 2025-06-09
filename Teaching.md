@@ -11,7 +11,7 @@ hero_image: /img/ANPL_quantum_field.jpg
 
 * [Vision Aided Navigation (086761)](#VAN)
 * [Autonomous Navigation and Perception (086762)](#ANP)
-* [Planning Under Uncertainty in AI and Robotics (0970252)](#POMDP)
+* [Autonomous Planning under Uncertainty (0970252)](#POMDP)
 
 # Vision Aided Navigation (086761)
 <div id="VAN"></div>
@@ -96,7 +96,7 @@ Course tentative schedule (topics and schedule often change from one semester to
     <img src="/img/Teaching/Picture1.png" alt="Picture1">
 </div>
 
-# Planning Under Uncertainty in AI and Robotics (0970252)
+# Autonomous Planning under Uncertainty (0970252)
 <div id="POMDP"></div>
 The course provides mathematical tools and approaches for solving planning under uncertainty problems in partially observable domains in the context of AI and robotics. 
 
