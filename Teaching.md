@@ -34,10 +34,10 @@ Course tentative schedule (topics and schedule often change from one semester to
 | 3 |Projective camera geometry, Feature detection and matching|
 | 4 |Structure from Motion I, Multiple view geometry, Bundle adjustment|
 | 5 |SLAM and VAN|
-| 6 |Graphical Models, iSAM|
-| 7 |iSAM, visual-inertial SLAM|
-| 8 |Active SLAM, Belief space planning|
-| 9 |Midterm exam|
+| 6 |Graphical Models|
+| 7 |iSAM|
+| 8 |iSAM, visual-inertial SLAM|
+| 9 |Active SLAM, Belief space planning|
 | 10 |Cooperative navigation and SLAM I|
 | 11 |Cooperative navigation and SLAM II|
 | 12 |Project presentations|
@@ -79,18 +79,18 @@ Course tentative schedule (topics and schedule often change from one semester to
 | Lecture week|Topic|
 |---|---|
 | 1 |Introduction, Probabilistic inference, Environment representations|
-| 2 |MDP & POMDP formulation, Belief space planning problem|
-| 3 |Belief space planning problem|
-| 4 |Search-based and Sampling-based planning|
-| 5 |Search-based and Sampling-based planning|
-| 6 |Information-theoretic costs/rewards|
-| 7 |Application to autonomous navigation and active SLAM|
-| 8 |Midterm exam|
-| 9 |Informative planning|
-| 10 |MDP and POMDP revisited, data-driven approaches|
-| 11 |MDP and POMDP revisited, data-driven approaches|
-| 12 |Project presentations|
-| 13 |Project presentations|
+| 2 |MDP & POMDP Formulation|
+| 3 |Belief Space Planning|
+| 4 |Information Theoretic Costs|
+| 5 |MDP and POMDP Approaches I|
+| 6 |MDP and POMDP Approaches II|
+| 7 |MDP and POMDP Approaches III|
+| 8 |Informative Planning and Active Perception I|
+| 9 |Informative Planning and Active Perception II|
+| 10 |Search-based Planning|
+| 11 |Sampling-based Planning|
+| 12 |Project Presentations|
+| 13 |Project Presentations|
 
 <div style="display: flex; justify-content: center;">
     <img src="/img/Teaching/Picture1.png" alt="Picture1">
