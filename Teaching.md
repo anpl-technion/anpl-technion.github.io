@@ -19,7 +19,7 @@ The course focuses on fundamental topics in vision aided navigation (VAN) and si
 
 Topics to be covered include: Bayesian inference, state of the art SLAM and VAN approaches, and bundle adjustment. Depending on progress, some of the following advanced topics will be also briefly covered: multi-robot cooperative localization and mapping, active SLAM and belief space planning, intro/overview of recent deep learning approaches.
 
-We encourage student participation from multiple faculties/departments at the Technion.
+We encourage student participation from multiple faculties at the Technion.
 
 - The course syllabus and more information can be found [here](https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=86761).
 - The course is managed via [Piazza](https://piazza.com/technion.ac.il/fall2020/086761).
@@ -68,7 +68,7 @@ The course focuses on fundamental topics in planning under uncertainty (belief s
 
 Topics to be covered include: Probabilistic inference, MDP and POMDP formulation, belief space planning (BSP), information-theoretic costs, search- and sampling-based planning, application to autonomous navigation and active SLAM, Gaussian processes, informative planning and active perception, an overview of (deep) learning-based approaches.
 
-We encourage student participation from multiple faculties/departments at the Technion.
+We encourage student participation from multiple faculties at the Technion.
 
 - The course syllabus and more information can be found [here](https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=86762).
 - The course is managed via [Piazza](https://piazza.com/technion.ac.il/spring2021/086762/home).
