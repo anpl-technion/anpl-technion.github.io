@@ -5,7 +5,7 @@ field : Robotics
 faculty : TASP
 category: phd_students
 layout: team_member_personal_page
-image: /img/team/IdanLevYehudi.jpeg
+image: /img/team/IdanLevYehudi.jpg
 link-new-tab: true
 bio:
     - Ph.D. (direct track) TASP, Technion, since 2021 
