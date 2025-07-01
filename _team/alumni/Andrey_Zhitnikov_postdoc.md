@@ -1,10 +1,12 @@
 ---
 title: Andrey Zhitnikov
-subtitle: Postdoctoral fellow
+subtitle: Postdoctoral Fellow at ANPL, 2024-2025
+graduation: 2025
 field : Robotics
-category: staff
+category: alumni_researcher_and_postdoctoral
 layout: team_member_personal_page
 image: /img/team/AndreyZhitnikov.jpeg
+next-position: Postdoc with Kiril Solovey
 link-new-tab: true
 bio:
     - Ph.D. TASP, Technion, 2024
