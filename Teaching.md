@@ -9,11 +9,11 @@ hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 ---
 
-* [Vision Aided Navigation (086761)](#VAN)
+* [Vision Based Navigation and Mapping (086761)](#VAN)
 * [Autonomous Navigation and Perception (086762)](#ANP)
 * [Autonomous Planning under Uncertainty (0970252)](#POMDP)
 
-# Vision Aided Navigation (086761)
+# Vision Based Navigation and Mapping (086761)
 <div id="VAN"></div>
 The course focuses on fundamental topics in vision aided navigation (VAN) and simultaneous localization and mapping (SLAM), which are essential for autonomous operation in unknown, uncertain or dynamically changing environments.
 
