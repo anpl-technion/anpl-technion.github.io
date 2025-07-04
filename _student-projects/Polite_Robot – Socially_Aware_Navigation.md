@@ -4,7 +4,7 @@ layout: student_project
 image: /img/student_project/Screen-Shot-2020-01-05-at-8.33.19-150x150.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 2 # for sorting 
+price: 3 # for sorting 
 abstract: 
 ---
 
@@ -17,9 +17,6 @@ considered.
 
 ### Prerequisites:
 - Strong programming skills (preferably Python or C++). Background in (deep) reinforcement learning, computer vision, robotics is an advantage.
-
-### Main Supervisor: 
-- Andrey Zhitnikov (Tel.0547658690) [mail](mailto:andreyz@campus.technion.ac.il)
 
 ### Academic supervisor:
 - Prof. Vadim Indelman [mail](mailto:vadim.indelman@technion.ac.il)
