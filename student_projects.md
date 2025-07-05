@@ -9,6 +9,6 @@ sort: price
 
 ## Student Projects
 
-A description of some of the offered student projects by ANPL, often in collaboration with other labs or companies, is given below. Projects at ANPL can be done either as part of academic coursework or as a part-time employment. 
+A description of some of the offered student projects by ANPL is given below. Projects at ANPL can be done either as part of academic coursework or as a part-time employment. The projects combine theoretical and applied research with hands-on, practical implementation. Many of the projects can lead to MSc and PhD research at ANPL.
 
-Motivated students from various departments at the Technion (CS, EE, AE etc.) are encouraged to contact us right away! Feel free also to contact us for additional project topics.
+Highly motivated strong students from various departments at the Technion (CS, EE, DDS, AE, ME etc.) are encouraged to get in touch with Vadim Indelman. 

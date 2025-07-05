@@ -4,7 +4,7 @@ layout: student_project
 image: /img/student_project/bsp_gpu-e1608103125796-281x300.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 2 # for sorting 
+price: 3 # for sorting 
 abstract: Decision making under uncertainty is exceptionally computationally demanding.
 ---
 
@@ -23,6 +23,6 @@ decision making problem precisely.
 - Strong programming skills, CUDA preferably.
 
 ### Academic supervisor:
-- Prof. Vadim Indelman [mail](mailto:vadim.indelman@technion.ac.il)
+- Prof. Vadim Indelman [(email)](mailto:vadim.indelman@technion.ac.il)
 
 Duration: 1 or 2 semesters

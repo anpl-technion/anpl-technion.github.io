@@ -4,7 +4,7 @@ layout: student_project
 image: /img//student_project/AutonomousCollaborativeExploration.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 7 # for sorting 
+price: 8 # for sorting 
 abstract: 
 ---
 
@@ -52,6 +52,6 @@ scope and great potential
 
 
 ### Academic supervisor:
-- Prof. Vadim Indelman [mail](mailto:vadim.indelman@technion.ac.il)
+- Prof. Vadim Indelman [(email)](mailto:vadim.indelman@technion.ac.il)
 
 Duration: 1 or 2 semesters
