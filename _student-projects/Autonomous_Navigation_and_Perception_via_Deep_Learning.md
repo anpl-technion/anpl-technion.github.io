@@ -4,7 +4,7 @@ layout: student_project
 image: /img/student_project/Project-AutonNavDL.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 5 # for sorting 
+price: 6 # for sorting 
 abstract: 
 ---
 
