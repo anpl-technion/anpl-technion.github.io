@@ -32,11 +32,29 @@ We are always looking for highly-motivated individuals to join our group, see de
 </div>
 
 
-<div style="display: flex; justify-content: center;">
-  <a class="twitter-timeline" data-width="45%" data-height="800" href="https://twitter.com/ANPL_Technion?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3AANPL_Technion%7Ctwcon%5Es2">Tweets from Anpl Technion</a> 
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <a class="twitter-timeline" data-width="45%" data-height="800" href="https://twitter.com/vadim_indelman?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3Avadim_indelman%7Ctwcon%5Es2">Tweets from vadim indelman</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+## Recent News & Updates
+
+<div class="columns is-multiline">
+  <div class="column is-6">
+    <div class="box">
+      <h4>Lab News</h4>
+      <p>Follow our latest research updates and announcements on our social media channels:</p>
+      <div class="buttons">
+        <a class="button is-info" href="https://twitter.com/ANPL_Technion" target="_blank">
+          <span class="icon">
+            <i class="fab fa-twitter"></i>
+          </span>
+          <span>@ANPL_Technion</span>
+        </a>
+        <a class="button is-info" href="https://twitter.com/vadim_indelman" target="_blank">
+          <span class="icon">
+            <i class="fab fa-twitter"></i>
+          </span>
+          <span>@vadim_indelman</span>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <hr>
