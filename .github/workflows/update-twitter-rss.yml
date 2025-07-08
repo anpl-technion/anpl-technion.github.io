@@ -1,8 +1,8 @@
 name: Update Twitter Feed (Free)
 
 on:
-  # schedule:
-  #   - cron: '0 6 * * *'  # Daily at 6 AM (disabled due to RSS issues)
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6 AM
   workflow_dispatch:
 
 jobs:
@@ -87,6 +87,8 @@ jobs:
             }
             
             console.log('All RSS sources failed, keeping existing data');
+            // Exit with error code to indicate failure
+            process.exit(1);
           }
           
           fetchTwitterRSS();
