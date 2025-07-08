@@ -37,7 +37,7 @@ We are always looking for highly-motivated individuals to join our group, see de
 <div class="columns is-multiline">
   <div class="column is-12">
     <div class="box">
-      <h4>Latest Updates</h4>
+      <h4>Latest Updates (v2025.01.07)</h4>
       
       <!-- Twitter Feed -->
       {% if site.data.tweets %}
