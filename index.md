@@ -38,21 +38,7 @@ We are always looking for highly-motivated individuals to join our group, see de
   <div class="column is-6">
     <div class="box">
       <h4>Lab News</h4>
-      <p>Follow our latest research updates and announcements on our social media channels:</p>
-      <div class="buttons">
-        <a class="button is-info" href="https://twitter.com/ANPL_Technion" target="_blank">
-          <span class="icon">
-            <i class="fab fa-twitter"></i>
-          </span>
-          <span>@ANPL_Technion</span>
-        </a>
-        <a class="button is-info" href="https://twitter.com/vadim_indelman" target="_blank">
-          <span class="icon">
-            <i class="fab fa-twitter"></i>
-          </span>
-          <span>@vadim_indelman</span>
-        </a>
-      </div>
+      <p>Follow our latest research updates and announcements.</p>
     </div>
   </div>
   <div class="column is-6">
