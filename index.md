@@ -35,13 +35,7 @@ We are always looking for highly-motivated individuals to join our group, see de
 ## Recent News & Updates
 
 <div class="columns is-multiline">
-  <div class="column is-6">
-    <div class="box">
-      <h4>Lab News</h4>
-      <p>Follow our latest research updates and announcements.</p>
-    </div>
-  </div>
-  <div class="column is-6">
+  <div class="column is-12">
     <div class="box">
       <h4>Latest Updates</h4>
       
