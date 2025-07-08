@@ -122,6 +122,10 @@ collections:
     output: true
     show_sidebar: false
     layout: student_project
+  news:
+    output: true
+    show_sidebar: false
+    layout: post
 
 
 
