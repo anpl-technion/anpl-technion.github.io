@@ -70,21 +70,6 @@ We are always looking for highly-motivated individuals to join our group, see de
         {% endfor %}
       {% endif %}
       
-      <!-- Lab News -->
-      {% assign recent_news = site.news | sort: 'date' | reverse | limit: 2 %}
-      {% if recent_news.size > 0 %}
-        <h5 class="subtitle is-6" style="margin-top: 1rem;">Lab News</h5>
-        {% for news in recent_news %}
-          <div class="content">
-            <p>
-              <strong>{{ news.title }}</strong><br>
-              <small>{{ news.date | date: "%B %d, %Y" }}</small><br>
-              {{ news.content | strip_html | truncate: 80 }}
-            </p>
-          </div>
-          {% unless forloop.last %}<hr style="margin: 0.5rem 0;">{% endunless %}
-        {% endfor %}
-      {% endif %}
       
       <div style="margin-top: 1rem;">
         <a class="button is-primary is-small" href="/news/">All Updates</a>
