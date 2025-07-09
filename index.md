@@ -73,7 +73,6 @@ We are always looking for highly-motivated individuals to join our group, see de
       
       <div style="margin-top: 1rem;">
         <a class="button is-primary is-small" href="/news/">All Updates</a>
-        <a class="button is-info is-small" href="/publications/">Publications</a>
       </div>
     </div>
   </div>
