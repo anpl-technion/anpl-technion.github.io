@@ -23,6 +23,14 @@ We are always looking for highly-motivated individuals to join our group, see de
 </b>
 </span>
 
+<div class="slick-slider">
+  {% for slide in site.data.home_slides %}
+    <div>
+      <img src="{{ slide.image }}" alt="{{ slide.description }}">
+    </div>
+  {% endfor %}
+</div>
+
 ## Recent News & Updates
 
 <div class="columns is-multiline">
@@ -151,13 +159,7 @@ We are always looking for highly-motivated individuals to join our group, see de
   </div>
 </div>
 
-<div class="slick-slider">
-  {% for slide in site.data.home_slides %}
-    <div>
-      <img src="{{ slide.image }}" alt="{{ slide.description }}">
-    </div>
-  {% endfor %}
-</div>
+
 
 
 
