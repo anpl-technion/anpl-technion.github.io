@@ -36,11 +36,9 @@ We are always looking for highly-motivated individuals to join our group, see de
 <div class="columns is-multiline">
   <div class="column is-12">
     <div class="box">
-      <h4>Latest Updates</h4>
       
       <!-- Twitter Feed -->
       {% if site.data.tweets %}
-        <h5 class="subtitle is-6">Recent Tweets</h5>
         {% for tweet in site.data.tweets limit: 4 %}
           <div class="media">
             <div class="media-content">
