@@ -35,7 +35,7 @@ jobs:
               process.exit(1);
             }
             
-            const accounts = ['ANPL_Technion', 'vadim_indelman'];
+            const accounts = ['ANPL_Technion'];
             let allTweets = [];
             
             for (const username of accounts) {
