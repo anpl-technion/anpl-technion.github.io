@@ -72,7 +72,12 @@ We are always looking for highly-motivated individuals to join our group, see de
       
       
       <div style="margin-top: 1rem;">
-        <a class="button is-primary is-small" href="/news/">All Updates</a>
+        <a class="button is-primary is-small" href="https://twitter.com/ANPL_Technion" target="_blank">
+          <span class="icon is-small">
+            <i class="fab fa-twitter"></i>
+          </span>
+          <span>Follow @ANPL_Technion</span>
+        </a>
       </div>
     </div>
   </div>
