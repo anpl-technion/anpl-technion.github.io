@@ -49,7 +49,7 @@ We are always looking for highly-motivated individuals to join our group, see de
                   <strong>{{ tweet.handle }}</strong>
                   <small>{{ tweet.created_at | date: "%b %d" }}</small>
                   <br>
-                  {{ tweet.text }}
+                  {{ tweet.text | linkify_tweet: tweet.urls }}
                 </p>
                 
                 <!-- Media attachments -->
