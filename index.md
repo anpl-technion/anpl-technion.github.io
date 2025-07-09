@@ -23,6 +23,57 @@ We are always looking for highly-motivated individuals to join our group, see de
 </b>
 </span>
 
+## Recent News & Updates
+
+<div class="columns is-multiline">
+  <div class="column is-12">
+    <div class="box">
+      <h4>Latest Updates</h4>
+      
+      <!-- Twitter Feed -->
+      {% if site.data.tweets %}
+        <h5 class="subtitle is-6">Recent Tweets</h5>
+        {% for tweet in site.data.tweets limit: 4 %}
+          <div class="media">
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>{{ tweet.handle }}</strong>
+                  <small>{{ tweet.created_at | date: "%b %d" }}</small>
+                  <br>
+                  {{ tweet.text }}
+                </p>
+              </div>
+            </div>
+          </div>
+          {% unless forloop.last %}<hr style="margin: 0.5rem 0;">{% endunless %}
+        {% endfor %}
+      {% endif %}
+      
+      <!-- Lab News -->
+      {% assign recent_news = site.news | sort: 'date' | reverse | limit: 2 %}
+      {% if recent_news.size > 0 %}
+        <h5 class="subtitle is-6" style="margin-top: 1rem;">Lab News</h5>
+        {% for news in recent_news %}
+          <div class="content">
+            <p>
+              <strong>{{ news.title }}</strong><br>
+              <small>{{ news.date | date: "%B %d, %Y" }}</small><br>
+              {{ news.content | strip_html | truncate: 80 }}
+            </p>
+          </div>
+          {% unless forloop.last %}<hr style="margin: 0.5rem 0;">{% endunless %}
+        {% endfor %}
+      {% endif %}
+      
+      <div style="margin-top: 1rem;">
+        <a class="button is-primary is-small" href="/news/">All Updates</a>
+        <a class="button is-info is-small" href="/publications/">Publications</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="slick-slider">
   {% for slide in site.data.home_slides %}
     <div>
