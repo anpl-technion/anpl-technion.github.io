@@ -65,21 +65,48 @@ jobs:
                     },
                     params: {
                       'max_results': 5,
-                      'tweet.fields': 'created_at,public_metrics',
+                      'tweet.fields': 'created_at,public_metrics,entities',
+                      'expansions': 'attachments.media_keys',
+                      'media.fields': 'url,preview_image_url,type',
                       'exclude': 'retweets,replies'
                     }
                   }
                 );
                 
                 if (tweetsResponse.data.data) {
-                  const tweets = tweetsResponse.data.data.map(tweet => ({
-                    id: tweet.id,
-                    text: tweet.text,
-                    created_at: tweet.created_at,
-                    account: username,
-                    handle: `@${username}`,
-                    link: `https://twitter.com/${username}/status/${tweet.id}`
-                  }));
+                  const mediaMap = {};
+                  if (tweetsResponse.data.includes && tweetsResponse.data.includes.media) {
+                    tweetsResponse.data.includes.media.forEach(media => {
+                      mediaMap[media.media_key] = media;
+                    });
+                  }
+                  
+                  const tweets = tweetsResponse.data.data.map(tweet => {
+                    const tweetData = {
+                      id: tweet.id,
+                      text: tweet.text,
+                      created_at: tweet.created_at,
+                      account: username,
+                      handle: `@${username}`,
+                      link: `https://twitter.com/${username}/status/${tweet.id}`
+                    };
+                    
+                    // Add expanded URLs
+                    if (tweet.entities && tweet.entities.urls) {
+                      tweetData.urls = tweet.entities.urls.map(url => ({
+                        display_url: url.display_url,
+                        expanded_url: url.expanded_url,
+                        url: url.url
+                      }));
+                    }
+                    
+                    // Add media attachments
+                    if (tweet.attachments && tweet.attachments.media_keys) {
+                      tweetData.media = tweet.attachments.media_keys.map(key => mediaMap[key]).filter(Boolean);
+                    }
+                    
+                    return tweetData;
+                  });
                   
                   allTweets.push(...tweets);
                   console.log(`Fetched ${tweets.length} tweets for @${username}`);
