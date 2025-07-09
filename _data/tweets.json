@@ -5,7 +5,14 @@
     "created_at": "2025-03-18T07:01:29.000Z",
     "account": "ANPL_Technion",
     "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1901891692816478539"
+    "link": "https://twitter.com/ANPL_Technion/status/1901891692816478539",
+    "urls": [
+      {
+        "display_url": "arxiv.org/abs/2503.12181",
+        "expanded_url": "https://arxiv.org/abs/2503.12181",
+        "url": "https://t.co/KAJzzaeWjJ"
+      }
+    ]
   },
   {
     "id": "1896812502496997618",
@@ -13,7 +20,14 @@
     "created_at": "2025-03-04T06:38:36.000Z",
     "account": "ANPL_Technion",
     "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1896812502496997618"
+    "link": "https://twitter.com/ANPL_Technion/status/1896812502496997618",
+    "urls": [
+      {
+        "display_url": "arxiv.org/abs/2403.05962",
+        "expanded_url": "https://arxiv.org/abs/2403.05962",
+        "url": "https://t.co/aNUhhPqMBN"
+      }
+    ]
   },
   {
     "id": "1845165492094267861",
@@ -21,7 +35,14 @@
     "created_at": "2024-10-12T18:11:49.000Z",
     "account": "ANPL_Technion",
     "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1845165492094267861"
+    "link": "https://twitter.com/ANPL_Technion/status/1845165492094267861",
+    "urls": [
+      {
+        "display_url": "arxiv.org/abs/2410.07630",
+        "expanded_url": "https://arxiv.org/abs/2410.07630",
+        "url": "https://t.co/bySTw28n7R"
+      }
+    ]
   },
   {
     "id": "1833117380471386525",
@@ -29,6 +50,13 @@
     "created_at": "2024-09-09T12:16:55.000Z",
     "account": "ANPL_Technion",
     "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1833117380471386525"
+    "link": "https://twitter.com/ANPL_Technion/status/1833117380471386525",
+    "urls": [
+      {
+        "display_url": "journals.sagepub.com/doi/10.1177/02…",
+        "expanded_url": "https://journals.sagepub.com/doi/10.1177/02783649241261398",
+        "url": "https://t.co/MmgCOYRvAH"
+      }
+    ]
   }
 ]
