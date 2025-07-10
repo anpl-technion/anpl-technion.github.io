@@ -76,6 +76,12 @@ We are always looking for highly-motivated individuals to join our group, see de
           </span>
           <span>Follow @ANPL_Technion</span>
         </a>
+        <a class="button is-primary is-small" href="https://twitter.com/vadim_indelman" target="_blank" style="margin-left: 0.5rem;">
+          <span class="icon is-small">
+            <i class="fab fa-twitter"></i>
+          </span>
+          <span>Follow @vadim_indelman</span>
+        </a>
       </div>
     </div>
   </div>
