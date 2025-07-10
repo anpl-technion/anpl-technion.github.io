@@ -18,7 +18,8 @@ jobs:
           
       - name: Fetch Twitter feeds via API v2
         env:
-          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+          TWITTER_BEARER_TOKEN_ANPL: ${{ secrets.TWITTER_BEARER_TOKEN_ANPL }}
+          TWITTER_BEARER_TOKEN_VADIM: ${{ secrets.TWITTER_BEARER_TOKEN_VADIM }}
         run: |
           npm init -y
           npm install axios
@@ -28,10 +29,13 @@ jobs:
           const fs = require('fs');
           
           async function fetchTwitterAPI() {
-            const bearerToken = process.env.TWITTER_BEARER_TOKEN;
+            const bearerTokens = {
+              'ANPL_Technion': process.env.TWITTER_BEARER_TOKEN_ANPL,
+              'vadim_indelman': process.env.TWITTER_BEARER_TOKEN_VADIM
+            };
             
-            if (!bearerToken) {
-              console.error('TWITTER_BEARER_TOKEN not found in environment variables');
+            if (!bearerTokens['ANPL_Technion'] || !bearerTokens['vadim_indelman']) {
+              console.error('Bearer tokens not found in environment variables');
               process.exit(1);
             }
             
@@ -39,6 +43,7 @@ jobs:
             let allTweets = [];
             
             for (const username of accounts) {
+              const bearerToken = bearerTokens[username];
               try {
                 console.log(`Fetching tweets for @${username}...`);
                 
