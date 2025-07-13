@@ -69,7 +69,7 @@ jobs:
                       'Content-Type': 'application/json',
                     },
                     params: {
-                      'max_results': 5,
+                      'max_results': 4,
                       'tweet.fields': 'created_at,public_metrics,entities',
                       'expansions': 'attachments.media_keys',
                       'media.fields': 'url,preview_image_url,type',
@@ -124,13 +124,12 @@ jobs:
             }
             
             if (allTweets.length > 0) {
-              // Sort by creation date (newest first) and take top 4
+              // Sort by creation date (newest first)
               allTweets.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
-              const latestTweets = allTweets.slice(0, 4);
               
-              // Write to file
-              fs.writeFileSync('_data/tweets.json', JSON.stringify(latestTweets, null, 2));
-              console.log(`Successfully updated with ${latestTweets.length} tweets!`);
+              // Write to file (now contains up to 8 tweets: 4 per account)
+              fs.writeFileSync('_data/tweets.json', JSON.stringify(allTweets, null, 2));
+              console.log(`Successfully updated with ${allTweets.length} tweets!`);
             } else {
               console.log('No tweets fetched, keeping existing data');
               process.exit(1);
