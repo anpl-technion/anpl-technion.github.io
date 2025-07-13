@@ -69,7 +69,7 @@ jobs:
                       'Content-Type': 'application/json',
                     },
                     params: {
-                      'max_results': 4,
+                      'max_results': 5,
                       'tweet.fields': 'created_at,public_metrics,entities',
                       'expansions': 'attachments.media_keys',
                       'media.fields': 'url,preview_image_url,type',
@@ -86,7 +86,7 @@ jobs:
                     });
                   }
                   
-                  const tweets = tweetsResponse.data.data.map(tweet => {
+                  const tweets = tweetsResponse.data.data.slice(0, 4).map(tweet => {
                     const tweetData = {
                       id: tweet.id,
                       text: tweet.text,
