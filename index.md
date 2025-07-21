@@ -31,31 +31,105 @@ We are always looking for highly-motivated individuals to join our group, see de
   {% endfor %}
 </div>
 
-
 ## Recent News & Updates
 
 <div class="columns is-multiline">
-  <div class="column is-6">
+  <div class="column is-12">
     <div class="box">
-      <h4>Lab News</h4>
-      <p>Follow our latest research updates and announcements on our social media channels:</p>
-      <div class="buttons">
-        <a class="button is-info" href="https://twitter.com/ANPL_Technion" target="_blank">
-          <span class="icon">
-            <i class="fab fa-twitter"></i>
-          </span>
-          <span>@ANPL_Technion</span>
-        </a>
-        <a class="button is-info" href="https://twitter.com/vadim_indelman" target="_blank">
-          <span class="icon">
-            <i class="fab fa-twitter"></i>
-          </span>
-          <span>@vadim_indelman</span>
-        </a>
-      </div>
+      
+      <!-- Twitter Feed -->
+      {% if site.data.tweets %}
+        <div class="columns">
+          <!-- ANPL Tweets Column -->
+          <div class="column">
+            <h6 class="title is-6">@ANPL_Technion</h6>
+            {% assign anpl_tweets = site.data.tweets | where: "account", "ANPL_Technion" %}
+            {% for tweet in anpl_tweets limit: 4 %}
+              <div class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <small>{{ tweet.created_at | date: "%b %d" }}</small>
+                      <br>
+                      {{ tweet.text | linkify_tweet: tweet.urls }}
+                    </p>
+                    
+                    <!-- View Tweet button -->
+                    {% if tweet.link %}
+                      <div style="margin-top: 0.5rem;">
+                        <a href="{{ tweet.link }}" target="_blank" class="button is-small is-info is-outlined">
+                          <span class="icon is-small">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                          <span>View Tweet</span>
+                        </a>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              {% unless forloop.last %}<hr style="margin: 0.5rem 0;">{% endunless %}
+            {% endfor %}
+            
+            <div style="margin-top: 1rem;">
+              <a class="button is-primary is-small" href="https://twitter.com/ANPL_Technion" target="_blank">
+                <span class="icon is-small">
+                  <i class="fab fa-twitter"></i>
+                </span>
+                <span>Follow @ANPL_Technion</span>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Vadim's Tweets Column -->
+          <div class="column">
+            <h6 class="title is-6">@vadim_indelman</h6>
+            {% assign vadim_tweets = site.data.tweets | where: "account", "vadim_indelman" %}
+            {% for tweet in vadim_tweets limit: 4 %}
+              <div class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <small>{{ tweet.created_at | date: "%b %d" }}</small>
+                      <br>
+                      {{ tweet.text | linkify_tweet: tweet.urls }}
+                    </p>
+                    
+                    <!-- View Tweet button -->
+                    {% if tweet.link %}
+                      <div style="margin-top: 0.5rem;">
+                        <a href="{{ tweet.link }}" target="_blank" class="button is-small is-info is-outlined">
+                          <span class="icon is-small">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                          <span>View Tweet</span>
+                        </a>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              {% unless forloop.last %}<hr style="margin: 0.5rem 0;">{% endunless %}
+            {% endfor %}
+            
+            <div style="margin-top: 1rem;">
+              <a class="button is-primary is-small" href="https://twitter.com/vadim_indelman" target="_blank">
+                <span class="icon is-small">
+                  <i class="fab fa-twitter"></i>
+                </span>
+                <span>Follow @vadim_indelman</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
+
+
+
+
 
 <hr>
 
