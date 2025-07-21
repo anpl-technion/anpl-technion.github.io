@@ -45,6 +45,7 @@ cv: /files/VadimIndelman_CV.pdf
 ---
 
 Service:
+* Associate Editor for the Journal of Artificial Intelligence Research (JAIR), from 2025
 * Associate Editor for the International Journal of Robotics Research (IJRR), from 2024
 * Editor for the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), between 2021-2023
 * Associate Editor for the IEEE International Conference on Robotics and Automation (ICRA), between 2022-2023
