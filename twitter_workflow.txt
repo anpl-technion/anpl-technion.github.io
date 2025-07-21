@@ -1,0 +1,47 @@
+● Step 1: Get Twitter API Access
+
+  1. Go to Twitter Developer Portal:
+    - Visit https://developer.twitter.com
+    - Sign in with your Twitter account
+  2. Apply for Developer Account:
+    - Click "Apply for a developer account"
+    - Fill out the application form (explain it's for your academic lab website)
+    - Wait for approval (usually instant to 24 hours)
+  3. Create a New App:
+    - Once approved, go to the Developer Portal dashboard
+    - Click "Create App" or "New App"
+    - Fill in app details:
+        - App name: "ANPL Lab Website Twitter Feed"
+      - Description: "Automated Twitter feed for academic lab website"
+      - Website URL: Your lab website URL
+  4. Get Your Bearer Token:
+    - Go to your app dashboard
+    - Click on "Keys and tokens" tab
+    - Under "Bearer Token" section, click "Generate"
+    - Copy this token - you'll need it for GitHub
+
+  Step 2: Add GitHub Secret
+
+  1. Go to Your GitHub Repository:
+    - Navigate to your repo: anpl-technion.github.io
+  2. Access Settings:
+    - Click "Settings" tab (top right of repo)
+    - In left sidebar, click "Secrets and variables" → "Actions"
+  3. Add New Secret:
+    - Click "New repository secret"
+    - Name: TWITTER_BEARER_TOKEN
+    - Secret: Paste your Bearer Token from Twitter
+    - Click "Add secret"
+
+  Step 3: Test the Setup
+
+  1. Run the New Workflow:
+    - Go to Actions → "Update Twitter Feed (API v2)"
+    - Click "Run workflow" → "Run workflow"
+    - Check if it succeeds and updates _data/tweets.json
+
+  The Bearer Token is free and gives you 1,500 API calls per month (plenty for daily updates).
+
+  Bearer token(ANPL): AAAAAAAAAAAAAAAAAAAAAIDr2wEAAAAAK4ZAr9rVxxEyY6BICNbbU3o1M6I%3DNN0tEE6fqBTCGvGkZ2bpA6Rk4m7OUqDD0sEx6CipOo8KEFEGqb
+  Bearer token(Vadim): AAAAAAAAAAAAAAAAAAAAAKP72wEAAAAAelqwqtYx%2BnSCAQf94KSdZ61A0lk%3DfZ6Y5kQW0rpoO93DCXLAVzioVcAqtZUnNoMXwuBbnKvuAjbZQ1
+

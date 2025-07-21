@@ -1,0 +1,154 @@
+name: Update Twitter Feed (API v2)
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  update-twitter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Fetch Twitter feeds via API v2
+        env:
+          TWITTER_BEARER_TOKEN_ANPL: ${{ secrets.TWITTER_BEARER_TOKEN_ANPL }}
+          TWITTER_BEARER_TOKEN_VADIM: ${{ secrets.TWITTER_BEARER_TOKEN_VADIM }}
+        run: |
+          npm init -y
+          npm install axios
+          
+          cat > fetch-twitter-api.js << 'EOF'
+          const axios = require('axios');
+          const fs = require('fs');
+          
+          async function fetchTwitterAPI() {
+            const bearerTokens = {
+              'ANPL_Technion': process.env.TWITTER_BEARER_TOKEN_ANPL,
+              'vadim_indelman': process.env.TWITTER_BEARER_TOKEN_VADIM
+            };
+            
+            if (!bearerTokens['ANPL_Technion'] || !bearerTokens['vadim_indelman']) {
+              console.error('Bearer tokens not found in environment variables');
+              process.exit(1);
+            }
+            
+            const accounts = ['ANPL_Technion', 'vadim_indelman'];
+            let allTweets = [];
+            
+            for (const username of accounts) {
+              const bearerToken = bearerTokens[username];
+              try {
+                console.log(`Fetching tweets for @${username}...`);
+                
+                // First get user ID
+                const userResponse = await axios.get(
+                  `https://api.twitter.com/2/users/by/username/${username}`,
+                  {
+                    headers: {
+                      'Authorization': `Bearer ${bearerToken}`,
+                      'Content-Type': 'application/json',
+                    }
+                  }
+                );
+                
+                const userId = userResponse.data.data.id;
+                
+                // Get recent tweets
+                const tweetsResponse = await axios.get(
+                  `https://api.twitter.com/2/users/${userId}/tweets`,
+                  {
+                    headers: {
+                      'Authorization': `Bearer ${bearerToken}`,
+                      'Content-Type': 'application/json',
+                    },
+                    params: {
+                      'max_results': 5,
+                      'tweet.fields': 'created_at,public_metrics,entities',
+                      'expansions': 'attachments.media_keys',
+                      'media.fields': 'url,preview_image_url,type',
+                      'exclude': 'retweets,replies'
+                    }
+                  }
+                );
+                
+                if (tweetsResponse.data.data) {
+                  const mediaMap = {};
+                  if (tweetsResponse.data.includes && tweetsResponse.data.includes.media) {
+                    tweetsResponse.data.includes.media.forEach(media => {
+                      mediaMap[media.media_key] = media;
+                    });
+                  }
+                  
+                  const tweets = tweetsResponse.data.data.slice(0, 4).map(tweet => {
+                    const tweetData = {
+                      id: tweet.id,
+                      text: tweet.text,
+                      created_at: tweet.created_at,
+                      account: username,
+                      handle: `@${username}`,
+                      link: `https://twitter.com/${username}/status/${tweet.id}`
+                    };
+                    
+                    // Add expanded URLs
+                    if (tweet.entities && tweet.entities.urls) {
+                      tweetData.urls = tweet.entities.urls.map(url => ({
+                        display_url: url.display_url,
+                        expanded_url: url.expanded_url,
+                        url: url.url
+                      }));
+                    }
+                    
+                    // Add media attachments
+                    if (tweet.attachments && tweet.attachments.media_keys) {
+                      tweetData.media = tweet.attachments.media_keys.map(key => mediaMap[key]).filter(Boolean);
+                    }
+                    
+                    return tweetData;
+                  });
+                  
+                  allTweets.push(...tweets);
+                  console.log(`Fetched ${tweets.length} tweets for @${username}`);
+                }
+                
+              } catch (error) {
+                console.error(`Error fetching tweets for @${username}:`, error.response?.data || error.message);
+                continue;
+              }
+            }
+            
+            if (allTweets.length > 0) {
+              // Sort by creation date (newest first)
+              allTweets.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+              
+              // Write to file (now contains up to 8 tweets: 4 per account)
+              fs.writeFileSync('_data/tweets.json', JSON.stringify(allTweets, null, 2));
+              console.log(`Successfully updated with ${allTweets.length} tweets!`);
+            } else {
+              console.log('No tweets fetched, keeping existing data');
+              process.exit(1);
+            }
+          }
+          
+          fetchTwitterAPI();
+          EOF
+          
+          node fetch-twitter-api.js
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add _data/tweets.json
+          git diff --staged --quiet || git commit -m "Update Twitter feed via API v2 🐦
+
+          🤖 Generated with [Claude Code](https://claude.ai/code)
+
+          Co-Authored-By: Claude <noreply@anthropic.com>" || echo "No changes to commit"
+          git push || echo "Nothing to push"

@@ -1,0 +1,51 @@
+5 -  <!-- ## Recent News & Updates
+       35    
+       36 -  <div class="columns is-multiline">
+       37 -    <div class="column is-12">
+       38 -      <div class="box">
+       39 -        <h4>Latest Updates (v2025.01.07)</h4>
+       40 -        
+       41 -        <!-- Twitter Feed -->
+       42 -        {% if site.data.tweets %}
+       43 -          <h5 class="subtitle is-6">Recent Tweets</h5>
+       44 -          {% for tweet in site.data.tweets limit: 4 %}
+       45 -            <div class="media">
+       46 -              <div class="media-content">
+       47 -                <div class="content">
+       48 -                  <p>
+       49 -                    <strong>{{ tweet.handle }}</strong>
+       50 -                    <small>{{ tweet.created_at | date: "%b %d" }}</small>
+       51 -                    <br>
+       52 -                    {{ tweet.text }}
+       53 -                  </p>
+       54 -                </div>
+       55 -              </div>
+       56 -            </div>
+       57 -            {% unless forloop.last %}<hr style="margin: 0.5rem 0;">{% endunless %}
+       58 -          {% endfor %}
+       59 -        {% endif %}
+       60 -        
+       61 -        <!-- Lab News -->
+       62 -        {% assign recent_news = site.news | sort: 'date' | reverse | limit: 2 %}
+       63 -        {% if recent_news.size > 0 %}
+       64 -          <h5 class="subtitle is-6" style="margin-top: 1rem;">Lab News</h5>
+       65 -          {% for news in recent_news %}
+       66 -            <div class="content">
+       67 -              <p>
+       68 -                <strong>{{ news.title }}</strong><br>
+       69 -                <small>{{ news.date | date: "%B %d, %Y" }}</small><br>
+       70 -                {{ news.content | strip_html | truncate: 80 }}
+       71 -              </p>
+       72 -            </div>
+       73 -            {% unless forloop.last %}<hr style="margin: 0.5rem 0;">{% endunless %}
+       74 -          {% endfor %}
+       75 -        {% endif %}
+       76 -        
+       77 -        <div style="margin-top: 1rem;">
+       78 -          <a class="button is-primary is-small" href="/news/">All Updates</a>
+       79 -          <a class="button is-info is-small" href="/publications/">Publications</a>
+       80 -        </div>
+       81 -      </div>
+       82 -    </div>
+       83 -  </div> -->
+       84 -  
