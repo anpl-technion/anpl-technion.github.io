@@ -59,6 +59,7 @@ jobs:
                 );
                 
                 const userId = userResponse.data.data.id;
+                console.log(`✅ Got user ID for @${username}: ${userId}`);
                 
                 // Get recent tweets
                 const tweetsResponse = await axios.get(
@@ -77,6 +78,8 @@ jobs:
                     }
                   }
                 );
+                
+                console.log(`📊 Raw API response for @${username}:`, JSON.stringify(tweetsResponse.data, null, 2));
                 
                 if (tweetsResponse.data.data) {
                   const mediaMap = {};
@@ -114,11 +117,23 @@ jobs:
                   });
                   
                   allTweets.push(...tweets);
-                  console.log(`Fetched ${tweets.length} tweets for @${username}`);
+                  console.log(`✅ Fetched ${tweets.length} tweets for @${username}`);
+                  tweets.forEach((tweet, i) => {
+                    const date = new Date(tweet.created_at).toLocaleString('en-US', {timeZone: 'UTC'});
+                    console.log(`   ${i+1}. ${date}: ${tweet.text.substring(0, 100)}...`);
+                  });
+                } else {
+                  console.log(`❌ No tweets found in API response for @${username}`);
                 }
                 
               } catch (error) {
-                console.error(`Error fetching tweets for @${username}:`, error.response?.data || error.message);
+                console.error(`❌ Error fetching tweets for @${username}:`);
+                if (error.response) {
+                  console.error(`   Status: ${error.response.status}`);
+                  console.error(`   Response:`, JSON.stringify(error.response.data, null, 2));
+                } else {
+                  console.error(`   Message: ${error.message}`);
+                }
                 continue;
               }
             }
@@ -127,11 +142,17 @@ jobs:
               // Sort by creation date (newest first)
               allTweets.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
               
+              console.log('\n🔄 Final sorted tweet list:');
+              allTweets.forEach((tweet, i) => {
+                const date = new Date(tweet.created_at).toLocaleString('en-US', {timeZone: 'UTC'});
+                console.log(`   ${i+1}. [${tweet.account}] ${date}: ${tweet.text.substring(0, 80)}...`);
+              });
+              
               // Write to file (now contains up to 8 tweets: 4 per account)
               fs.writeFileSync('_data/tweets.json', JSON.stringify(allTweets, null, 2));
-              console.log(`Successfully updated with ${allTweets.length} tweets!`);
+              console.log(`\n✅ Successfully updated tweets.json with ${allTweets.length} tweets!`);
             } else {
-              console.log('No tweets fetched, keeping existing data');
+              console.log('\n❌ No tweets fetched, keeping existing data');
               process.exit(1);
             }
           }
