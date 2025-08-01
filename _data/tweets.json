@@ -84,36 +84,6 @@
     ]
   },
   {
-    "id": "1901891692816478539",
-    "text": "A preprint entitled \"Value Gradients with Action Adaptive Search Trees in Continuous (PO)MDPs\" has been published on arXiv:\nhttps://t.co/KAJzzaeWjJ",
-    "created_at": "2025-03-18T07:01:29.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1901891692816478539",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2503.12181",
-        "expanded_url": "https://arxiv.org/abs/2503.12181",
-        "url": "https://t.co/KAJzzaeWjJ"
-      }
-    ]
-  },
-  {
-    "id": "1896812502496997618",
-    "text": "A preprint entitled \"Action-Consistent Decentralized Belief Space Planning with Inconsistent Beliefs and Limited Data Sharing: Framework and Simplification Algorithms with Formal Guarantees\" has been published on arXiv:\nhttps://t.co/aNUhhPqMBN",
-    "created_at": "2025-03-04T06:38:36.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1896812502496997618",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2403.05962",
-        "expanded_url": "https://arxiv.org/abs/2403.05962",
-        "url": "https://t.co/aNUhhPqMBN"
-      }
-    ]
-  },
-  {
     "id": "1888867413044711429",
     "text": "It was a great experience to organize and Chair the AI &amp; Beyond Robotics conference at the Technion. We were thrilled to host ~370 attendees from academia and industry! I extend my heartfelt gratitude to all the speakers who made this event successful.\n@TechAITechnion https://t.co/vWCvml0Mon",
     "created_at": "2025-02-10T08:27:39.000Z",
@@ -142,36 +112,6 @@
         "media_key": "3_1888866916988571648",
         "type": "photo",
         "url": "https://pbs.twimg.com/media/GjaadA8XUAANmAM.jpg"
-      }
-    ]
-  },
-  {
-    "id": "1845165492094267861",
-    "text": "The paper \"Simplified POMDP Planning with an Alternative Observation Space and Formal Performance Guarantees\" has been accepted to ISRR 2024.\n\nhttps://t.co/bySTw28n7R",
-    "created_at": "2024-10-12T18:11:49.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1845165492094267861",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2410.07630",
-        "expanded_url": "https://arxiv.org/abs/2410.07630",
-        "url": "https://t.co/bySTw28n7R"
-      }
-    ]
-  },
-  {
-    "id": "1833117380471386525",
-    "text": "The paper \"No Compromise in Solution Quality: Speeding Up Belief-dependent Continuous POMDPs via Adaptive Multilevel Simplification,” has been officially published by the International Journal of Robotics Research (IJRR). \nhttps://t.co/MmgCOYRvAH",
-    "created_at": "2024-09-09T12:16:55.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1833117380471386525",
-    "urls": [
-      {
-        "display_url": "journals.sagepub.com/doi/10.1177/02…",
-        "expanded_url": "https://journals.sagepub.com/doi/10.1177/02783649241261398",
-        "url": "https://t.co/MmgCOYRvAH"
       }
     ]
   }
