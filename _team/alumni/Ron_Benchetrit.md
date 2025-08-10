@@ -1,15 +1,17 @@
 ---
 title: Ron Benchetrit
-subtitle: M.Sc. Student
+subtitle: M.Sc. 
+graduation: 2025
 field : Robotics
 faculty : CS
-category: master_student
+category: alumni
 layout: team_member_personal_page
 image: /img/team/RonBenchetrit.jpeg
 link-new-tab: true
+next-position: Mobileye
 bio:
-    - M.Sc. Computer Science, Technion, since 2022
-    - B.Sc. Computer Science, Technion, 2022
+    - M.Sc. CS, Technion, 2025
+    - B.Sc. CS, Technion, 2022
 
 twitter: 
 youtube: 
