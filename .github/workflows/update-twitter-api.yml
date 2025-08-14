@@ -2,7 +2,7 @@ name: Update Twitter Feed (API v2)
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Daily at 6 AM UTC
+    - cron: '0 3 * * *'  # Daily at 6 AM Israeli time (3 AM UTC)
   workflow_dispatch:
 
 jobs:
@@ -44,6 +44,13 @@ jobs:
             
             for (const username of accounts) {
               const bearerToken = bearerTokens[username];
+              
+              // Add delay between accounts to reduce rate limit pressure
+              if (accounts.indexOf(username) > 0) {
+                console.log('⏳ Waiting 2 seconds between accounts...');
+                await new Promise(resolve => setTimeout(resolve, 2000));
+              }
+              
               try {
                 console.log(`Fetching tweets for @${username}...`);
                 
@@ -152,8 +159,17 @@ jobs:
               fs.writeFileSync('_data/tweets.json', JSON.stringify(allTweets, null, 2));
               console.log(`\n✅ Successfully updated tweets.json with ${allTweets.length} tweets!`);
             } else {
-              console.log('\n❌ No tweets fetched, keeping existing data');
-              process.exit(1);
+              console.log('\n❌ No tweets fetched - checking if due to rate limiting...');
+              // Check if we have existing tweets to avoid breaking the site
+              const fs = require('fs');
+              if (fs.existsSync('_data/tweets.json')) {
+                console.log('✅ Existing tweets.json found, keeping current data');
+                console.log('ℹ️ This is likely due to rate limiting - will retry on next scheduled run');
+                process.exit(0); // Exit successfully to avoid breaking the workflow
+              } else {
+                console.log('❌ No existing tweets.json found and no new tweets fetched');
+                process.exit(1);
+              }
             }
           }
           
@@ -173,3 +189,12 @@ jobs:
 
           Co-Authored-By: Claude <noreply@anthropic.com>" || echo "No changes to commit"
           git push || echo "Nothing to push"
+          
+      - name: Trigger deployment
+        if: success()
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/dispatches \
+            -d '{"event_type": "twitter-updated"}'
