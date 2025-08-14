@@ -1,5 +1,20 @@
 [
   {
+    "id": "1955621490751090938",
+    "text": "The paper \"Previous Knowledge Utilization In Online Anytime Belief Space Planning\" has been accepted for publication in the IEEE Robotics and Automation Letters (RA-L).\nhttps://t.co/l0cc3ACyqp",
+    "created_at": "2025-08-13T13:24:31.000Z",
+    "account": "ANPL_Technion",
+    "handle": "@ANPL_Technion",
+    "link": "https://twitter.com/ANPL_Technion/status/1955621490751090938",
+    "urls": [
+      {
+        "display_url": "arxiv.org/abs/2412.13128",
+        "expanded_url": "https://arxiv.org/abs/2412.13128",
+        "url": "https://t.co/l0cc3ACyqp"
+      }
+    ]
+  },
+  {
     "id": "1949110015698088375",
     "text": "A preprint entitled \"Bounding Conditional Value-at-Risk via Auxiliary Distributions with Bounded Discrepancies\" has been published on arXiv: https://t.co/MQdQikmu09",
     "created_at": "2025-07-26T14:10:15.000Z",
@@ -157,21 +172,6 @@
         "media_key": "3_1888866916988571648",
         "type": "photo",
         "url": "https://pbs.twimg.com/media/GjaadA8XUAANmAM.jpg"
-      }
-    ]
-  },
-  {
-    "id": "1845165492094267861",
-    "text": "The paper \"Simplified POMDP Planning with an Alternative Observation Space and Formal Performance Guarantees\" has been accepted to ISRR 2024.\n\nhttps://t.co/bySTw28n7R",
-    "created_at": "2024-10-12T18:11:49.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1845165492094267861",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2410.07630",
-        "expanded_url": "https://arxiv.org/abs/2410.07630",
-        "url": "https://t.co/bySTw28n7R"
       }
     ]
   }
