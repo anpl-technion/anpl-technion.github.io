@@ -14,10 +14,10 @@ anpl: Head of Autonomous Navigation and Perception Lab
 techairobotics: Head of Tech.AI.Robotics
 techairobotics_link: https://www.techaiconf.org/about-4
 
-ae: Department of Aerospace Engineering
+ae: Stephen B. Klein Faculty of Aerospace Engineering
 ae_link: https://aerospace.technion.ac.il/
 
-dds: Department of Data and Decision Sciences (Secondary Appointment)
+dds: Faculty of Data and Decision Sciences (Secondary Appointment)
 dds_link: https://dds.technion.ac.il/
 
 tasp: Technion Autonomous Systems Program (TASP)
