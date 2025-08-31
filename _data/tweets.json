@@ -1,35 +1,5 @@
 [
   {
-    "id": "1955621490751090938",
-    "text": "The paper \"Previous Knowledge Utilization In Online Anytime Belief Space Planning\" has been accepted for publication in the IEEE Robotics and Automation Letters (RA-L).\nhttps://t.co/l0cc3ACyqp",
-    "created_at": "2025-08-13T13:24:31.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1955621490751090938",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2412.13128",
-        "expanded_url": "https://arxiv.org/abs/2412.13128",
-        "url": "https://t.co/l0cc3ACyqp"
-      }
-    ]
-  },
-  {
-    "id": "1949110015698088375",
-    "text": "A preprint entitled \"Bounding Conditional Value-at-Risk via Auxiliary Distributions with Bounded Discrepancies\" has been published on arXiv: https://t.co/MQdQikmu09",
-    "created_at": "2025-07-26T14:10:15.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1949110015698088375",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2507.18129",
-        "expanded_url": "https://arxiv.org/abs/2507.18129",
-        "url": "https://t.co/MQdQikmu09"
-      }
-    ]
-  },
-  {
     "id": "1928149155714597036",
     "text": "🚀 Happy to share my recent Robotics Seminar presentations from MIT and Northeastern University!\n📄 Slides: https://t.co/feK6n1z3o4\n🎥 Video Recording (from NEU): https://t.co/TC5YxTaNDH\n\n🔗 Explore more about our research on the ANPL website:\nhttps://t.co/Fn4jNjQfKw https://t.co/o9jYfxCXTn",
     "created_at": "2025-05-29T17:59:16.000Z",
@@ -110,36 +80,6 @@
         "display_url": "youtu.be/HNig7ob9Sq0",
         "expanded_url": "https://youtu.be/HNig7ob9Sq0",
         "url": "https://t.co/jrxsTGIMZy"
-      }
-    ]
-  },
-  {
-    "id": "1901891692816478539",
-    "text": "A preprint entitled \"Value Gradients with Action Adaptive Search Trees in Continuous (PO)MDPs\" has been published on arXiv:\nhttps://t.co/KAJzzaeWjJ",
-    "created_at": "2025-03-18T07:01:29.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1901891692816478539",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2503.12181",
-        "expanded_url": "https://arxiv.org/abs/2503.12181",
-        "url": "https://t.co/KAJzzaeWjJ"
-      }
-    ]
-  },
-  {
-    "id": "1896812502496997618",
-    "text": "A preprint entitled \"Action-Consistent Decentralized Belief Space Planning with Inconsistent Beliefs and Limited Data Sharing: Framework and Simplification Algorithms with Formal Guarantees\" has been published on arXiv:\nhttps://t.co/aNUhhPqMBN",
-    "created_at": "2025-03-04T06:38:36.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1896812502496997618",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2403.05962",
-        "expanded_url": "https://arxiv.org/abs/2403.05962",
-        "url": "https://t.co/aNUhhPqMBN"
       }
     ]
   },
