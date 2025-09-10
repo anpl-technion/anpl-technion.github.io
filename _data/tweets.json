@@ -1,5 +1,27 @@
 [
   {
+    "id": "1963475963536187607",
+    "text": "Today was the PhD ceremony at the Technion, and I'm truly excited to congratulate three recent PhD graduates from @ANPL_Technion: \n- Dr. Moshe Shienman \n- Dr. Andrey Zhitnikov  \n- Dr. Moran Barenboim (not in the photo)\n\nGood luck in all your future endeavors! https://t.co/M1yGhdqFGl",
+    "created_at": "2025-09-04T05:35:23.000Z",
+    "account": "vadim_indelman",
+    "handle": "@vadim_indelman",
+    "link": "https://twitter.com/vadim_indelman/status/1963475963536187607",
+    "urls": [
+      {
+        "display_url": "pic.x.com/M1yGhdqFGl",
+        "expanded_url": "https://x.com/vadim_indelman/status/1963475963536187607/photo/1",
+        "url": "https://t.co/M1yGhdqFGl"
+      }
+    ],
+    "media": [
+      {
+        "media_key": "3_1963475621259952128",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gz-qrLJWwAAKS2M.jpg"
+      }
+    ]
+  },
+  {
     "id": "1961123167067390047",
     "text": "The paper \"Anytime Probabilistically Constrained Provably Convergent Online Belief Space Planning\" has been accepted for publication in the IEEE Transactions on Robotics (T-RO).\nPreprint: https://t.co/MFNbxLQVpg",
     "created_at": "2025-08-28T17:46:13.000Z",
@@ -41,6 +63,90 @@
         "display_url": "arxiv.org/abs/2507.18129",
         "expanded_url": "https://arxiv.org/abs/2507.18129",
         "url": "https://t.co/MQdQikmu09"
+      }
+    ]
+  },
+  {
+    "id": "1928149155714597036",
+    "text": "🚀 Happy to share my recent Robotics Seminar presentations from MIT and Northeastern University!\n📄 Slides: https://t.co/feK6n1z3o4\n🎥 Video Recording (from NEU): https://t.co/TC5YxTaNDH\n\n🔗 Explore more about our research on the ANPL website:\nhttps://t.co/Fn4jNjQfKw https://t.co/o9jYfxCXTn",
+    "created_at": "2025-05-29T17:59:16.000Z",
+    "account": "vadim_indelman",
+    "handle": "@vadim_indelman",
+    "link": "https://twitter.com/vadim_indelman/status/1928149155714597036",
+    "urls": [
+      {
+        "display_url": "lnkd.in/ernvECUU",
+        "expanded_url": "https://lnkd.in/ernvECUU",
+        "url": "https://t.co/feK6n1z3o4"
+      },
+      {
+        "display_url": "lnkd.in/eSihT4_K",
+        "expanded_url": "https://lnkd.in/eSihT4_K",
+        "url": "https://t.co/TC5YxTaNDH"
+      },
+      {
+        "display_url": "lnkd.in/dW6zmnjK",
+        "expanded_url": "https://lnkd.in/dW6zmnjK",
+        "url": "https://t.co/Fn4jNjQfKw"
+      },
+      {
+        "display_url": "pic.x.com/o9jYfxCXTn",
+        "expanded_url": "https://x.com/vadim_indelman/status/1928149155714597036/photo/1",
+        "url": "https://t.co/o9jYfxCXTn"
+      }
+    ],
+    "media": [
+      {
+        "media_key": "3_1928149135678468096",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GsIpbFIXcAAbjrO.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1923342184444485664",
+    "text": "Had a great time visiting MIT and delivering a robotics seminar, where I presented some of our research from the @ANPL_Technion !\n\nThanks to @lucacarlone1, Jared Strader, and Lorenzo Shaikewitz for hosting me and for the perfect organization of the visit. https://t.co/qJ26eWDWuS",
+    "created_at": "2025-05-16T11:38:05.000Z",
+    "account": "vadim_indelman",
+    "handle": "@vadim_indelman",
+    "link": "https://twitter.com/vadim_indelman/status/1923342184444485664",
+    "urls": [
+      {
+        "display_url": "pic.x.com/qJ26eWDWuS",
+        "expanded_url": "https://x.com/vadim_indelman/status/1923342184444485664/photo/1",
+        "url": "https://t.co/qJ26eWDWuS"
+      },
+      {
+        "display_url": "pic.x.com/qJ26eWDWuS",
+        "expanded_url": "https://x.com/vadim_indelman/status/1923342184444485664/photo/1",
+        "url": "https://t.co/qJ26eWDWuS"
+      }
+    ],
+    "media": [
+      {
+        "media_key": "3_1923342120359784448",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GrEVd9mXcAA_Rcj.jpg"
+      },
+      {
+        "media_key": "3_1923342120129122304",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GrEVd8vX0AAcnZQ.jpg"
+      }
+    ]
+  },
+  {
+    "id": "1916826033883382178",
+    "text": "An MSc seminar by Ron Benchetrit on \"Anytime Incremental ρPOMDP Planning in Continuous Spaces\".\nhttps://t.co/jrxsTGIMZy",
+    "created_at": "2025-04-28T12:05:14.000Z",
+    "account": "vadim_indelman",
+    "handle": "@vadim_indelman",
+    "link": "https://twitter.com/vadim_indelman/status/1916826033883382178",
+    "urls": [
+      {
+        "display_url": "youtu.be/HNig7ob9Sq0",
+        "expanded_url": "https://youtu.be/HNig7ob9Sq0",
+        "url": "https://t.co/jrxsTGIMZy"
       }
     ]
   },
