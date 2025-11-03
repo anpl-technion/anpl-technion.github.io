@@ -29,21 +29,19 @@ jobs:
           const fs = require('fs');
           
           async function fetchTwitterAPI() {
-            const bearerTokens = {
-              'ANPL_Technion': process.env.TWITTER_BEARER_TOKEN_ANPL,
-              'vadim_indelman': process.env.TWITTER_BEARER_TOKEN_VADIM
-            };
-            
-            if (!bearerTokens['ANPL_Technion'] || !bearerTokens['vadim_indelman']) {
-              console.error('Bearer tokens not found in environment variables');
+            // Use Vadim's token for both accounts as workaround for ANPL token quota issue
+            const bearerToken = process.env.TWITTER_BEARER_TOKEN_VADIM;
+
+            if (!bearerToken) {
+              console.error('Bearer token not found in environment variables');
               process.exit(1);
             }
-            
+
             const accounts = ['ANPL_Technion', 'vadim_indelman'];
             let allTweets = [];
-            
+
             for (const username of accounts) {
-              const bearerToken = bearerTokens[username];
+              // Using same token for both accounts
               
               // Add delay between accounts to reduce rate limit pressure
               if (accounts.indexOf(username) > 0) {
