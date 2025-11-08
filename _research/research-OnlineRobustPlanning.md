@@ -1,8 +1,8 @@
 ---
-title:  Robust Online Planning Under Uncertainty
+title:  Online Robust Planning Under Uncertainty
 research_code: ABC125
 layout: research
-image: /img/research/RobustOnlinePlanning/RSS.jpeg
+image: /img/research/OnlineRobustPlanning/RSS.jpg
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 price: 1 # for sorting 
