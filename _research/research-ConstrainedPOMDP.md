@@ -5,7 +5,7 @@ layout: research
 image: /img/research/ConstrainedPOMDP/pruning.svg
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 7 # for sorting 
+price: 8 # for sorting 
 
 descriptio: "Online decision making under uncertainty in partially observable domains, also known as Belief Space Planning,
 is a fundamental problem in robotics and Artificial Intelligence. Due to an abundance of plausible future unravelings,

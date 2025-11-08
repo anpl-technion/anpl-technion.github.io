@@ -5,7 +5,7 @@ layout: research
 image: /img/research/deepPDF/PSO_drawing.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 15 # for sorting 
+price: 16 # for sorting 
 
 descriptio: "Probabilistic inference, such as density (ratio) estimation, is a fundamental and highly important problem that needs to be solved in many different domains, and in particular in robotics. Recently, a lot of research was done to solve it by producing various objective functions optimized over neural network (NN) models. Such Deep Learning (DL) based approaches include unnormalized and energy models, as well as critics of Generative Adversarial Networks, where DL has shown top approximation performance. In this research we contribute a novel algorithm family, which generalizes all above, and allows us to infer different statistical modalities (e.g. data likelihood and ratio between densities) from data samples. The proposed unsupervised technique, named Probabilistic Surface Optimization (PSO), views a model as a flexible surface which can be pushed according to loss-specific virtual stochastic forces, where a dynamical equilibrium is achieved when the pointwise forces on the surface become equal. 
 "

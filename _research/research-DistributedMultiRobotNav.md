@@ -5,7 +5,7 @@ layout: research
 image: /img/research/DistributedMultiRobotNav/GeneralNoiseTreatment.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 19 # for sorting 
+price: 20 # for sorting 
 
 descriptio: "A multi-agent scenario is considered, in which the different robots share information to improve navigation and extend sensing. A graph-based approach was developed to guarantee a consistent information fusion between the different robots assuming a general multi-robot measurement model. Using the graph structure, separately maintained by each robot, appropriate correlation terms are calculated upon-demand and used within the update step of the filter. The method (see IJRR2012) is also applicable to implicit measurement models and in particular when using three-view geometry constraints (more details). Such an approach was developed in RAS2012, where the three-view constraints are applied whenever the robots observe a common scene. One thing to note is that the scene does not necessarily have to be observed by the robots at the same time.
 
