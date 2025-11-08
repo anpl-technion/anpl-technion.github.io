@@ -21,4 +21,4 @@ RiskAwarePOMDP
 SimplifiedModelsPOMDP
 MRBSPinconsistentHistories
 AGMCTS
-OnlineRobust
+OnlineRobustPlanning
