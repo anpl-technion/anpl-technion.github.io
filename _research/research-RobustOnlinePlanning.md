@@ -18,5 +18,5 @@ descriptio: "Autonomous decision-making under uncertainty is a fundamental probl
 
 
 # Related Publications: 
-{% bibliography --file research-projects-bib/pubs-RobustOnlinePlanning --order descending %}
+{% bibliography --file research-projects-bib/pubs-OnlineRobustPlanning --order descending %}
 
