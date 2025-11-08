@@ -5,7 +5,7 @@ layout: research
 image: /img/research/rAMDL/drawing_more_factors2.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 13 # for sorting 
+price: 14 # for sorting 
 
 descriptio: "We propose a computationally-efficient approach for evaluating the information-theoretic term within belief space planning (BSP), where during belief propagation the state vector can be constant or augmented. We consider both unfocused and focused problem settings, whereas uncertainty reduction of the entire system or only of chosen variables is of interest, respectively. State of the art approaches typically propagate the belief state, for each candidate action, through calculation of the posterior information (or covariance) matrix and subsequently compute its determinant (required for entropy). In contrast, our approach reduces run-time complexity by avoiding these calculations. We formulate the problem in terms of factor graphs and show that belief propagation is not needed, requiring instead a one-time calculation that depends on (the increasing with time) state dimensionality, and per-candidate calculations that are independent of the latter. 
 "

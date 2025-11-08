@@ -5,7 +5,7 @@ layout: research
 image: /img/research/TopologicalBSP/topologicBSPconcept.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 14 # for sorting 
+price: 15 # for sorting 
 
 descriptio: "In this research project we introduce a novel concept, topological belief space planning (BSP), that uses topological properties of the underlying factor graph representation of future posterior beliefs to direct the search for an optimal solution. This concept deviates from state-of-the-art BSP approaches and is motivated by recent results which indicated, in the context of graph pruning, that topological properties of factor graphs dominantly determine the estimation accuracy. Topological space is also often less dimensional than the embedded state space.
 

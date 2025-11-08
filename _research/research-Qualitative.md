@@ -5,7 +5,7 @@ layout: research
 image: /img/research/QualitativeAutonomousPerception/composition1.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
-price: 9 # for sorting 
+price: 10 # for sorting 
 
 descriptio: "Many robotics applications rely on accurate metric estimations of the environment and robot’s location to accomplish their aims.
 However, in the absence of high-quality sensors, accurate robotics methods encounter significant diﬀiculties. These methods are typically noise-sensitive and tend to accumulate errors as they rely on metrical estimates of map and robot’s trajectory. Thus, noisy measurements can significantly impair their accuracy, cause undesir- able drifts, and eventually lead to divergence if the loop-closer fails. Another concern that arises from the metric approaches is the need to maintain a dense, potentially large map representation, which often comes at the cost of substantial computational and memory resources. 
