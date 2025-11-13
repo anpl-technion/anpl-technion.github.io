@@ -1,19 +1,59 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Script to add tweets to tweets.json and keep only top 4 per account
+================================================================================
+ANPL Website Tweet Manager
+================================================================================
 
-Usage:
-    python add_tweet.py <tweet_link1> [tweet_link2] [tweet_link3] ...
+DESCRIPTION:
+    This script automatically fetches tweets and manages the tweets displayed
+    on the ANPL website homepage. It keeps only the 4 most recent tweets for
+    each account (ANPL_Technion and vadim_indelman).
 
-Example:
-    python add_tweet.py https://twitter.com/ANPL_Technion/status/1234567890 https://twitter.com/vadim_indelman/status/9876543210
+FEATURES:
+    ✓ Automatically extracts tweet text from Twitter's API
+    ✓ Automatically extracts creation date from tweet ID
+    ✓ Automatically resolves t.co URLs to actual destinations
+    ✓ Merges with existing tweets and keeps only top 4 per account
+    ✓ Handles both twitter.com and x.com URLs
 
-The script will:
-1. Fetch tweet data from the provided URLs
-2. Merge with existing tweets in tweets.json
-3. Keep only the top 4 tweets for ANPL_Technion and top 4 for vadim_indelman
-4. Sort by date (newest first)
+USAGE:
+    python3 add_tweet.py <tweet_url1> [tweet_url2] [tweet_url3] ...
+
+EXAMPLES:
+
+    # Add a single tweet:
+    python3 add_tweet.py https://x.com/ANPL_Technion/status/1987151270092664853
+
+    # Add multiple tweets at once:
+    python3 add_tweet.py \
+        https://twitter.com/ANPL_Technion/status/1987151270092664853 \
+        https://twitter.com/vadim_indelman/status/1234567890123456789
+
+    # Works with both twitter.com and x.com URLs:
+    python3 add_tweet.py https://x.com/ANPL_Technion/status/1982887936183156917
+
+WHAT IT DOES:
+    1. Fetches tweet text and URLs from Twitter's public API
+    2. Extracts creation date from the tweet ID (Snowflake algorithm)
+    3. Resolves all t.co short links to actual URLs
+    4. Merges with existing tweets in _data/tweets.json
+    5. Keeps only the 4 newest tweets per account
+    6. Sorts all tweets by date (newest first)
+    7. Updates _data/tweets.json
+
+AFTER RUNNING:
+    1. Rebuild the website: bundle exec jekyll build
+    2. Commit changes: git add _data/tweets.json && git commit -m "Update tweets"
+    3. Push to GitHub: git push
+
+NOTE:
+    - The script requires Python 3.6+
+    - No Twitter API authentication needed (uses public oEmbed API)
+    - Old tweets are automatically removed if they're not in the top 4
+    - Duplicate tweets (same ID) are automatically handled
+
+================================================================================
 """
 
 import json
