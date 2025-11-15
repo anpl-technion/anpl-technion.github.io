@@ -1,8 +1,8 @@
 name: Update Twitter Feed (API v2)
 
 on:
-  schedule:
-    - cron: '0 3 * * *'  # Daily at 6 AM Israeli time (3 AM UTC)
+  # schedule:
+  #   - cron: '0 3 * * *'  # Daily at 6 AM Israeli time (3 AM UTC) - DISABLED
   workflow_dispatch:
 
 jobs:
