@@ -17,9 +17,9 @@ We are *always* looking for motivated individuals to join our research group. Fu
 
 ## Postdoctoral Research Fellows
 <div id="Postdoctoral"></div>
-Multiple postdoctoral research fellow positions are available in the area of single and multi-robot autonomous perception, navigation and planning under uncertainty in the context of mobile robotics.
+Multiple postdoctoral research fellow positions are available in the area of single and multi-robot autonomous perception, navigation and planning under uncertainty in the context of mobile robotics and AI.
 
-Successful candidates will work with Associate Prof. Vadim Indelman and his research group, and will have the opportunity to contribute to ongoing multi-disciplinary research efforts while also developing their own research line. Applicants should have a Ph.D. (or about to graduate) in Electrical, Aerospace or Mechanical Engineering, Computer Science or Applied Mathematics. A strong background in at least one of the areas mentioned above is required. Hands on experience and programming skills are an advantage.
+Successful candidates will work with Associate Prof. Vadim Indelman and his research group, and will have the opportunity to contribute to ongoing multi-disciplinary research efforts while also developing their own research line. Applicants should have a Ph.D. (or about to graduate) in Electrical, Aerospace or Mechanical Engineering, Computer Science or Applied Mathematics. A strong background in at least one of the areas mentioned above is required. 
 
 This is a full-time, one-year, non-tenure-track appointment with possibility of extension subject to available funding and satisfactory performance. Funds for some conference travel and research expenses will also be provided. Starting date is flexible.
 
@@ -31,6 +31,7 @@ Applicants are encouraged to send by email a cover letter that briefly describes
 We are looking for motivated M.Sc. and Ph.D. students interested in multi-disciplinary research in autonomous systems to join our research group. Multiple research topics are available involving different aspects of mobile robotics, including:
 
 - Planning under uncertainty and AI
+- Risk-averse and robust decision-making under uncertainty
 - Semantic perception and simultaneous localization and mapping (SLAM)
 - Data-driven and machine (deep) learning based perception and autonomous navigation
 - Distributed multi-robot systems
