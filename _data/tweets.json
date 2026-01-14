@@ -1,5 +1,20 @@
 [
   {
+    "id": "2011325351184777620",
+    "text": "We’re excited to present our paper \"𝐎𝐧𝐥𝐢𝐧𝐞 𝐑𝐨𝐛𝐮𝐬𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐮𝐧𝐝𝐞𝐫 𝐌𝐨𝐝𝐞𝐥 𝐔𝐧𝐜𝐞𝐫𝐭𝐚𝐢𝐧𝐭𝐲: 𝐀 𝐒𝐚𝐦𝐩𝐥𝐞-𝐁𝐚𝐬𝐞𝐝 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡\" next week at  !📄 Preprint:\nhttps://t.co/QOZKPv8xN1",
+    "created_at": "2026-01-14T06:31:46.000Z",
+    "account": "vadim_indelman",
+    "handle": "@vadim_indelman",
+    "link": "https://twitter.com/vadim_indelman/status/2011325351184777620",
+    "urls": [
+      {
+        "display_url": "lnkd.in/dAqiUuEu",
+        "expanded_url": "https://lnkd.in/dAqiUuEu",
+        "url": "https://t.co/QOZKPv8xN1"
+      }
+    ]
+  },
+  {
     "id": "2004077214737035271",
     "text": "A preprint entitled \"Towards Optimal Performance and Action Consistency Guarantees in Dec-POMDPs with Inconsistent Beliefs and Limited Communication\" has been published on arXiv:\nhttps://t.co/vOtEWiO7LY",
     "created_at": "2025-12-25T06:30:16.000Z",
@@ -145,21 +160,6 @@
         "media_key": "3_1923342120129122304",
         "type": "photo",
         "url": "https://pbs.twimg.com/media/GrEVd8vX0AAcnZQ.jpg"
-      }
-    ]
-  },
-  {
-    "id": "1916826033883382178",
-    "text": "An MSc seminar by Ron Benchetrit on \"Anytime Incremental ρPOMDP Planning in Continuous Spaces\".\nhttps://t.co/jrxsTGIMZy",
-    "created_at": "2025-04-28T12:05:14.000Z",
-    "account": "vadim_indelman",
-    "handle": "@vadim_indelman",
-    "link": "https://twitter.com/vadim_indelman/status/1916826033883382178",
-    "urls": [
-      {
-        "display_url": "youtu.be/HNig7ob9Sq0",
-        "expanded_url": "https://youtu.be/HNig7ob9Sq0",
-        "url": "https://t.co/jrxsTGIMZy"
       }
     ]
   }
