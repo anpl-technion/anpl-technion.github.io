@@ -1,16 +1,16 @@
 [
   {
-    "id": "2011325351184777620",
-    "text": "We’re excited to present our paper \"𝐎𝐧𝐥𝐢𝐧𝐞 𝐑𝐨𝐛𝐮𝐬𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐮𝐧𝐝𝐞𝐫 𝐌𝐨𝐝𝐞𝐥 𝐔𝐧𝐜𝐞𝐫𝐭𝐚𝐢𝐧𝐭𝐲: 𝐀 𝐒𝐚𝐦𝐩𝐥𝐞-𝐁𝐚𝐬𝐞𝐝 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡\" next week at  !📄 Preprint:\nhttps://t.co/QOZKPv8xN1",
-    "created_at": "2026-01-14T06:31:46.000Z",
+    "id": "2011435467472879887",
+    "text": "We’re excited to present our paper \"𝐎𝐧𝐥𝐢𝐧𝐞 𝐑𝐨𝐛𝐮𝐬𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐮𝐧𝐝𝐞𝐫 𝐌𝐨𝐝𝐞𝐥 𝐔𝐧𝐜𝐞𝐫𝐭𝐚𝐢𝐧𝐭𝐲: 𝐀 𝐒𝐚𝐦𝐩𝐥𝐞-𝐁𝐚𝐬𝐞𝐝 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡\" next week at AAAI2026!📄 Preprint:\nhttps://t.co/RI8c3N6kY5",
+    "created_at": "2026-01-14T13:49:20.000Z",
     "account": "vadim_indelman",
     "handle": "@vadim_indelman",
-    "link": "https://twitter.com/vadim_indelman/status/2011325351184777620",
+    "link": "https://twitter.com/vadim_indelman/status/2011435467472879887",
     "urls": [
       {
-        "display_url": "lnkd.in/dAqiUuEu",
-        "expanded_url": "https://lnkd.in/dAqiUuEu",
-        "url": "https://t.co/QOZKPv8xN1"
+        "display_url": "arxiv.org/pdf/2509.10162",
+        "expanded_url": "https://arxiv.org/pdf/2509.10162",
+        "url": "https://t.co/RI8c3N6kY5"
       }
     ]
   },
@@ -128,38 +128,6 @@
         "media_key": "3_1928149135678468096",
         "type": "photo",
         "url": "https://pbs.twimg.com/media/GsIpbFIXcAAbjrO.jpg"
-      }
-    ]
-  },
-  {
-    "id": "1923342184444485664",
-    "text": "Had a great time visiting MIT and delivering a robotics seminar, where I presented some of our research from the @ANPL_Technion !\n\nThanks to @lucacarlone1, Jared Strader, and Lorenzo Shaikewitz for hosting me and for the perfect organization of the visit. https://t.co/qJ26eWDWuS",
-    "created_at": "2025-05-16T11:38:05.000Z",
-    "account": "vadim_indelman",
-    "handle": "@vadim_indelman",
-    "link": "https://twitter.com/vadim_indelman/status/1923342184444485664",
-    "urls": [
-      {
-        "display_url": "pic.x.com/qJ26eWDWuS",
-        "expanded_url": "https://x.com/vadim_indelman/status/1923342184444485664/photo/1",
-        "url": "https://t.co/qJ26eWDWuS"
-      },
-      {
-        "display_url": "pic.x.com/qJ26eWDWuS",
-        "expanded_url": "https://x.com/vadim_indelman/status/1923342184444485664/photo/1",
-        "url": "https://t.co/qJ26eWDWuS"
-      }
-    ],
-    "media": [
-      {
-        "media_key": "3_1923342120359784448",
-        "type": "photo",
-        "url": "https://pbs.twimg.com/media/GrEVd9mXcAA_Rcj.jpg"
-      },
-      {
-        "media_key": "3_1923342120129122304",
-        "type": "photo",
-        "url": "https://pbs.twimg.com/media/GrEVd8vX0AAcnZQ.jpg"
       }
     ]
   }
