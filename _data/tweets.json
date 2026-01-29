@@ -1,5 +1,20 @@
 [
   {
+    "id": "2016810299114860846",
+    "text": "A preprint entitled \"Online Risk-Averse Planning in POMDPs Using Iterated CVaR Value Function\" has been published on arXiv:\nhttps://t.co/h3FYaGelQa",
+    "created_at": "2026-01-29T09:47:00.000Z",
+    "account": "ANPL_Technion",
+    "handle": "@ANPL_Technion",
+    "link": "https://twitter.com/ANPL_Technion/status/2016810299114860846",
+    "urls": [
+      {
+        "display_url": "arxiv.org/abs/2601.20554",
+        "expanded_url": "https://arxiv.org/abs/2601.20554",
+        "url": "https://t.co/h3FYaGelQa"
+      }
+    ]
+  },
+  {
     "id": "2011435467472879887",
     "text": "We’re excited to present our paper \"𝐎𝐧𝐥𝐢𝐧𝐞 𝐑𝐨𝐛𝐮𝐬𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐮𝐧𝐝𝐞𝐫 𝐌𝐨𝐝𝐞𝐥 𝐔𝐧𝐜𝐞𝐫𝐭𝐚𝐢𝐧𝐭𝐲: 𝐀 𝐒𝐚𝐦𝐩𝐥𝐞-𝐁𝐚𝐬𝐞𝐝 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡\" next week at AAAI2026!📄 Preprint:\nhttps://t.co/RI8c3N6kY5",
     "created_at": "2026-01-14T13:49:20.000Z",
@@ -68,21 +83,6 @@
         "media_key": "3_1982887904545284096",
         "type": "photo",
         "url": "https://pbs.twimg.com/media/G4SiCxvXIAA83wy.jpg"
-      }
-    ]
-  },
-  {
-    "id": "1967463037683761625",
-    "text": "A preprint entitled \"Online Robust Planning under Model Uncertainty: A Sample-Based Approach\" has been published on arXiv: https://t.co/m6e3MtN5nQ",
-    "created_at": "2025-09-15T05:38:36.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/1967463037683761625",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2509.10162",
-        "expanded_url": "https://arxiv.org/abs/2509.10162",
-        "url": "https://t.co/m6e3MtN5nQ"
       }
     ]
   },
