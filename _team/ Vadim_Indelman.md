@@ -12,7 +12,7 @@ link-new-tab: true
 anpl: Head of Autonomous Navigation and Perception Lab
 
 techairobotics: Head of Tech.AI.Robotics
-techairobotics_link: https://www.techaiconf.org/about-4
+techairobotics_link: https://tech-ai.technion.ac.il/robotics/
 
 ae: Stephen B. Klein Faculty of Aerospace Engineering
 ae_link: https://aerospace.technion.ac.il/
