@@ -8,7 +8,6 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/OhadLevyOr.jpeg
 link-new-tab: true
-next-position: Ph.D. student with Shie Mannor
 bio:
     - M.Sc. TASP, Technion, 2024
     - B.Sc. Super Cum Laude, Mechanical Engineering, Technion, 2021
