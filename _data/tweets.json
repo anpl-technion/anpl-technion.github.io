@@ -1,5 +1,20 @@
 [
   {
+    "id": "2039975451771244672",
+    "text": "The paper \"Open-loop POMDP Simplification and Safe Skipping of Replanning with Formal Performance Guarantees\" has been accepted for publication at WAFR 2026.\nhttps://t.co/uGBXkUmYRP",
+    "created_at": "2026-04-03T07:57:03.000Z",
+    "account": "ANPL_Technion",
+    "handle": "@ANPL_Technion",
+    "link": "https://twitter.com/ANPL_Technion/status/2039975451771244672",
+    "urls": [
+      {
+        "display_url": "arxiv.org/abs/2604.01352",
+        "expanded_url": "https://arxiv.org/abs/2604.01352",
+        "url": "https://t.co/uGBXkUmYRP"
+      }
+    ]
+  },
+  {
     "id": "2038310187577073944",
     "text": "An MSc seminar by Tamir Shazman on \"Online Robust Planning under Model Uncertainty\".\nhttps://t.co/zntopnKjdW",
     "created_at": "2026-03-29T17:39:53.000Z",
@@ -86,21 +101,6 @@
         "display_url": "arxiv.org/pdf/2509.10162",
         "expanded_url": "https://arxiv.org/pdf/2509.10162",
         "url": "https://t.co/RI8c3N6kY5"
-      }
-    ]
-  },
-  {
-    "id": "2004077214737035271",
-    "text": "A preprint entitled \"Towards Optimal Performance and Action Consistency Guarantees in Dec-POMDPs with Inconsistent Beliefs and Limited Communication\" has been published on arXiv:\nhttps://t.co/vOtEWiO7LY",
-    "created_at": "2025-12-25T06:30:16.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/2004077214737035271",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2512.20778",
-        "expanded_url": "https://arxiv.org/abs/2512.20778",
-        "url": "https://t.co/vOtEWiO7LY"
       }
     ]
   },
