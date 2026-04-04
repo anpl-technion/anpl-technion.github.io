@@ -7,7 +7,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/YuriFeldman.png
 link-new-tab: true
-next-position: Bosch AI
+next-position: Camtek
 bio:
     - Ph.D. (direct track) CS, Technion, 2022
     - B.Sc. CS, Technion, 2010, Cum Laude
