@@ -1,5 +1,20 @@
 [
   {
+    "id": "2050084240885252350",
+    "text": "The paper \"Action-Gradient Monte Carlo Tree Search for Non-Parametric Continuous (PO)MDPs\" has been accepted for publication at IJCAI-ECAI 2026.\nhttps://t.co/KAJzzaeWjJ",
+    "created_at": "2026-05-01T05:25:46.000Z",
+    "account": "ANPL_Technion",
+    "handle": "@ANPL_Technion",
+    "link": "https://twitter.com/ANPL_Technion/status/2050084240885252350",
+    "urls": [
+      {
+        "display_url": "arxiv.org/abs/2503.12181",
+        "expanded_url": "https://arxiv.org/abs/2503.12181",
+        "url": "https://t.co/KAJzzaeWjJ"
+      }
+    ]
+  },
+  {
     "id": "2039975451771244672",
     "text": "The paper \"Open-loop POMDP Simplification and Safe Skipping of Replanning with Formal Performance Guarantees\" has been accepted for publication at WAFR 2026.\nhttps://t.co/uGBXkUmYRP",
     "created_at": "2026-04-03T07:57:03.000Z",
@@ -71,21 +86,6 @@
         "display_url": "www.youtube.com/watch?v=A5-…",
         "expanded_url": "https://www.youtube.com/watch?v=A5-4Go7ys5c&feature=youtu.be",
         "url": "https://t.co/nCExhw0kJk"
-      }
-    ]
-  },
-  {
-    "id": "2016810299114860846",
-    "text": "A preprint entitled \"Online Risk-Averse Planning in POMDPs Using Iterated CVaR Value Function\" has been published on arXiv:\nhttps://t.co/h3FYaGelQa",
-    "created_at": "2026-01-29T09:47:00.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/2016810299114860846",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2601.20554",
-        "expanded_url": "https://arxiv.org/abs/2601.20554",
-        "url": "https://t.co/h3FYaGelQa"
       }
     ]
   },
