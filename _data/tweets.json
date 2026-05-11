@@ -1,5 +1,20 @@
 [
   {
+    "id": "2053732193072030079",
+    "text": "A preprint entitled \"Finite-Time Analysis of MCTS in Continuous POMDP Planning\" has been published on arXiv.\nhttps://t.co/5EYXajjcPC",
+    "created_at": "2026-05-11T07:01:25.000Z",
+    "account": "ANPL_Technion",
+    "handle": "@ANPL_Technion",
+    "link": "https://twitter.com/ANPL_Technion/status/2053732193072030079",
+    "urls": [
+      {
+        "display_url": "arxiv.org/abs/2605.07703",
+        "expanded_url": "https://arxiv.org/abs/2605.07703",
+        "url": "https://t.co/5EYXajjcPC"
+      }
+    ]
+  },
+  {
     "id": "2050084240885252350",
     "text": "The paper \"Action-Gradient Monte Carlo Tree Search for Non-Parametric Continuous (PO)MDPs\" has been accepted for publication at IJCAI-ECAI 2026.\nhttps://t.co/KAJzzaeWjJ",
     "created_at": "2026-05-01T05:25:46.000Z",
@@ -56,21 +71,6 @@
         "display_url": "arxiv.org/abs/2602.23073",
         "expanded_url": "https://arxiv.org/abs/2602.23073",
         "url": "https://t.co/83yzdn4XWm"
-      }
-    ]
-  },
-  {
-    "id": "2027413737603280938",
-    "text": "A preprint summarizing our POMDP Open Source Package is now available on arXiv: \"POMDPPlanners: Open-Source Package for POMDP Planning\".\nhttps://t.co/1HJaD7LEm2",
-    "created_at": "2026-02-27T16:01:17.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/2027413737603280938",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2602.20810",
-        "expanded_url": "https://arxiv.org/abs/2602.20810",
-        "url": "https://t.co/1HJaD7LEm2"
       }
     ]
   },
