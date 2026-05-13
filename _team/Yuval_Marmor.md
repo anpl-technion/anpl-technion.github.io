@@ -5,7 +5,7 @@ field : Robotics
 faculty : TASP
 category: master_student
 layout: team_member_personal_page
-image: /img/team/YuvalMarmor.jpeg
+image: /img/team/YuvalMarmor2.jpeg
 link-new-tab: true
 bio:
     - M.Sc. TASP, Technion, since 2026
