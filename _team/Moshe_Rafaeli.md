@@ -1,14 +1,14 @@
 ---
 title: Moshe Rafaeli
-subtitle: M.Sc. Student
+subtitle: Ph.D. Student
 field : Robotics
 faculty : TASP
-category: master_student
+category: phd_students
 layout: team_member_personal_page
 image: /img/team/MosheRafaeli.jpg
 link-new-tab: true
 bio:
-    - M.Sc. TASP, Technion, since 2024
+    - Ph.D. (direct track) TASP, Technion, since 2024
     - B.Sc. Electrical Engineering, Technion, 2019
 
 twitter: 
