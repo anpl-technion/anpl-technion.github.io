@@ -1,5 +1,25 @@
 [
   {
+    "id": "2058451075326201899",
+    "text": "We will present two recent RA-L and T-RO papers at  next week:\nhttps://t.co/UvVs5UTKUN\nhttps://t.co/gt3hskPshy",
+    "created_at": "2026-05-24T07:32:35.000Z",
+    "account": "vadim_indelman",
+    "handle": "@vadim_indelman",
+    "link": "https://twitter.com/vadim_indelman/status/2058451075326201899",
+    "urls": [
+      {
+        "display_url": "lnkd.in/dQPieTTa",
+        "expanded_url": "https://lnkd.in/dQPieTTa",
+        "url": "https://t.co/UvVs5UTKUN"
+      },
+      {
+        "display_url": "lnkd.in/d7ya3NHB",
+        "expanded_url": "https://lnkd.in/d7ya3NHB",
+        "url": "https://t.co/gt3hskPshy"
+      }
+    ]
+  },
+  {
     "id": "2053732193072030079",
     "text": "A preprint entitled \"Finite-Time Analysis of MCTS in Continuous POMDP Planning\" has been published on arXiv.\nhttps://t.co/5EYXajjcPC",
     "created_at": "2026-05-11T07:01:25.000Z",
@@ -103,13 +123,5 @@
         "url": "https://t.co/RI8c3N6kY5"
       }
     ]
-  },
-  {
-    "id": "1966123167067390000",
-    "text": "Today was the PhD ceremony at the Technion, and I'm truly excited to congratulate three new PhD graduates from @ANPL_Technion:\n- Dr. Moshe Shienman\n- Dr. Andrey Zhitnikov\n- Dr. Moran Barenboim (not in the photo)\n\nGood luck in all your future endeavors!",
-    "created_at": "2025-09-04T12:00:00.000Z",
-    "account": "vadim_indelman",
-    "handle": "@vadim_indelman",
-    "link": "https://twitter.com/vadim_indelman/status/1966123167067390000"
   }
 ]
