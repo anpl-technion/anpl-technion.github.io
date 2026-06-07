@@ -14,7 +14,7 @@ bio:
 twitter: 
 youtube: 
 github: 
-email: ***REMOVED***
+email: idanlev@campus.technion.ac.il
 bitbucket: 
 facebook: 
 linkedin: 
