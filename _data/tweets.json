@@ -1,5 +1,20 @@
 [
   {
+    "id": "2065380099453587958",
+    "text": "We will present the paper \"Open-loop POMDP Simplification and Safe Skipping of Replanning with Formal Performance Guarantees” at WAFR 2026 next week.\nhttps://t.co/5JdjGOGoHr",
+    "created_at": "2026-06-12T10:26:03.000Z",
+    "account": "vadim_indelman",
+    "handle": "@vadim_indelman",
+    "link": "https://twitter.com/vadim_indelman/status/2065380099453587958",
+    "urls": [
+      {
+        "display_url": "lnkd.in/dP7PwTtj",
+        "expanded_url": "https://lnkd.in/dP7PwTtj",
+        "url": "https://t.co/5JdjGOGoHr"
+      }
+    ]
+  },
+  {
     "id": "2058451075326201899",
     "text": "We will present two recent RA-L and T-RO papers at  next week:\nhttps://t.co/UvVs5UTKUN\nhttps://t.co/gt3hskPshy",
     "created_at": "2026-05-24T07:32:35.000Z",
@@ -106,21 +121,6 @@
         "display_url": "www.youtube.com/watch?v=A5-…",
         "expanded_url": "https://www.youtube.com/watch?v=A5-4Go7ys5c&feature=youtu.be",
         "url": "https://t.co/nCExhw0kJk"
-      }
-    ]
-  },
-  {
-    "id": "2011435467472879887",
-    "text": "We’re excited to present our paper \"𝐎𝐧𝐥𝐢𝐧𝐞 𝐑𝐨𝐛𝐮𝐬𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐮𝐧𝐝𝐞𝐫 𝐌𝐨𝐝𝐞𝐥 𝐔𝐧𝐜𝐞𝐫𝐭𝐚𝐢𝐧𝐭𝐲: 𝐀 𝐒𝐚𝐦𝐩𝐥𝐞-𝐁𝐚𝐬𝐞𝐝 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡\" next week at AAAI2026!📄 Preprint:\nhttps://t.co/RI8c3N6kY5",
-    "created_at": "2026-01-14T13:49:20.000Z",
-    "account": "vadim_indelman",
-    "handle": "@vadim_indelman",
-    "link": "https://twitter.com/vadim_indelman/status/2011435467472879887",
-    "urls": [
-      {
-        "display_url": "arxiv.org/pdf/2509.10162",
-        "expanded_url": "https://arxiv.org/pdf/2509.10162",
-        "url": "https://t.co/RI8c3N6kY5"
       }
     ]
   }
