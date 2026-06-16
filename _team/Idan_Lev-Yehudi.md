@@ -14,11 +14,7 @@ bio:
 twitter: 
 youtube: 
 github: 
-<<<<<<< HEAD
 email: idanly98@gmail.com
-=======
-email: idanlev@campus.technion.ac.il
->>>>>>> origin/main
 bitbucket: 
 facebook: 
 linkedin: 
