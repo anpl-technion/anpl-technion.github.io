@@ -8,7 +8,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/MichaelNovitsky.jpeg
 link-new-tab: true
-next-position: Imagry
+next-position: ForSight Robotics
 bio:
     - M.Sc. TASP, Technion, 2025
     - B.Sc. Computer Engineering, Technion, 2019
