@@ -17,4 +17,7 @@ Tom Norman (EE, 2018-2019),
 Shai Guendelman (CS, 2019),
 Gregorii Melnikov (CS, 2019-2020), 
 Avia Asaev (CS, 2020-2021),
-Ben Bakal (CS MIT, summer 2023).
+Ben Bakal (CS MIT, summer 2023),
+Ben Rubinstein (AE and Applied Math, Case Western Reserve University, summer 2025),
+Netanel Lavi (Math and Decision/Informatics, Paris Dauphine, summer 2026),
+Benjamin Dahan (Math and CS, Paris Dauphine, summer 2026).
