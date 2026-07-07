@@ -1,5 +1,20 @@
 [
   {
+    "id": "2074492918979526785",
+    "text": "A preprint entitled \"Graph Sparse Sampling: Breaking the Curse of the Horizon in Continuous MDP Planning\" has been published on arXiv.\nhttps://t.co/nkdex8JcCB",
+    "created_at": "2026-07-07T13:57:08.000Z",
+    "account": "ANPL_Technion",
+    "handle": "@ANPL_Technion",
+    "link": "https://twitter.com/ANPL_Technion/status/2074492918979526785",
+    "urls": [
+      {
+        "display_url": "arxiv.org/abs/2607.05359",
+        "expanded_url": "https://arxiv.org/abs/2607.05359",
+        "url": "https://t.co/nkdex8JcCB"
+      }
+    ]
+  },
+  {
     "id": "2065380099453587958",
     "text": "We will present the paper \"Open-loop POMDP Simplification and Safe Skipping of Replanning with Formal Performance Guarantees” at WAFR 2026 next week.\nhttps://t.co/5JdjGOGoHr",
     "created_at": "2026-06-12T10:26:03.000Z",
@@ -91,21 +106,6 @@
         "display_url": "www.youtube.com/watch?v=Zgy…",
         "expanded_url": "https://www.youtube.com/watch?v=Zgyrt8ai5V0&feature=youtu.be",
         "url": "https://t.co/zntopnKjdW"
-      }
-    ]
-  },
-  {
-    "id": "2027413962409525502",
-    "text": "A preprint entitled \"Accelerated Online Risk-Averse Policy Evaluation in POMDPs with Theoretical Guarantees and Novel CVaR Bounds\" is now available on arXiv.\nhttps://t.co/83yzdn4XWm",
-    "created_at": "2026-02-27T16:02:10.000Z",
-    "account": "ANPL_Technion",
-    "handle": "@ANPL_Technion",
-    "link": "https://twitter.com/ANPL_Technion/status/2027413962409525502",
-    "urls": [
-      {
-        "display_url": "arxiv.org/abs/2602.23073",
-        "expanded_url": "https://arxiv.org/abs/2602.23073",
-        "url": "https://t.co/83yzdn4XWm"
       }
     ]
   },
