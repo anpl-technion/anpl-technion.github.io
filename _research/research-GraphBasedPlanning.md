@@ -2,7 +2,7 @@
 title:  Graph Based (PO)MDP Planning
 research_code: ABC125
 layout: research
-image: /img/research/GraphBasedPlanning/planning_graph.jpg
+image: /img/research/GraphBasedPlanning/planning_graph_thumb.png
 hero_height: is-small
 hero_image: /img/ANPL_quantum_field.jpg 
 price: 1 # for sorting 
