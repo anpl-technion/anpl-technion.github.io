@@ -22,3 +22,4 @@ SimplifiedModelsPOMDP
 MRBSPinconsistentHistories
 AGMCTS
 OnlineRobustPlanning
+GraphBasedPlanning
