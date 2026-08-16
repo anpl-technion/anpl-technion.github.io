@@ -1,5 +1,13 @@
 [
   {
+    "id": "2089059071529738415",
+    "text": "We will present the paper \"Action-Gradient Monte Carlo Tree Search for Non-Parametric Continuous (PO)MDPs” at IJCAI-ECAI 2026 this week.",
+    "created_at": "2026-08-16T18:37:50.000Z",
+    "account": "vadim_indelman",
+    "handle": "@vadim_indelman",
+    "link": "https://twitter.com/vadim_indelman/status/2089059071529738415"
+  },
+  {
     "id": "2074492918979526785",
     "text": "A preprint entitled \"Graph Sparse Sampling: Breaking the Curse of the Horizon in Continuous MDP Planning\" has been published on arXiv.\nhttps://t.co/nkdex8JcCB",
     "created_at": "2026-07-07T13:57:08.000Z",
@@ -106,21 +114,6 @@
         "display_url": "www.youtube.com/watch?v=Zgy…",
         "expanded_url": "https://www.youtube.com/watch?v=Zgyrt8ai5V0&feature=youtu.be",
         "url": "https://t.co/zntopnKjdW"
-      }
-    ]
-  },
-  {
-    "id": "2016863228333088970",
-    "text": "Pleased to share the recording of my Colloquium talk at the Technion from December 2025:\nhttps://t.co/nCExhw0kJk",
-    "created_at": "2026-01-29T13:17:19.000Z",
-    "account": "vadim_indelman",
-    "handle": "@vadim_indelman",
-    "link": "https://twitter.com/vadim_indelman/status/2016863228333088970",
-    "urls": [
-      {
-        "display_url": "www.youtube.com/watch?v=A5-…",
-        "expanded_url": "https://www.youtube.com/watch?v=A5-4Go7ys5c&feature=youtu.be",
-        "url": "https://t.co/nCExhw0kJk"
       }
     ]
   }
