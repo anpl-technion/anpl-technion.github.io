@@ -6,7 +6,7 @@ field : Robotics
 category: alumni_researcher_and_postdoctoral
 layout: team_member_personal_page
 image: /img/team/AndreyZhitnikov.jpeg
-next-position: Postdoc with Kiril Solovey
+next-position: Research fellow, Tel-Hai University
 link-new-tab: true
 bio:
     - Ph.D. TASP, Technion, 2024

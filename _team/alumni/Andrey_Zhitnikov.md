@@ -8,7 +8,7 @@ category: alumni
 layout: team_member_personal_page
 image: /img/team/AndreyZhitnikov.jpeg
 link-new-tab: true
-next-position: Postdoc with Kiril Solovey
+next-position: Research fellow, Tel-Hai University
 bio:
     - Ph.D. TASP, Technion, 2024
     - M.Sc. Electrical Engineering, Technion, 2018
