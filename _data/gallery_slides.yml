@@ -46,9 +46,13 @@
   description: Slide 13 description
   image: /img/social/2022-03-social-event.jpeg
 
-- title: Slide 14
-  description: Slide 14 description
+- title: Slide 14a
+  description: Slide 14a description
   image: /img/social/2022-06-social-event.jpeg
+
+- title: Slide 14b
+  description: Slide 14b description
+  image: /img/social/2022-05-ICRA.jpeg
 
 - title: Slide 15
   description: Slide 15 description
@@ -78,9 +82,13 @@
   description: ANPL 10-Year anniversary
   image: /img/social/2024-11-10Y-anniversary2.jpg       
 
-- title: Slide 22
+- title: Slide 22a
   description: ANPL social event, April 2025
   image: /img/social/2025-04-social-event.jpg        
+
+- title: Slide 22b
+  description: ANPL at TechAI Robotics Conference, February 2025
+  image: /img/social/2025-02-ANPL-TechAI-Robotics.jpeg        
 
 - title: Slide 23
   description: ANPL social event, July 2025
