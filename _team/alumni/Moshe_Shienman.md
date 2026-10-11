@@ -7,7 +7,7 @@ faculty : TASP
 category: alumni
 layout: team_member_personal_page
 image: /img/team/MosheShienman.jpeg
-next-position: Meta
+next-position: Google Research
 link-new-tab: true
 bio:
     - Ph.D. (direct track) TASP, Technion, 2024
