@@ -20,3 +20,7 @@ facebook:
 linkedin: 
 ---
 
+## ANPL Publications:
+
+{% bibliography -q @*[author ~= \bMassas\b] --group_by none --order descending %}
+
